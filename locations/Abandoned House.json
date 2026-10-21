@@ -5,7 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "abandonedhouse, holeeffects",
+            "abandonedhouse, holeeffects_light"
         ],
         "children": [
             {
@@ -482,7 +483,10 @@
         "sections": [
             {
                 "name": "Abandoned House",
-                "access_rules": [],
+                "access_rules": [
+                    "abandonedhouse, holeeffects",
+                    "abandonedhouse, holeeffects_light"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }

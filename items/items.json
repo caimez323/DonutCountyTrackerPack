@@ -1116,12 +1116,12 @@
         "codes": "trash_television"
     },
     {
-        "name": "catapults_water",
+        "name": "catapults_water-balloons-andfish",
         "type": "toggle",
-        "img": "images/items/catapults_water.png",
+        "img": "images/items/catapults_water-balloons-andfish.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "catapults_water"
+        "codes": "catapults_water-balloons-andfish"
     },
     {
         "name": "catapults_frogs",

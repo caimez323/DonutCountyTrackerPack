@@ -33,3 +33,17 @@ end
 require("scripts.luaitems")
 require("scripts.watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
+
+
+-- TODO 
+-- Ajouter salt 1/2 pepper 1/2/3
+-- Implémenter le "glitch" en hors logique
+
+-- Faire les achievements
+
+
+-- Questions :
+-- Aide pour faire le trashsanity
+-- Pourquoi les checks sont pas fait, il reste des trucs collect ?, un mode pour pas prendre en compte ça ?
+
+-- Raccoons HQ, il y a hallway, il devrait être trash king office plutôt
