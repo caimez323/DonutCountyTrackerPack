@@ -1,116 +1,326 @@
 [
     {
         "name": "Achievement",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "children": [
             {
                 "name": "Bandit",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Bandit",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 32,
+                        "y": 62,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Boss Fight",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Boss Fight",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 159,
+                        "y": 61,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Dethroner",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Dethroner",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 288,
+                        "y": 59,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Disrespecter",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Disrespecter",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 415,
+                        "y": 59,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Donut County",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Donut County",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 95,
+                        "y": 127,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Egg Breaker",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Egg Breaker",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 226,
+                        "y": 125,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Flawless",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Flawless",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 351,
+                        "y": 129,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Game Over",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Game Over",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 480,
+                        "y": 127,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Gamer",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Gamer",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 32,
+                        "y": 189,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hacker",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Hacker",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 160,
+                        "y": 190,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Music Lover",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Music Lover",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 288,
+                        "y": 189,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Pups Odyssey",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Pups Odyssey",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 416,
+                        "y": 190,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Pyro",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Pyro",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 97,
+                        "y": 247,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Quack Enthusiast",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Quack Enthusiast",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 225,
+                        "y": 247,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Secret Soup",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "Secret Soup",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 354,
+                        "y": 247,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "The Flume Is Doomed",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Achievement",
-                "x": 1972,
-                "y": 813,
-                "size": 6
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "sections": [
+                    {
+                        "name": "The Flume Is Doomed",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Achievement",
+                        "x": 485,
+                        "y": 247,
+                        "size": 14,
+                        "shape": "rect"
+                    }
+                ]
             }
         ]
     }
