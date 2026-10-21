@@ -205,15 +205,6 @@
                                     "Boss Fight"
                                 ]
                             }
-                        },
-                        {
-                            "title": "Buy Catapult",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Buy Catapult"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -442,15 +433,6 @@
                                 "type": "map",
                                 "maps": [
                                     "Boss Fight"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Buy Catapult",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Buy Catapult"
                                 ]
                             }
                         }

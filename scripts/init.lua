@@ -37,13 +37,13 @@ ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 
 -- TODO 
 -- Ajouter salt 1/2 pepper 1/2/3
+-- Mettre le buy catapult pareil
 -- Implémenter le "glitch" en hors logique
-
 -- Faire les achievements
 
 
 -- Questions :
 -- Aide pour faire le trashsanity
 -- Pourquoi les checks sont pas fait, il reste des trucs collect ?, un mode pour pas prendre en compte ça ?
+-- A partir de raccoons HQ, il y a les hallways, je crois que c'est que pour la collecte, ça donne pas de check
 
--- Raccoons HQ, il y a hallway, il devrait être trash king office plutôt
