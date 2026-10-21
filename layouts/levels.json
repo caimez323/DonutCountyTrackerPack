@@ -19,27 +19,32 @@
                         "item_width": 36,
                         "rows": [
                             [
+                                "mirashouse",
+                                "pottersrock"
+                                "rangerstation"
+                                ""
+                                
                                 "abandonedhouse",
                                 "anthropologylab",
                                 "beachlotc",
                                 "biologylab",
-                                "bossfight"
+                                "bossfight",
+                                "campground"
                             ],[
-                                "campground",
                                 "catsoup",
                                 "chickenbarn",
-                                "donutshop"
-                            ],[
+                                "donutshop",
                                 "geckopark",
                                 "honeynutforest",
-                                "hoppersprings",
-                                "joshuatree",
-                                "mirashouse"
+                                "hoppersprings"
                             ],[
-                                "pottersrock",
+                                "joshuatree",
+                                ""
+                            ],[
+                                "",
                                 "raccoonhq",
                                 "raccoonlagoon",
-                                "rangerstation",
+                                "",
                                 "riverbed"
                             ],[
                                 "the405",

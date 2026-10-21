@@ -6,6 +6,10 @@
                 "name": "Bandit",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "biologylab,holeeffects",
+                    "biologylab,holeeffects_snake"
+                ],
                 "sections": [
                     {
                         "name": "Bandit",
@@ -26,6 +30,10 @@
                 "name": "Boss Fight",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "bossfight,catapults",
+                    "bossfight,catapults_bombs"
+                ],
                 "sections": [
                     {
                         "name": "Boss Fight",
@@ -46,6 +54,10 @@
                 "name": "Dethroner",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "bossfight,catapults",
+                    "bossfight,catapults_bombs"
+                ],
                 "sections": [
                     {
                         "name": "Dethroner",
@@ -66,6 +78,10 @@
                 "name": "Disrespecter",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "anthropologylab,holeeffects",
+                    "anthropologylab,holeeffects_water,holeeffects_fire"
+                ],
                 "sections": [
                     {
                         "name": "Disrespecter",
@@ -86,6 +102,7 @@
                 "name": "Donut County",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : ["donutshop"],
                 "sections": [
                     {
                         "name": "Donut County",
@@ -106,6 +123,10 @@
                 "name": "Egg Breaker",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "chickenbarn,texting,catapults",
+                    "chickenbarn,texting,catapults_boxes,catapults_chickens"
+                ],
                 "sections": [
                     {
                         "name": "Egg Breaker",
@@ -126,6 +147,7 @@
                 "name": "Flawless",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : ["bossfight"],
                 "sections": [
                     {
                         "name": "Flawless",
@@ -146,6 +168,7 @@
                 "name": "Game Over",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : ["bossfight"],
                 "sections": [
                     {
                         "name": "Game Over",
@@ -166,6 +189,9 @@
                 "name": "Gamer",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "texting,chickenbarn"
+                ],
                 "sections": [
                     {
                         "name": "Gamer",
@@ -186,6 +212,10 @@
                 "name": "Hacker",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "raccoonhq,catapults",
+                    "raccoonhq,catapults_hackingdevice"
+                ],
                 "sections": [
                     {
                         "name": "Hacker",
@@ -206,7 +236,7 @@
                 "name": "Music Lover",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "acces_rule" : "geckopark",
+                "access_rules" : "geckopark",
                 "sections": [
                     {
                         "name": "Music Lover",
@@ -227,6 +257,10 @@
                 "name": "Pups Odyssey",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "pottersrock,holeeffects",
+                    "pottersrock,holeeffects_fire"
+                ],
                 "sections": [
                     {
                         "name": "Pups Odyssey",
@@ -247,6 +281,10 @@
                 "name": "Pyro",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "joshuatree,holeeffects",
+                    "joshuatree,holeeffects_fire"
+                ],
                 "sections": [
                     {
                         "name": "Pyro",
@@ -267,6 +305,11 @@
                 "name": "Quack Enthusiast",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "chickenbarn,texting",
+                    "mirashouse,texting",
+                    "rarccoonshq,texting"
+                ],
                 "sections": [
                     {
                         "name": "Quack Enthusiast",
@@ -287,6 +330,10 @@
                 "name": "Secret Soup",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "catsoupe,holeeffects,progressivesalt:2,progressivepepper:3",
+                    "catsoup,holeeffects_water,progressivesalt:2,progressivepepper:3"
+                ],
                 "sections": [
                     {
                         "name": "Secret Soup",
@@ -307,6 +354,12 @@
                 "name": "The Flume Is Doomed",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "access_rules" : [
+                    "raccoonlagoon,catapults,holeeffects",
+                    "raccoonlagoon,catapults,holeeffects_water",
+                    "raccoonlagoon,catapults_water-balloons-andfish,holeeffects",
+                    "raccoonlagoon,catapults_water-balloons-andfish,holeeffects_water"
+                ],
                 "sections": [
                     {
                         "name": "The Flume Is Doomed",
