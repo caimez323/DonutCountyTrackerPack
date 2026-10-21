@@ -45,9 +45,10 @@
                 "map_locations": [
                     {
                         "map": "Chicken Barn",
-                        "x": 958,
-                        "y": 1787,
-                        "size": 6
+                        "x": 1823,
+                        "y": 77,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -160,9 +161,10 @@
                 "map_locations": [
                     {
                         "map": "Chicken Barn",
-                        "x": 392,
-                        "y": 177,
-                        "size": 6
+                        "x": 838,
+                        "y": 665,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -239,9 +241,10 @@
                 "map_locations": [
                     {
                         "map": "Chicken Barn",
-                        "x": 146,
-                        "y": 1501,
-                        "size": 6
+                        "x": 623,
+                        "y": 665,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -396,9 +399,10 @@
                 "map_locations": [
                     {
                         "map": "Chicken Barn",
-                        "x": 2130,
-                        "y": 1581,
-                        "size": 6
+                        "x": 1808,
+                        "y": 995,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -457,9 +461,10 @@
                 "map_locations": [
                     {
                         "map": "Chicken Barn",
-                        "x": 628,
-                        "y": 2136,
-                        "size": 6
+                        "x": 1334,
+                        "y": 616,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -481,9 +486,10 @@
         "map_locations": [
             {
                 "map": "Chicken Barn",
-                "x": 2157,
-                "y": 1953,
-                "size": 6
+                "x": 1633,
+                "y": 997,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

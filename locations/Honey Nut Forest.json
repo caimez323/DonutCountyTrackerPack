@@ -165,9 +165,10 @@
                 "map_locations": [
                     {
                         "map": "Honey Nut Forest",
-                        "x": 2449,
-                        "y": 270,
-                        "size": 6
+                        "x": 1803,
+                        "y": 977,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -268,9 +269,10 @@
                 "map_locations": [
                     {
                         "map": "Honey Nut Forest",
-                        "x": 2399,
-                        "y": 494,
-                        "size": 6
+                        "x": 1032,
+                        "y": 419,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -389,9 +391,10 @@
                 "map_locations": [
                     {
                         "map": "Honey Nut Forest",
-                        "x": 82,
-                        "y": 85,
-                        "size": 6
+                        "x": 1030,
+                        "y": 596,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -407,9 +410,10 @@
         "map_locations": [
             {
                 "map": "Honey Nut Forest",
-                "x": 978,
-                "y": 1737,
-                "size": 6
+                "x": 1638,
+                "y": 980,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }
