@@ -1,0 +1,162 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "abandonedhouse",
+                                "anthropologylab",
+                                "beachlotc",
+                                "biologylab",
+                                "bossfight",
+                                "campground"
+                            ],
+                                "catapults",
+                                "catapults:bombs",
+                                "catapults:boxes",
+                                "catapults:chickens",
+                                "catapults:donutsandcameras",
+                                "catapults:eggs",
+                            [
+                                "catapults:frogs",
+                                "catapults:hackingdevice",
+                                "catapults:honeycomb",
+                                "catapults:keycards",
+                                "catapults:raccoons",
+                                "catapults:water"
+                            ],
+                                "catsoup",
+                                "cementtrap",
+                                "chickenbarn",
+                                "donutshop",
+                                "geckopark",
+                                "holeeffects",
+                                "holeeffects:bunnies",
+                            [
+                                "holeeffects:fire",
+                                "holeeffects:light",
+                                "holeeffects:snake",
+                                "holeeffects:water",
+                                "honeynutforest",
+                                "hoppersprings"
+                            ],
+                                "joshuatree",
+                                "mirashouse",
+                                "pottersrock",
+                                "progressivepepper",
+                                "progressivesalt",
+                                "progressivesnakedanger",
+                            [
+                                "quadcopterpiece",
+                                "raccoonhq",
+                                "raccoonlagoon",
+                                "rangerstation",
+                                "riverbed",
+                                "texting",
+                                "the405"
+                            ],
+                            [
+                                "trashkingsoffice"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 18,
+                        "item_width": 18,
+                        "rows": [
+                            [
+                                "abandonedhouse",
+                                "anthropologylab",
+                                "beachlotc",
+                                "biologylab",
+                                "bossfight",
+                                "campground"
+                            ],
+                                "catapults",
+                                "catapults:bombs",
+                                "catapults:boxes",
+                                "catapults:chickens",
+                                "catapults:donutsandcameras",
+                                "catapults:eggs",
+                            [
+                                "catapults:frogs",
+                                "catapults:hackingdevice",
+                                "catapults:honeycomb",
+                                "catapults:keycards",
+                                "catapults:raccoons",
+                                "catapults:water"
+                            ],
+                                "catsoup",
+                                "cementtrap",
+                                "chickenbarn",
+                                "donutshop",
+                                "geckopark",
+                                "holeeffects",
+                                "holeeffects:bunnies",
+                            [
+                                "holeeffects:fire",
+                                "holeeffects:light",
+                                "holeeffects:snake",
+                                "holeeffects:water",
+                                "honeynutforest",
+                                "hoppersprings"
+                            ],
+                                "joshuatree",
+                                "mirashouse",
+                                "pottersrock",
+                                "progressivepepper",
+                                "progressivesalt",
+                                "progressivesnakedanger",
+                            [
+                                "quadcopterpiece",
+                                "raccoonhq",
+                                "raccoonlagoon",
+                                "rangerstation",
+                                "riverbed",
+                                "texting",
+                                "the405"
+                            ],
+                            [
+                                "trashkingsoffice"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

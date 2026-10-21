@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Abandoned House",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Abandoned House.png"
+    },
+    {
+        "name": "Achievement",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Achievement.png"
+    },
+    {
+        "name": "Anthropology Lab",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Anthropology Lab.png"
+    },
+    {
+        "name": "Beach Lot C",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Beach Lot C.png"
+    },
+    {
+        "name": "Biology Lab",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Biology Lab.png"
+    },
+    {
+        "name": "Boss Fight",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Boss Fight.png"
+    },
+    {
+        "name": "Buy Catapult",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Buy Catapult.png"
+    },
+    {
+        "name": "Campground",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Campground.png"
+    },
+    {
+        "name": "Cat Soup",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Cat Soup.png"
+    },
+    {
+        "name": "Chicken Barn",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Chicken Barn.png"
+    },
+    {
+        "name": "Donut Shop",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Donut Shop.png"
+    },
+    {
+        "name": "Gecko Park",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Gecko Park.png"
+    },
+    {
+        "name": "Honey Nut Forest",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Honey Nut Forest.png"
+    },
+    {
+        "name": "Hopper Springs",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Hopper Springs.png"
+    },
+    {
+        "name": "Joshua Tree",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Joshua Tree.png"
+    },
+    {
+        "name": "Miras House",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Miras House.png"
+    },
+    {
+        "name": "Pepper 1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Pepper 1.png"
+    },
+    {
+        "name": "Pepper 2",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Pepper 2.png"
+    },
+    {
+        "name": "Pepper 3",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Pepper 3.png"
+    },
+    {
+        "name": "Potters Rock",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Potters Rock.png"
+    },
+    {
+        "name": "Raccoon HQ",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Raccoon HQ.png"
+    },
+    {
+        "name": "Raccoon Lagoon",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Raccoon Lagoon.png"
+    },
+    {
+        "name": "Ranger Station",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Ranger Station.png"
+    },
+    {
+        "name": "Riverbed",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Riverbed.png"
+    },
+    {
+        "name": "Salt 1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Salt 1.png"
+    },
+    {
+        "name": "Salt 2",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Salt 2.png"
+    },
+    {
+        "name": "Snake danger",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Snake danger.png"
+    },
+    {
+        "name": "The 405",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/The 405.png"
+    },
+    {
+        "name": "Trash",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Trash.png"
+    },
+    {
+        "name": "Trash Kings Office",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Trash Kings Office.png"
+    }
+]

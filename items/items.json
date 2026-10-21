@@ -1,0 +1,1306 @@
+[
+    {
+        "name": "trash:egg",
+        "type": "toggle",
+        "img": "images/items/trash:egg.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:egg"
+    },
+    {
+        "name": "texting",
+        "type": "toggle",
+        "img": "images/items/texting.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "texting"
+    },
+    {
+        "name": "trash:donut",
+        "type": "toggle",
+        "img": "images/items/trash:donut.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:donut"
+    },
+    {
+        "name": "bossfight",
+        "type": "toggle",
+        "img": "images/items/bossfight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bossfight"
+    },
+    {
+        "name": "trash:tent",
+        "type": "toggle",
+        "img": "images/items/trash:tent.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tent"
+    },
+    {
+        "name": "trash:chair",
+        "type": "toggle",
+        "img": "images/items/trash:chair.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:chair"
+    },
+    {
+        "name": "trash:radio",
+        "type": "toggle",
+        "img": "images/items/trash:radio.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:radio"
+    },
+    {
+        "name": "trash:testtuberack",
+        "type": "toggle",
+        "img": "images/items/trash:testtuberack.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:testtuberack"
+    },
+    {
+        "name": "trash:bird",
+        "type": "toggle",
+        "img": "images/items/trash:bird.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bird"
+    },
+    {
+        "name": "trash:grass",
+        "type": "toggle",
+        "img": "images/items/trash:grass.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:grass"
+    },
+    {
+        "name": "beachlotc",
+        "type": "toggle",
+        "img": "images/items/beachlotc.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "beachlotc"
+    },
+    {
+        "name": "trash:wall",
+        "type": "toggle",
+        "img": "images/items/trash:wall.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:wall"
+    },
+    {
+        "name": "trash:otherfood",
+        "type": "toggle",
+        "img": "images/items/trash:otherfood.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:otherfood"
+    },
+    {
+        "name": "trash:raccoon",
+        "type": "toggle",
+        "img": "images/items/trash:raccoon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:raccoon"
+    },
+    {
+        "name": "trash:beehive",
+        "type": "toggle",
+        "img": "images/items/trash:beehive.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:beehive"
+    },
+    {
+        "name": "the405",
+        "type": "toggle",
+        "img": "images/items/the405.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "the405"
+    },
+    {
+        "name": "trash:bowl",
+        "type": "toggle",
+        "img": "images/items/trash:bowl.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bowl"
+    },
+    {
+        "name": "anthropologylab",
+        "type": "toggle",
+        "img": "images/items/anthropologylab.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anthropologylab"
+    },
+    {
+        "name": "trash:rock",
+        "type": "toggle",
+        "img": "images/items/trash:rock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:rock"
+    },
+    {
+        "name": "biologylab",
+        "type": "toggle",
+        "img": "images/items/biologylab.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "biologylab"
+    },
+    {
+        "name": "trash:dumpster",
+        "type": "toggle",
+        "img": "images/items/trash:dumpster.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:dumpster"
+    },
+    {
+        "name": "trash:hotthings",
+        "type": "toggle",
+        "img": "images/items/trash:hotthings.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:hotthings"
+    },
+    {
+        "name": "trash:hookgun",
+        "type": "toggle",
+        "img": "images/items/trash:hookgun.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:hookgun"
+    },
+    {
+        "name": "bkdoesone(1)backflip",
+        "type": "toggle",
+        "img": "images/items/bkdoesone(1)backflip.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bkdoesone(1)backflip"
+    },
+    {
+        "name": "trash:trashcan",
+        "type": "toggle",
+        "img": "images/items/trash:trashcan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:trashcan"
+    },
+    {
+        "name": "trash:joshualeaf",
+        "type": "toggle",
+        "img": "images/items/trash:joshualeaf.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:joshualeaf"
+    },
+    {
+        "name": "trash:donutbox",
+        "type": "toggle",
+        "img": "images/items/trash:donutbox.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:donutbox"
+    },
+    {
+        "name": "trash:tree",
+        "type": "toggle",
+        "img": "images/items/trash:tree.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tree"
+    },
+    {
+        "name": "trash:character",
+        "type": "toggle",
+        "img": "images/items/trash:character.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:character"
+    },
+    {
+        "name": "trash:cage",
+        "type": "toggle",
+        "img": "images/items/trash:cage.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cage"
+    },
+    {
+        "name": "trash:car",
+        "type": "toggle",
+        "img": "images/items/trash:car.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:car"
+    },
+    {
+        "name": "catapults:raccoons",
+        "type": "toggle",
+        "img": "images/items/catapults:raccoons.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:raccoons"
+    },
+    {
+        "name": "trash:fan",
+        "type": "toggle",
+        "img": "images/items/trash:fan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:fan"
+    },
+    {
+        "name": "raccoonlagoon",
+        "type": "toggle",
+        "img": "images/items/raccoonlagoon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "raccoonlagoon"
+    },
+    {
+        "name": "trash:bucket",
+        "type": "toggle",
+        "img": "images/items/trash:bucket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bucket"
+    },
+    {
+        "name": "trash:scooter",
+        "type": "toggle",
+        "img": "images/items/trash:scooter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:scooter"
+    },
+    {
+        "name": "rangerstation",
+        "type": "toggle",
+        "img": "images/items/rangerstation.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rangerstation"
+    },
+    {
+        "name": "quadcopterpiece",
+        "type": "toggle",
+        "img": "images/items/quadcopterpiece.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "quadcopterpiece"
+    },
+    {
+        "name": "trash:flashlight",
+        "type": "toggle",
+        "img": "images/items/trash:flashlight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:flashlight"
+    },
+    {
+        "name": "trash:beesmoker",
+        "type": "toggle",
+        "img": "images/items/trash:beesmoker.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:beesmoker"
+    },
+    {
+        "name": "trash:dirtpile",
+        "type": "toggle",
+        "img": "images/items/trash:dirtpile.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:dirtpile"
+    },
+    {
+        "name": "trash:cowskull",
+        "type": "toggle",
+        "img": "images/items/trash:cowskull.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cowskull"
+    },
+    {
+        "name": "trash:flour/icingbag",
+        "type": "toggle",
+        "img": "images/items/trash:flour/icingbag.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:flour/icingbag"
+    },
+    {
+        "name": "trash:chicken",
+        "type": "toggle",
+        "img": "images/items/trash:chicken.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:chicken"
+    },
+    {
+        "name": "progressivesnakedanger",
+        "type": "toggle",
+        "img": "images/items/progressivesnakedanger.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivesnakedanger"
+    },
+    {
+        "name": "trash:woodplank",
+        "type": "toggle",
+        "img": "images/items/trash:woodplank.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:woodplank"
+    },
+    {
+        "name": "trash:othertools",
+        "type": "toggle",
+        "img": "images/items/trash:othertools.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:othertools"
+    },
+    {
+        "name": "trash:brick",
+        "type": "toggle",
+        "img": "images/items/trash:brick.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:brick"
+    },
+    {
+        "name": "trash:bowlingball",
+        "type": "toggle",
+        "img": "images/items/trash:bowlingball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bowlingball"
+    },
+    {
+        "name": "progressivepepper",
+        "type": "toggle",
+        "img": "images/items/progressivepepper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivepepper"
+    },
+    {
+        "name": "trash:doghouse",
+        "type": "toggle",
+        "img": "images/items/trash:doghouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:doghouse"
+    },
+    {
+        "name": "trash:cat",
+        "type": "toggle",
+        "img": "images/items/trash:cat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cat"
+    },
+    {
+        "name": "trash:shovel",
+        "type": "toggle",
+        "img": "images/items/trash:shovel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:shovel"
+    },
+    {
+        "name": "trash:donutcountylogoletters",
+        "type": "toggle",
+        "img": "images/items/trash:donutcountylogoletters.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:donutcountylogoletters"
+    },
+    {
+        "name": "riverbed",
+        "type": "toggle",
+        "img": "images/items/riverbed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "riverbed"
+    },
+    {
+        "name": "trash:boulder",
+        "type": "toggle",
+        "img": "images/items/trash:boulder.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:boulder"
+    },
+    {
+        "name": "trash:frog",
+        "type": "toggle",
+        "img": "images/items/trash:frog.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:frog"
+    },
+    {
+        "name": "trash:paper",
+        "type": "toggle",
+        "img": "images/items/trash:paper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:paper"
+    },
+    {
+        "name": "trash:megaphone",
+        "type": "toggle",
+        "img": "images/items/trash:megaphone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:megaphone"
+    },
+    {
+        "name": "progressivesalt",
+        "type": "toggle",
+        "img": "images/items/progressivesalt.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "progressivesalt"
+    },
+    {
+        "name": "trash:fence",
+        "type": "toggle",
+        "img": "images/items/trash:fence.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:fence"
+    },
+    {
+        "name": "trash:pot",
+        "type": "toggle",
+        "img": "images/items/trash:pot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:pot"
+    },
+    {
+        "name": "trash:suitcase",
+        "type": "toggle",
+        "img": "images/items/trash:suitcase.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:suitcase"
+    },
+    {
+        "name": "catsoup",
+        "type": "toggle",
+        "img": "images/items/catsoup.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catsoup"
+    },
+    {
+        "name": "joshuatree",
+        "type": "toggle",
+        "img": "images/items/joshuatree.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "joshuatree"
+    },
+    {
+        "name": "chickenbarn",
+        "type": "toggle",
+        "img": "images/items/chickenbarn.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chickenbarn"
+    },
+    {
+        "name": "holeeffects:fire",
+        "type": "toggle",
+        "img": "images/items/holeeffects:fire.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects:fire"
+    },
+    {
+        "name": "catapults:honeycomb",
+        "type": "toggle",
+        "img": "images/items/catapults:honeycomb.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:honeycomb"
+    },
+    {
+        "name": "trash:honeycomb",
+        "type": "toggle",
+        "img": "images/items/trash:honeycomb.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:honeycomb"
+    },
+    {
+        "name": "trash:keycard",
+        "type": "toggle",
+        "img": "images/items/trash:keycard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:keycard"
+    },
+    {
+        "name": "holeeffects:bunnies",
+        "type": "toggle",
+        "img": "images/items/holeeffects:bunnies.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects:bunnies"
+    },
+    {
+        "name": "trash:hardhat",
+        "type": "toggle",
+        "img": "images/items/trash:hardhat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:hardhat"
+    },
+    {
+        "name": "pottersrock",
+        "type": "toggle",
+        "img": "images/items/pottersrock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pottersrock"
+    },
+    {
+        "name": "trash:waterballoon",
+        "type": "toggle",
+        "img": "images/items/trash:waterballoon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:waterballoon"
+    },
+    {
+        "name": "catapults:bombs",
+        "type": "toggle",
+        "img": "images/items/catapults:bombs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:bombs"
+    },
+    {
+        "name": "trash:campfire",
+        "type": "toggle",
+        "img": "images/items/trash:campfire.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:campfire"
+    },
+    {
+        "name": "catapults:eggs",
+        "type": "toggle",
+        "img": "images/items/catapults:eggs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:eggs"
+    },
+    {
+        "name": "trash:cockroach",
+        "type": "toggle",
+        "img": "images/items/trash:cockroach.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cockroach"
+    },
+    {
+        "name": "trash:fish",
+        "type": "toggle",
+        "img": "images/items/trash:fish.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:fish"
+    },
+    {
+        "name": "trash:otherdrinks",
+        "type": "toggle",
+        "img": "images/items/trash:otherdrinks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:otherdrinks"
+    },
+    {
+        "name": "trash:woodshelf",
+        "type": "toggle",
+        "img": "images/items/trash:woodshelf.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:woodshelf"
+    },
+    {
+        "name": "holesizeboost(unimplemented)",
+        "type": "toggle",
+        "img": "images/items/holesizeboost(unimplemented).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holesizeboost(unimplemented)"
+    },
+    {
+        "name": "launchtrap(unimplemented)",
+        "type": "toggle",
+        "img": "images/items/launchtrap(unimplemented).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "launchtrap(unimplemented)"
+    },
+    {
+        "name": "donutshop",
+        "type": "toggle",
+        "img": "images/items/donutshop.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "donutshop"
+    },
+    {
+        "name": "trash:trailer",
+        "type": "toggle",
+        "img": "images/items/trash:trailer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:trailer"
+    },
+    {
+        "name": "trash:haybale",
+        "type": "toggle",
+        "img": "images/items/trash:haybale.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:haybale"
+    },
+    {
+        "name": "999ftbelowtrap",
+        "type": "toggle",
+        "img": "images/items/999ftbelowtrap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "999ftbelowtrap"
+    },
+    {
+        "name": "trash:money",
+        "type": "toggle",
+        "img": "images/items/trash:money.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:money"
+    },
+    {
+        "name": "trash:tennisball",
+        "type": "toggle",
+        "img": "images/items/trash:tennisball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tennisball"
+    },
+    {
+        "name": "catapults:donutsandcameras",
+        "type": "toggle",
+        "img": "images/items/catapults:donutsandcameras.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:donutsandcameras"
+    },
+    {
+        "name": "trash:bee",
+        "type": "toggle",
+        "img": "images/items/trash:bee.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bee"
+    },
+    {
+        "name": "holeeffects:water",
+        "type": "toggle",
+        "img": "images/items/holeeffects:water.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects:water"
+    },
+    {
+        "name": "trash:laptop",
+        "type": "toggle",
+        "img": "images/items/trash:laptop.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:laptop"
+    },
+    {
+        "name": "trash:gecko",
+        "type": "toggle",
+        "img": "images/items/trash:gecko.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:gecko"
+    },
+    {
+        "name": "holeeffects:snake",
+        "type": "toggle",
+        "img": "images/items/holeeffects:snake.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects:snake"
+    },
+    {
+        "name": "honeynutforest",
+        "type": "toggle",
+        "img": "images/items/honeynutforest.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "honeynutforest"
+    },
+    {
+        "name": "trash:microscope",
+        "type": "toggle",
+        "img": "images/items/trash:microscope.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:microscope"
+    },
+    {
+        "name": "trash:quadcopter",
+        "type": "toggle",
+        "img": "images/items/trash:quadcopter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:quadcopter"
+    },
+    {
+        "name": "trash:crate",
+        "type": "toggle",
+        "img": "images/items/trash:crate.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:crate"
+    },
+    {
+        "name": "trash:firealarm",
+        "type": "toggle",
+        "img": "images/items/trash:firealarm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:firealarm"
+    },
+    {
+        "name": "trash:cupramen",
+        "type": "toggle",
+        "img": "images/items/trash:cupramen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cupramen"
+    },
+    {
+        "name": "trash:bomb",
+        "type": "toggle",
+        "img": "images/items/trash:bomb.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bomb"
+    },
+    {
+        "name": "trash:tincan",
+        "type": "toggle",
+        "img": "images/items/trash:tincan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tincan"
+    },
+    {
+        "name": "abandonedhouse",
+        "type": "toggle",
+        "img": "images/items/abandonedhouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "abandonedhouse"
+    },
+    {
+        "name": "holeeffects:light",
+        "type": "toggle",
+        "img": "images/items/holeeffects:light.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects:light"
+    },
+    {
+        "name": "trash:book",
+        "type": "toggle",
+        "img": "images/items/trash:book.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:book"
+    },
+    {
+        "name": "trash:snake",
+        "type": "toggle",
+        "img": "images/items/trash:snake.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:snake"
+    },
+    {
+        "name": "trash:tire",
+        "type": "toggle",
+        "img": "images/items/trash:tire.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tire"
+    },
+    {
+        "name": "trash:table",
+        "type": "toggle",
+        "img": "images/items/trash:table.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:table"
+    },
+    {
+        "name": "trash:gardening",
+        "type": "toggle",
+        "img": "images/items/trash:gardening.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:gardening"
+    },
+    {
+        "name": "catapults:chickens",
+        "type": "toggle",
+        "img": "images/items/catapults:chickens.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:chickens"
+    },
+    {
+        "name": "trash:cart",
+        "type": "toggle",
+        "img": "images/items/trash:cart.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cart"
+    },
+    {
+        "name": "trash:cardboardbox",
+        "type": "toggle",
+        "img": "images/items/trash:cardboardbox.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cardboardbox"
+    },
+    {
+        "name": "geckopark",
+        "type": "toggle",
+        "img": "images/items/geckopark.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "geckopark"
+    },
+    {
+        "name": "trash:sign",
+        "type": "toggle",
+        "img": "images/items/trash:sign.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:sign"
+    },
+    {
+        "name": "trash:nightstand",
+        "type": "toggle",
+        "img": "images/items/trash:nightstand.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:nightstand"
+    },
+    {
+        "name": "hoppersprings",
+        "type": "toggle",
+        "img": "images/items/hoppersprings.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hoppersprings"
+    },
+    {
+        "name": "trash:carrot",
+        "type": "toggle",
+        "img": "images/items/trash:carrot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:carrot"
+    },
+    {
+        "name": "trash:door",
+        "type": "toggle",
+        "img": "images/items/trash:door.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:door"
+    },
+    {
+        "name": "catapults:hackingdevice",
+        "type": "toggle",
+        "img": "images/items/catapults:hackingdevice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:hackingdevice"
+    },
+    {
+        "name": "cementtrap",
+        "type": "toggle",
+        "img": "images/items/cementtrap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cementtrap"
+    },
+    {
+        "name": "trash:lawnchair",
+        "type": "toggle",
+        "img": "images/items/trash:lawnchair.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:lawnchair"
+    },
+    {
+        "name": "trash:monitor",
+        "type": "toggle",
+        "img": "images/items/trash:monitor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:monitor"
+    },
+    {
+        "name": "trash:mug",
+        "type": "toggle",
+        "img": "images/items/trash:mug.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:mug"
+    },
+    {
+        "name": "trash:bush",
+        "type": "toggle",
+        "img": "images/items/trash:bush.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bush"
+    },
+    {
+        "name": "trash:clipboard",
+        "type": "toggle",
+        "img": "images/items/trash:clipboard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:clipboard"
+    },
+    {
+        "name": "mirashouse",
+        "type": "toggle",
+        "img": "images/items/mirashouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mirashouse"
+    },
+    {
+        "name": "debugtoggle",
+        "type": "toggle",
+        "img": "images/items/debugtoggle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "debugtoggle"
+    },
+    {
+        "name": "trash:camera",
+        "type": "toggle",
+        "img": "images/items/trash:camera.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:camera"
+    },
+    {
+        "name": "trash:rocket",
+        "type": "toggle",
+        "img": "images/items/trash:rocket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:rocket"
+    },
+    {
+        "name": "trash:mask",
+        "type": "toggle",
+        "img": "images/items/trash:mask.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:mask"
+    },
+    {
+        "name": "trash:hookpanel",
+        "type": "toggle",
+        "img": "images/items/trash:hookpanel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:hookpanel"
+    },
+    {
+        "name": "trash:dryingrack",
+        "type": "toggle",
+        "img": "images/items/trash:dryingrack.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:dryingrack"
+    },
+    {
+        "name": "trash:pottedplant",
+        "type": "toggle",
+        "img": "images/items/trash:pottedplant.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:pottedplant"
+    },
+    {
+        "name": "trash:building",
+        "type": "toggle",
+        "img": "images/items/trash:building.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:building"
+    },
+    {
+        "name": "trash:trafficcone",
+        "type": "toggle",
+        "img": "images/items/trash:trafficcone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:trafficcone"
+    },
+    {
+        "name": "trash:fly",
+        "type": "toggle",
+        "img": "images/items/trash:fly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:fly"
+    },
+    {
+        "name": "trash:television",
+        "type": "toggle",
+        "img": "images/items/trash:television.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:television"
+    },
+    {
+        "name": "catapults:water",
+        "type": "toggle",
+        "img": "images/items/catapults:water.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:water"
+    },
+    {
+        "name": "catapults:frogs",
+        "type": "toggle",
+        "img": "images/items/catapults:frogs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:frogs"
+    },
+    {
+        "name": "trash:fridge",
+        "type": "toggle",
+        "img": "images/items/trash:fridge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:fridge"
+    },
+    {
+        "name": "catapults",
+        "type": "toggle",
+        "img": "images/items/catapults.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults"
+    },
+    {
+        "name": "campground",
+        "type": "toggle",
+        "img": "images/items/campground.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "campground"
+    },
+    {
+        "name": "trash:bone",
+        "type": "toggle",
+        "img": "images/items/trash:bone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bone"
+    },
+    {
+        "name": "trash:battery",
+        "type": "toggle",
+        "img": "images/items/trash:battery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:battery"
+    },
+    {
+        "name": "trash:wheel",
+        "type": "toggle",
+        "img": "images/items/trash:wheel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:wheel"
+    },
+    {
+        "name": "trash:candle",
+        "type": "toggle",
+        "img": "images/items/trash:candle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:candle"
+    },
+    {
+        "name": "raccoonhq",
+        "type": "toggle",
+        "img": "images/items/raccoonhq.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "raccoonhq"
+    },
+    {
+        "name": "trash:takeout",
+        "type": "toggle",
+        "img": "images/items/trash:takeout.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:takeout"
+    },
+    {
+        "name": "trash:bunny",
+        "type": "toggle",
+        "img": "images/items/trash:bunny.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:bunny"
+    },
+    {
+        "name": "trash:corn",
+        "type": "toggle",
+        "img": "images/items/trash:corn.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:corn"
+    },
+    {
+        "name": "trash:beaker",
+        "type": "toggle",
+        "img": "images/items/trash:beaker.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:beaker"
+    },
+    {
+        "name": "trash:instrument",
+        "type": "toggle",
+        "img": "images/items/trash:instrument.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:instrument"
+    },
+    {
+        "name": "trash:tile",
+        "type": "toggle",
+        "img": "images/items/trash:tile.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:tile"
+    },
+    {
+        "name": "catapults:keycards",
+        "type": "toggle",
+        "img": "images/items/catapults:keycards.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:keycards"
+    },
+    {
+        "name": "trash:cactus",
+        "type": "toggle",
+        "img": "images/items/trash:cactus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:cactus"
+    },
+    {
+        "name": "holeeffects",
+        "type": "toggle",
+        "img": "images/items/holeeffects.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "holeeffects"
+    },
+    {
+        "name": "trash:pinecone",
+        "type": "toggle",
+        "img": "images/items/trash:pinecone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:pinecone"
+    },
+    {
+        "name": "trash:beehouse",
+        "type": "toggle",
+        "img": "images/items/trash:beehouse.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:beehouse"
+    },
+    {
+        "name": "trash:hackingdevice",
+        "type": "toggle",
+        "img": "images/items/trash:hackingdevice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trash:hackingdevice"
+    },
+    {
+        "name": "catapults:boxes",
+        "type": "toggle",
+        "img": "images/items/catapults:boxes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "catapults:boxes"
+    },
+    {
+        "name": "trashkingsoffice",
+        "type": "toggle",
+        "img": "images/items/trashkingsoffice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trashkingsoffice"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]
