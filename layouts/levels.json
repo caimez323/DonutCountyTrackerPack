@@ -1,0 +1,116 @@
+{
+    "shared_level_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "abandonedhouse",
+                                "anthropologylab",
+                                "beachlotc",
+                                "biologylab",
+                                "bossfight"
+                            ],
+                                "campground",
+                                "catapults",
+                                "catsoup",
+                                "cementtrap",
+                                "chickenbarn",
+                            [
+                            ],
+                                "donutshop",
+                                "geckopark",
+                                "honeynutforest",
+                                "hoppersprings",
+                                "joshuatree",
+                            [
+                            ],
+                                "mirashouse",
+                                "pottersrock",
+                                "raccoonhq",
+                                "raccoonlagoon",
+                                "rangerstation",
+                            [
+                                "riverbed",
+                                "texting",
+                                "the405",
+                                "trashkingsoffice"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_level_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 18,
+                        "item_width": 18,
+                        "rows": [
+                            [
+                                "abandonedhouse",
+                                "anthropologylab",
+                                "beachlotc",
+                                "biologylab",
+                                "bossfight"
+                            ],
+                                "campground",
+                                "catapults",
+                                "catsoup",
+                                "cementtrap",
+                                "chickenbarn",
+                            [
+                            ],
+                                "donutshop",
+                                "geckopark",
+                                "honeynutforest",
+                                "hoppersprings",
+                                "joshuatree",
+                            [
+                            ],
+                                "mirashouse",
+                                "pottersrock",
+                                "raccoonhq",
+                                "raccoonlagoon",
+                                "rangerstation",
+                            [
+                                "riverbed",
+                                "texting",
+                                "the405",
+                                "trashkingsoffice"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

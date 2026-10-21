@@ -19,59 +19,33 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "abandonedhouse",
-                                "anthropologylab",
-                                "beachlotc",
-                                "biologylab",
-                                "bossfight",
-                                "campground"
-                            ],
-                                "catapults",
-                                "catapults:bombs",
-                                "catapults:boxes",
-                                "catapults:chickens",
-                                "catapults:donutsandcameras",
-                                "catapults:eggs",
-                            [
+                                "quadcopterpiece",
+                                "texting",
+                                "progressivepepper",
+                                "progressivesalt",
+                                "progressivesnakedanger"
+                                
+                            ],[
                                 "catapults:frogs",
                                 "catapults:hackingdevice",
                                 "catapults:honeycomb",
                                 "catapults:keycards",
                                 "catapults:raccoons",
                                 "catapults:water"
-                            ],
-                                "catsoup",
-                                "cementtrap",
-                                "chickenbarn",
-                                "donutshop",
-                                "geckopark",
+                            ],[
                                 "holeeffects",
                                 "holeeffects:bunnies",
-                            [
                                 "holeeffects:fire",
                                 "holeeffects:light",
                                 "holeeffects:snake",
-                                "holeeffects:water",
-                                "honeynutforest",
-                                "hoppersprings"
-                            ],
-                                "joshuatree",
-                                "mirashouse",
-                                "pottersrock",
-                                "progressivepepper",
-                                "progressivesalt",
-                                "progressivesnakedanger",
-                            [
-                                "quadcopterpiece",
-                                "raccoonhq",
-                                "raccoonlagoon",
-                                "rangerstation",
-                                "riverbed",
-                                "texting",
-                                "the405"
-                            ],
-                            [
-                                "trashkingsoffice"
+                                "holeeffects:water"
+                            ],[
+                                "catapults",
+                                "catapults:bombs",
+                                "catapults:boxes",
+                                "catapults:chickens",
+                                "catapults:donutsandcameras",
+                                "catapults:eggs" 
                             ]
                         ]
                     }
@@ -99,59 +73,33 @@
                         "item_width": 18,
                         "rows": [
                             [
-                                "abandonedhouse",
-                                "anthropologylab",
-                                "beachlotc",
-                                "biologylab",
-                                "bossfight",
-                                "campground"
-                            ],
-                                "catapults",
-                                "catapults:bombs",
-                                "catapults:boxes",
-                                "catapults:chickens",
-                                "catapults:donutsandcameras",
-                                "catapults:eggs",
-                            [
+                                "quadcopterpiece",
+                                "texting",
+                                "progressivepepper",
+                                "progressivesalt",
+                                "progressivesnakedanger"
+                                
+                            ],[
                                 "catapults:frogs",
                                 "catapults:hackingdevice",
                                 "catapults:honeycomb",
                                 "catapults:keycards",
                                 "catapults:raccoons",
                                 "catapults:water"
-                            ],
-                                "catsoup",
-                                "cementtrap",
-                                "chickenbarn",
-                                "donutshop",
-                                "geckopark",
+                            ],[
                                 "holeeffects",
                                 "holeeffects:bunnies",
-                            [
                                 "holeeffects:fire",
                                 "holeeffects:light",
                                 "holeeffects:snake",
-                                "holeeffects:water",
-                                "honeynutforest",
-                                "hoppersprings"
-                            ],
-                                "joshuatree",
-                                "mirashouse",
-                                "pottersrock",
-                                "progressivepepper",
-                                "progressivesalt",
-                                "progressivesnakedanger",
-                            [
-                                "quadcopterpiece",
-                                "raccoonhq",
-                                "raccoonlagoon",
-                                "rangerstation",
-                                "riverbed",
-                                "texting",
-                                "the405"
-                            ],
-                            [
-                                "trashkingsoffice"
+                                "holeeffects:water"
+                            ],[
+                                "catapults",
+                                "catapults:bombs",
+                                "catapults:boxes",
+                                "catapults:chickens",
+                                "catapults:donutsandcameras",
+                                "catapults:eggs" 
                             ]
                         ]
                     }
