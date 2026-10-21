@@ -351,9 +351,10 @@
                 "map_locations": [
                     {
                         "map": "Donut Shop",
-                        "x": 1033,
-                        "y": 1144,
-                        "size": 6
+                        "x": 1067,
+                        "y": 790,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -412,9 +413,10 @@
                 "map_locations": [
                     {
                         "map": "Donut Shop",
-                        "x": 1006,
-                        "y": 1420,
-                        "size": 6
+                        "x": 1728,
+                        "y": 902,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -430,9 +432,10 @@
         "map_locations": [
             {
                 "map": "Donut Shop",
-                "x": 1718,
-                "y": 594,
-                "size": 6
+                "x": 1588,
+                "y": 900,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

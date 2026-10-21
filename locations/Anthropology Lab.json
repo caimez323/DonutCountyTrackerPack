@@ -75,9 +75,10 @@
                 "map_locations": [
                     {
                         "map": "Anthropology Lab",
-                        "x": 1971,
-                        "y": 739,
-                        "size": 6
+                        "x": 1494,
+                        "y": 166,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -118,9 +119,10 @@
                 "map_locations": [
                     {
                         "map": "Anthropology Lab",
-                        "x": 462,
-                        "y": 2202,
-                        "size": 6
+                        "x": 878,
+                        "y": 321,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -293,9 +295,10 @@
                 "map_locations": [
                     {
                         "map": "Anthropology Lab",
-                        "x": 753,
-                        "y": 126,
-                        "size": 6
+                        "x": 761,
+                        "y": 864,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -311,9 +314,10 @@
         "map_locations": [
             {
                 "map": "Anthropology Lab",
-                "x": 535,
-                "y": 1276,
-                "size": 6
+                "x": 1722,
+                "y": 958,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

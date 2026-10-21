@@ -93,9 +93,10 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 388,
-                        "y": 1421,
-                        "size": 6
+                        "x": 1263,
+                        "y": 446,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -346,9 +347,10 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 999,
-                        "y": 483,
-                        "size": 6
+                        "x": 312,
+                        "y": 977,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -449,9 +451,10 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 1001,
-                        "y": 2213,
-                        "size": 6
+                        "x": 965,
+                        "y": 925,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -486,9 +489,10 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 1015,
-                        "y": 2343,
-                        "size": 6
+                        "x": 1115,
+                        "y": 904,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -504,9 +508,10 @@
         "map_locations": [
             {
                 "map": "Biology Lab",
-                "x": 459,
-                "y": 547,
-                "size": 6
+                "x": 1691,
+                "y": 991,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

@@ -231,9 +231,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 1060,
-                        "y": 997,
-                        "size": 6
+                        "x": 1726,
+                        "y": 965,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -262,9 +263,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 2313,
-                        "y": 730,
-                        "size": 6
+                        "x": 1364,
+                        "y": 798,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -353,9 +355,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 2082,
-                        "y": 835,
-                        "size": 6
+                        "x": 705,
+                        "y": 608,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -408,9 +411,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 1371,
-                        "y": 1625,
-                        "size": 6
+                        "x": 1005,
+                        "y": 608,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -637,9 +641,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 2142,
-                        "y": 337,
-                        "size": 6
+                        "x": 1192,
+                        "y": 810,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -667,9 +672,10 @@
         "map_locations": [
             {
                 "map": "Raccoon Lagoon",
-                "x": 638,
-                "y": 564,
-                "size": 6
+                "x": 1568,
+                "y": 967,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

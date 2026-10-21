@@ -195,9 +195,10 @@
                 "map_locations": [
                     {
                         "map": "Cat Soup",
-                        "x": 1669,
-                        "y": 1559,
-                        "size": 6
+                        "x": 1471,
+                        "y": 853,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -232,9 +233,10 @@
                 "map_locations": [
                     {
                         "map": "Cat Soup",
-                        "x": 1950,
-                        "y": 2066,
-                        "size": 6
+                        "x": 1825,
+                        "y": 1015,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -275,9 +277,10 @@
                 "map_locations": [
                     {
                         "map": "Cat Soup",
-                        "x": 121,
-                        "y": 1252,
-                        "size": 6
+                        "x": 922,
+                        "y": 710,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -504,9 +507,10 @@
                 "map_locations": [
                     {
                         "map": "Cat Soup",
-                        "x": 1929,
-                        "y": 1848,
-                        "size": 6
+                        "x": 1187,
+                        "y": 882,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -655,9 +659,10 @@
                 "map_locations": [
                     {
                         "map": "Cat Soup",
-                        "x": 2053,
-                        "y": 709,
-                        "size": 6
+                        "x": 763,
+                        "y": 845,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -679,9 +684,10 @@
         "map_locations": [
             {
                 "map": "Cat Soup",
-                "x": 2404,
-                "y": 531,
-                "size": 6
+                "x": 1693,
+                "y": 1015,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

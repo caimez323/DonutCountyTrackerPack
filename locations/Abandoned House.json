@@ -123,8 +123,8 @@
                 "map_locations": [
                     {
                         "map": "Abandoned House",
-                        "x": 1352,
-                        "y": 881,
+                        "x": 1499,
+                        "y": 942,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -490,8 +490,8 @@
         "map_locations": [
             {
                 "map": "Abandoned House",
-                "x": 1477,
-                "y": 881,
+                "x": 1336,
+                "y": 947,
                 "size": 40,
                 "shape": "rect"
             }

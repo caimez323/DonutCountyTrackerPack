@@ -87,9 +87,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 716,
-                        "y": 1326,
-                        "size": 6
+                        "x": 1012,
+                        "y": 751,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -112,9 +113,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 1267,
-                        "y": 1377,
-                        "size": 6
+                        "x": 387,
+                        "y": 547,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -251,9 +253,10 @@
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 1014,
-                        "y": 269,
-                        "size": 6
+                        "x": 897,
+                        "y": 549,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -275,9 +278,10 @@
         "map_locations": [
             {
                 "map": "Raccoon HQ",
-                "x": 1708,
-                "y": 666,
-                "size": 6
+                "x": 1745,
+                "y": 970,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

@@ -51,9 +51,10 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 2417,
-                        "y": 654,
-                        "size": 6
+                        "x": 1888,
+                        "y": 770,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -454,9 +455,10 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 2200,
-                        "y": 71,
-                        "size": 6
+                        "x": 1773,
+                        "y": 1002,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -557,9 +559,10 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 2274,
-                        "y": 752,
-                        "size": 6
+                        "x": 1888,
+                        "y": 641,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -618,9 +621,10 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 251,
-                        "y": 825,
-                        "size": 6
+                        "x": 563,
+                        "y": 394,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -877,9 +881,10 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 847,
-                        "y": 1090,
-                        "size": 6
+                        "x": 890,
+                        "y": 803,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -901,9 +906,10 @@
         "map_locations": [
             {
                 "map": "The 405",
-                "x": 348,
-                "y": 1013,
-                "size": 6
+                "x": 1636,
+                "y": 1002,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }
