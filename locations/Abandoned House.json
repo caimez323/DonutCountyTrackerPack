@@ -147,7 +147,7 @@
                     },
                     {
                         "name": "Birdcage 1",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects_fire"],
                         "visibility_rules": [],
                         "item_count": 1
                     },

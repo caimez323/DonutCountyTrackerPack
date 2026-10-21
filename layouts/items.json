@@ -26,13 +26,6 @@
                                 "progressivesnakedanger"
                                 
                             ],[
-                                "catapults_frogs",
-                                "catapults_hackingdevice",
-                                "catapults_honeycomb",
-                                "catapults_keycards",
-                                "catapults_raccoons",
-                                "catapults_water"
-                            ],[
                                 "holeeffects",
                                 "holeeffects_bunnies",
                                 "holeeffects_fire",
@@ -46,6 +39,13 @@
                                 "catapults_chickens",
                                 "catapults_donutsandcameras",
                                 "catapults_eggs" 
+                            ],[
+                                "catapults_frogs",
+                                "catapults_hackingdevice",
+                                "catapults_honeycomb",
+                                "catapults_keycards",
+                                "catapults_raccoons",
+                                "catapults_water"
                             ]
                         ]
                     }
@@ -80,13 +80,6 @@
                                 "progressivesnakedanger"
                                 
                             ],[
-                                "catapults_frogs",
-                                "catapults_hackingdevice",
-                                "catapults_honeycomb",
-                                "catapults_keycards",
-                                "catapults_raccoons",
-                                "catapults_water"
-                            ],[
                                 "holeeffects",
                                 "holeeffects_bunnies",
                                 "holeeffects_fire",
@@ -100,6 +93,13 @@
                                 "catapults_chickens",
                                 "catapults_donutsandcameras",
                                 "catapults_eggs" 
+                            ],[
+                                "catapults_frogs",
+                                "catapults_hackingdevice",
+                                "catapults_honeycomb",
+                                "catapults_keycards",
+                                "catapults_raccoons",
+                                "catapults_water"
                             ]
                         ]
                     }
