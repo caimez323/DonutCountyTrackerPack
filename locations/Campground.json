@@ -141,9 +141,10 @@
                 "map_locations": [
                     {
                         "map": "Campground",
-                        "x": 1019,
-                        "y": 2059,
-                        "size": 6
+                        "x": 1681,
+                        "y": 943,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -268,9 +269,10 @@
                 "map_locations": [
                     {
                         "map": "Campground",
-                        "x": 164,
-                        "y": 2348,
-                        "size": 6
+                        "x": 1239,
+                        "y": 501,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -329,9 +331,10 @@
                 "map_locations": [
                     {
                         "map": "Campground",
-                        "x": 524,
-                        "y": 900,
-                        "size": 6
+                        "x": 912,
+                        "y": 433,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -353,9 +356,10 @@
         "map_locations": [
             {
                 "map": "Campground",
-                "x": 931,
-                "y": 1840,
-                "size": 6
+                "x": 1529,
+                "y": 945,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

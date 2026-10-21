@@ -375,9 +375,10 @@
                 "map_locations": [
                     {
                         "map": "Gecko Park",
-                        "x": 2137,
-                        "y": 2379,
-                        "size": 6
+                        "x": 1137,
+                        "y": 750,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -436,9 +437,10 @@
                 "map_locations": [
                     {
                         "map": "Gecko Park",
-                        "x": 1858,
-                        "y": 452,
-                        "size": 6
+                        "x": 1788,
+                        "y": 1007,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -557,9 +559,10 @@
                 "map_locations": [
                     {
                         "map": "Gecko Park",
-                        "x": 1986,
-                        "y": 447,
-                        "size": 6
+                        "x": 1361,
+                        "y": 962,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -575,9 +578,10 @@
         "map_locations": [
             {
                 "map": "Gecko Park",
-                "x": 1080,
-                "y": 2314,
-                "size": 6
+                "x": 1606,
+                "y": 1012,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

@@ -45,9 +45,10 @@
                 "map_locations": [
                     {
                         "map": "Beach Lot C",
-                        "x": 965,
-                        "y": 1223,
-                        "size": 6
+                        "x": 897,
+                        "y": 473,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -130,9 +131,10 @@
                 "map_locations": [
                     {
                         "map": "Beach Lot C",
-                        "x": 902,
-                        "y": 1988,
-                        "size": 6
+                        "x": 1840,
+                        "y": 1007,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -215,9 +217,10 @@
                 "map_locations": [
                     {
                         "map": "Beach Lot C",
-                        "x": 1282,
-                        "y": 1232,
-                        "size": 6
+                        "x": 810,
+                        "y": 641,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -245,9 +248,10 @@
         "map_locations": [
             {
                 "map": "Beach Lot C",
-                "x": 2035,
-                "y": 1798,
-                "size": 6
+                "x": 1631,
+                "y": 1010,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

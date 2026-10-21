@@ -141,9 +141,10 @@
                 "map_locations": [
                     {
                         "map": "Hopper Springs",
-                        "x": 1496,
-                        "y": 2174,
-                        "size": 6
+                        "x": 887,
+                        "y": 785,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -346,9 +347,10 @@
                 "map_locations": [
                     {
                         "map": "Hopper Springs",
-                        "x": 1954,
-                        "y": 1255,
-                        "size": 6
+                        "x": 570,
+                        "y": 522,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -389,9 +391,10 @@
                 "map_locations": [
                     {
                         "map": "Hopper Springs",
-                        "x": 2025,
-                        "y": 1610,
-                        "size": 6
+                        "x": 1299,
+                        "y": 447,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -444,9 +447,10 @@
                 "map_locations": [
                     {
                         "map": "Hopper Springs",
-                        "x": 2378,
-                        "y": 1458,
-                        "size": 6
+                        "x": 1173,
+                        "y": 789,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -565,9 +569,10 @@
                 "map_locations": [
                     {
                         "map": "Hopper Springs",
-                        "x": 2397,
-                        "y": 605,
-                        "size": 6
+                        "x": 1668,
+                        "y": 938,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -583,9 +588,10 @@
         "map_locations": [
             {
                 "map": "Hopper Springs",
-                "x": 1100,
-                "y": 849,
-                "size": 6
+                "x": 1513,
+                "y": 936,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

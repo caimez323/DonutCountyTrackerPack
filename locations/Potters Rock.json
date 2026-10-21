@@ -129,9 +129,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1087,
-                        "y": 1619,
-                        "size": 6
+                        "x": 1683,
+                        "y": 1010,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -220,9 +221,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1564,
-                        "y": 1891,
-                        "size": 6
+                        "x": 722,
+                        "y": 795,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -281,9 +283,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 880,
-                        "y": 869,
-                        "size": 6
+                        "x": 617,
+                        "y": 621,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -384,9 +387,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 2328,
-                        "y": 1121,
-                        "size": 6
+                        "x": 870,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -643,9 +647,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1521,
-                        "y": 2392,
-                        "size": 6
+                        "x": 894,
+                        "y": 532,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -734,9 +739,10 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1721,
-                        "y": 546,
-                        "size": 6
+                        "x": 1227,
+                        "y": 639,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -752,9 +758,10 @@
         "map_locations": [
             {
                 "map": "Potters Rock",
-                "x": 1827,
-                "y": 2385,
-                "size": 6
+                "x": 1565,
+                "y": 1010,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

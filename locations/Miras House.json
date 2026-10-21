@@ -159,9 +159,10 @@
                 "map_locations": [
                     {
                         "map": "Miras House",
-                        "x": 1041,
-                        "y": 547,
-                        "size": 6
+                        "x": 1756,
+                        "y": 923,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -310,9 +311,10 @@
                 "map_locations": [
                     {
                         "map": "Miras House",
-                        "x": 1890,
-                        "y": 2231,
-                        "size": 6
+                        "x": 1012,
+                        "y": 608,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -328,9 +330,10 @@
         "map_locations": [
             {
                 "map": "Miras House",
-                "x": 484,
-                "y": 506,
-                "size": 6
+                "x": 1625,
+                "y": 923,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

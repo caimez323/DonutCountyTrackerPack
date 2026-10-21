@@ -243,9 +243,10 @@
                 "map_locations": [
                     {
                         "map": "Riverbed",
-                        "x": 2047,
-                        "y": 1949,
-                        "size": 6
+                        "x": 1679,
+                        "y": 943,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -322,9 +323,10 @@
                 "map_locations": [
                     {
                         "map": "Riverbed",
-                        "x": 108,
-                        "y": 1613,
-                        "size": 6
+                        "x": 978,
+                        "y": 793,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
@@ -340,9 +342,10 @@
         "map_locations": [
             {
                 "map": "Riverbed",
-                "x": 1322,
-                "y": 314,
-                "size": 6
+                "x": 1527,
+                "y": 943,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }
