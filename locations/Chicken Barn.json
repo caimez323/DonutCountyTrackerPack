@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "chickenbarn"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "texting"
                 ],
                 "sections": [
                     {
@@ -174,7 +174,8 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "catapults_boxes,texting",
+                    "catapults,texting"
                 ],
                 "sections": [
                     {
@@ -412,7 +413,8 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "catapults_chickens,catapults_eggs,catapults_boxes,texting",
+                    "catapults,texting"
                 ],
                 "sections": [
                     {
@@ -472,13 +474,18 @@
         "sections": [
             {
                 "name": "Chicken Barn",
-                "access_rules": [],
+                "access_rules": [
+                    "texting,catapults",
+                    "texting,catapults_chickens,catapults_boxes,catapults_eggs"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Chicken toss",
-                "access_rules": [],
+                "access_rules": [
+                    "texting,catapults",
+                    "texting,catapults_chickens,catapults_boxes"],
                 "visibility_rules": [],
                 "item_count": 1
             }

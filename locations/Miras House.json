@@ -322,7 +322,7 @@
         "sections": [
             {
                 "name": "Miras House",
-                "access_rules": [],
+                "access_rules": ["mirashouse,texting"],
                 "visibility_rules": [],
                 "item_count": 1
             }

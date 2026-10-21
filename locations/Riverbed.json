@@ -334,7 +334,10 @@
         "sections": [
             {
                 "name": "Riverbed",
-                "access_rules": ["riverbed,holeeffects_water"],
+                "access_rules": [
+                    "riverbed,holeeffects_water",
+                    "riverbed,holeeffects"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }

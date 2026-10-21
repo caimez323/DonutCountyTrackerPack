@@ -5,7 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "joshuatree,holeeffects",
+            "joshuatree,holeeffects_fire"
         ],
         "children": [
             {
@@ -430,7 +431,10 @@
         "sections": [
             {
                 "name": "Joshua Tree",
-                "access_rules": [],
+                "access_rules": [
+                    "joshuatree,holeeffects",
+                    "joshuatree,holeeffects_fire"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }

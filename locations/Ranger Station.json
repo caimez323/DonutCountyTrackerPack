@@ -685,12 +685,18 @@
             {
                 "name": "Ranger Station",
                 "access_rules": [],
-                "visibility_rules": [],
+                "visibility_rules": [
+                    "rangerstation,progressivesnakedanger:4,holeeffects_snake",
+                    "rangerstation,progressivesnakedanger:4,holeeffects"
+                ],
                 "item_count": 1
             },
             {
                 "name": "Snake danger",
-                "access_rules": ["progressivesnakedanger:4,holeeffects_snake"],
+                "access_rules": [
+                    "rangerstation,progressivesnakedanger:4,holeeffects_snake",
+                    "rangerstation,progressivesnakedanger:4,holeeffects"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }

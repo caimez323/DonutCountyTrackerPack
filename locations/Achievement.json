@@ -206,6 +206,7 @@
                 "name": "Music Lover",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
+                "acces_rule" : "geckopark",
                 "sections": [
                     {
                         "name": "Music Lover",

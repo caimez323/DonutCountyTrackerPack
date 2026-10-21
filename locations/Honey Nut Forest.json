@@ -5,7 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "honeynutforest,catapults_honeycomb",
+            "honeynutforest,catapults"
         ],
         "children": [
             {
@@ -178,7 +179,8 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "catapults",
+                    "catapults_frogs"
                 ],
                 "sections": [
                     {
@@ -402,7 +404,10 @@
         "sections": [
             {
                 "name": "Honey Nut Forest",
-                "access_rules": [],
+                "access_rules": [
+                    "honeynutforest,catapults_honeycomb,catapults_frogs",
+                    "honeynutforest,catapults"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }

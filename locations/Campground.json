@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "campground"
         ],
         "children": [
             {
@@ -153,8 +153,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
+                "access_rules": [""
                 ],
                 "sections": [
                     {
@@ -282,7 +281,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "holeeffects_fire","holeeffects"
                 ],
                 "sections": [
                     {
@@ -342,13 +341,16 @@
         "sections": [
             {
                 "name": "Campground",
-                "access_rules": [],
+                "access_rules": [
+                    "campground,holeeffects",
+                    "campground,holeeffects_fire"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Popped corn",
-                "access_rules": [],
+                "access_rules": ["campground"],
                 "visibility_rules": [],
                 "item_count": 1
             }

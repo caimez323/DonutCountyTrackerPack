@@ -353,10 +353,14 @@
     },
     {
         "name": "progressivesnakedanger",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/progressivesnakedanger.png",
         "initial_active_state": false,
         "overlay_align": "right",
+        "min_quantity": 0,
+        "initial_quantity": 0,
+        "max_quantity" : 4,
+        "overlay_font_size": 15,
         "codes": "progressivesnakedanger"
     },
     {
@@ -393,10 +397,14 @@
     },
     {
         "name": "progressivepepper",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/progressivepepper.png",
         "initial_active_state": false,
         "overlay_align": "right",
+        "min_quantity": 0,
+        "initial_quantity": 0,
+        "max_quantity" : 3,
+        "overlay_font_size": 15,
         "codes": "progressivepepper"
     },
     {
@@ -473,10 +481,14 @@
     },
     {
         "name": "progressivesalt",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/progressivesalt.png",
         "initial_active_state": false,
         "overlay_align": "right",
+        "min_quantity": 0,
+        "initial_quantity": 0,
+        "max_quantity" : 2,
+        "overlay_font_size": 15,
         "codes": "progressivesalt"
     },
     {

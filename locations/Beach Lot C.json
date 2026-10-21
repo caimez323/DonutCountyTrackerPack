@@ -5,7 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "beachlotc,holeffects",
+            "beachlotc,holeffects_fire"
         ],
         "children": [
             {
@@ -228,19 +229,28 @@
         "sections": [
             {
                 "name": "Beach Lot C",
-                "access_rules": [],
+                "access_rules": [
+                    "beachlotc,holeffects",
+                    "beachlotc,holeffects_fire"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Cliff",
-                "access_rules": [],
+                "access_rules": [
+                    "beachlotc,holeffects",
+                    "beachlotc,holeffects_fire"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Popped corn",
-                "access_rules": [],
+                "access_rules": [
+                    "beachlotc,holeffects",
+                    "beachlotc,holeffects_fire"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             }
