@@ -12,11 +12,218 @@
                 }
             },
             {
-                "title": "Abandoned House",
+                "title": "Map details",
+                "type": "tabbed",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Abandoned House"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Abandoned House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Abandoned House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anthropology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anthropology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Biology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Biology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Beach Lot C",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Beach Lot C"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Boss Fight",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boss Fight"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Buy Catapult",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Buy Catapult"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Campground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Campground"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cat Soup",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cat Soup"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chicken Barn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chicken Barn"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Donut Shop",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Donut Shop"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gecko Park",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gecko Park"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Honey Nut Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Honey Nut Forest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hopper Springs",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hopper Springs"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Joshua Tree",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Joshua Tree"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Miras House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Miras House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Potters Rock",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Potters Rock"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon HQ",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon HQ"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon Lagoon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon Lagoon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ranger Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ranger Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverbed",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverbed"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Snake danger",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Snake danger"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The 405",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The 405"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trash Kings Office",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Trash Kings Office"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -30,254 +237,11 @@
                 }
             },
             {
-                "title": "Anthropology Lab",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Anthropology Lab"
-                    ]
-                }
-            },
-            {
-                "title": "Beach Lot C",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Beach Lot C"
-                    ]
-                }
-            },
-            {
-                "title": "Biology Lab",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Biology Lab"
-                    ]
-                }
-            },
-            {
-                "title": "Boss Fight",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Boss Fight"
-                    ]
-                }
-            },
-            {
-                "title": "Buy Catapult",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Buy Catapult"
-                    ]
-                }
-            },
-            {
-                "title": "Campground",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Campground"
-                    ]
-                }
-            },
-            {
-                "title": "Cat Soup",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Cat Soup"
-                    ]
-                }
-            },
-            {
-                "title": "Chicken Barn",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Chicken Barn"
-                    ]
-                }
-            },
-            {
-                "title": "Donut Shop",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Donut Shop"
-                    ]
-                }
-            },
-            {
-                "title": "Gecko Park",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gecko Park"
-                    ]
-                }
-            },
-            {
-                "title": "Honey Nut Forest",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Honey Nut Forest"
-                    ]
-                }
-            },
-            {
-                "title": "Hopper Springs",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Hopper Springs"
-                    ]
-                }
-            },
-            {
-                "title": "Joshua Tree",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Joshua Tree"
-                    ]
-                }
-            },
-            {
-                "title": "Miras House",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miras House"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 1",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 1"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 2",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 2"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 3",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 3"
-                    ]
-                }
-            },
-            {
-                "title": "Potters Rock",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Potters Rock"
-                    ]
-                }
-            },
-            {
-                "title": "Raccoon HQ",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Raccoon HQ"
-                    ]
-                }
-            },
-            {
-                "title": "Raccoon Lagoon",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Raccoon Lagoon"
-                    ]
-                }
-            },
-            {
-                "title": "Ranger Station",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Ranger Station"
-                    ]
-                }
-            },
-            {
-                "title": "Riverbed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Riverbed"
-                    ]
-                }
-            },
-            {
-                "title": "Salt 1",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Salt 1"
-                    ]
-                }
-            },
-            {
-                "title": "Salt 2",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Salt 2"
-                    ]
-                }
-            },
-            {
-                "title": "Snake danger",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Snake danger"
-                    ]
-                }
-            },
-            {
-                "title": "The 405",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "The 405"
-                    ]
-                }
-            },
-            {
                 "title": "Trash",
                 "content": {
                     "type": "map",
                     "maps": [
                         "Trash"
-                    ]
-                }
-            },
-            {
-                "title": "Trash Kings Office",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trash Kings Office"
                     ]
                 }
             }
@@ -296,11 +260,218 @@
                 }
             },
             {
-                "title": "Abandoned House",
+                "title": "Map details",
+                "type": "tabbed",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Abandoned House"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Abandoned House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Abandoned House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anthropology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anthropology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Biology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Biology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Beach Lot C",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Beach Lot C"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Boss Fight",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boss Fight"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Buy Catapult",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Buy Catapult"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Campground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Campground"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cat Soup",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cat Soup"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chicken Barn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chicken Barn"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Donut Shop",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Donut Shop"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gecko Park",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gecko Park"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Honey Nut Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Honey Nut Forest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hopper Springs",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hopper Springs"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Joshua Tree",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Joshua Tree"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Miras House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Miras House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Potters Rock",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Potters Rock"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon HQ",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon HQ"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon Lagoon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon Lagoon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ranger Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ranger Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverbed",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverbed"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Snake danger",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Snake danger"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The 405",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The 405"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trash Kings Office",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Trash Kings Office"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -314,254 +485,11 @@
                 }
             },
             {
-                "title": "Anthropology Lab",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Anthropology Lab"
-                    ]
-                }
-            },
-            {
-                "title": "Beach Lot C",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Beach Lot C"
-                    ]
-                }
-            },
-            {
-                "title": "Biology Lab",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Biology Lab"
-                    ]
-                }
-            },
-            {
-                "title": "Boss Fight",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Boss Fight"
-                    ]
-                }
-            },
-            {
-                "title": "Buy Catapult",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Buy Catapult"
-                    ]
-                }
-            },
-            {
-                "title": "Campground",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Campground"
-                    ]
-                }
-            },
-            {
-                "title": "Cat Soup",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Cat Soup"
-                    ]
-                }
-            },
-            {
-                "title": "Chicken Barn",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Chicken Barn"
-                    ]
-                }
-            },
-            {
-                "title": "Donut Shop",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Donut Shop"
-                    ]
-                }
-            },
-            {
-                "title": "Gecko Park",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Gecko Park"
-                    ]
-                }
-            },
-            {
-                "title": "Honey Nut Forest",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Honey Nut Forest"
-                    ]
-                }
-            },
-            {
-                "title": "Hopper Springs",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Hopper Springs"
-                    ]
-                }
-            },
-            {
-                "title": "Joshua Tree",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Joshua Tree"
-                    ]
-                }
-            },
-            {
-                "title": "Miras House",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Miras House"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 1",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 1"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 2",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 2"
-                    ]
-                }
-            },
-            {
-                "title": "Pepper 3",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Pepper 3"
-                    ]
-                }
-            },
-            {
-                "title": "Potters Rock",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Potters Rock"
-                    ]
-                }
-            },
-            {
-                "title": "Raccoon HQ",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Raccoon HQ"
-                    ]
-                }
-            },
-            {
-                "title": "Raccoon Lagoon",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Raccoon Lagoon"
-                    ]
-                }
-            },
-            {
-                "title": "Ranger Station",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Ranger Station"
-                    ]
-                }
-            },
-            {
-                "title": "Riverbed",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Riverbed"
-                    ]
-                }
-            },
-            {
-                "title": "Salt 1",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Salt 1"
-                    ]
-                }
-            },
-            {
-                "title": "Salt 2",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Salt 2"
-                    ]
-                }
-            },
-            {
-                "title": "Snake danger",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Snake danger"
-                    ]
-                }
-            },
-            {
-                "title": "The 405",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "The 405"
-                    ]
-                }
-            },
-            {
                 "title": "Trash",
                 "content": {
                     "type": "map",
                     "maps": [
                         "Trash"
-                    ]
-                }
-            },
-            {
-                "title": "Trash Kings Office",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trash Kings Office"
                     ]
                 }
             }
