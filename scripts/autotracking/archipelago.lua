@@ -231,7 +231,13 @@ function OnClear(slot_data)
     local slot_trashsanity_lvl = tonumber(slot_data["trashsanity"]) or 0
     Tracker:FindObjectForCode("trashsanity1").Active = (slot_trashsanity_lvl == 1)
     Tracker:FindObjectForCode("trashsanity2").Active = (slot_trashsanity_lvl == 2)
-
+    if Tracker:FindObjectForCode("trashsanity2").Active then
+        Tracker:AddLayouts("layouts/tabs_default.json") -- Besoin de l'onglet trash => Summary + chaque map la liste exaustive <--- DEFAULT CASE IF NOT CONNECTED TO AUTOTRACKING
+    elseif Tracker:FindObjectForCode("trashsanity1").Active then
+        Tracker:AddLayouts() -- Besoin de l'onglet trash => Summary des types + chaque map les types ?
+    else
+        Tracker:AddLayouts("layouts/tabs_without_trash.json") -- Pas la page trash
+    end
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then

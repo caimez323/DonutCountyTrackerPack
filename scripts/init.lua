@@ -20,6 +20,9 @@ require("scripts.locations_import")
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then
     require("scripts.autotracking")
+else
+    -- Charger le layout tabs par défaut
+    Tracker:AddLayouts("layouts/tabs_default.json")
 end
 
 function OnFrameHandler()
