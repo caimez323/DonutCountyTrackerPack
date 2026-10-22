@@ -217,15 +217,6 @@
                         "Achievement"
                     ]
                 }
-            },
-            {
-                "title": "Trash",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trash"
-                    ]
-                }
             }
         ]
     },
@@ -445,15 +436,6 @@
                     "type": "map",
                     "maps": [
                         "Achievement"
-                    ]
-                }
-            },
-            {
-                "title": "Trash",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trash"
                     ]
                 }
             }

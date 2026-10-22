@@ -27,25 +27,25 @@
                     {
                         "name": "Big boy quadcopter",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Hook gun",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Hot air balloon",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Megaphone",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -64,9 +64,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "sections": [
                     {
                         "name": "Car 1",
@@ -482,79 +481,79 @@
                     {
                         "name": "Barricade 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Barricade 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Barricade 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Barricade 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Camera",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop megaphone 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop megaphone 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop quadcopter 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop quadcopter 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop quadcopter 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop raccoon 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop raccoon 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cop raccoon 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -586,37 +585,37 @@
                     {
                         "name": "Coffee",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Mouse car",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -648,235 +647,235 @@
                     {
                         "name": "Big dirt pile",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Bowling ball",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Chair raccoon 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Chair raccoon 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Chair raccoon 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Hero donut",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Jack platform",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Lawn chair 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Lawn chair 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Lawn chair 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Picnic bench",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Radio",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Small dirt pile",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Suitcase",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout box",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout cup",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout tray 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout tray 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Television 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tire 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tire 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tire 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tire 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Wood plank 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Wood plank 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Wood plank 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -907,7 +906,7 @@
                     "the405,catapults",
                     "the405,catapults_donutsandcameras"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             }
         ],

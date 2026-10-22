@@ -27,169 +27,169 @@
                     {
                         "name": "Back palm tree part 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Back palm tree part 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Back palm tree part 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Back palm tree part 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Back palm tree part 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Back palm tree top",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Car 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Car 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Dumpster",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree part 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree part 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree part 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree part 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree part 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Front palm tree top",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Metal hut 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Metal hut 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk tile 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soup kitchen",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Table 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Truck ",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -208,9 +208,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "sections": [
                     {
                         "name": "Buidling 1",
@@ -260,19 +259,19 @@
                     {
                         "name": "Tin can 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tin can 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tin can 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -305,205 +304,205 @@
                     {
                         "name": "Brick 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Candle 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Candle 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Candle 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Candle 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Candle 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Fruit cart",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 14",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 15",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Milkcrate 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Milkcrate 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Picnic bench",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soup bowl",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soup bowl 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soup bowl 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soup bowl 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stool 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stool 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stool 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stool 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Table 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Trash can 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Trash can 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Wood platform",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -535,127 +534,127 @@
                     {
                         "name": "Brick 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Cockroach 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 11",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 12",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 13",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 16",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Measuring cup",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Milkcrate 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Milkcrate 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tin can 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Tin can 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -686,7 +685,7 @@
                     "holeeffects,progressivesalt:1,progressivepepper:1",
                     "holeffects_water,progressivesalt:1,progressivepepper:1"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             }
         ],

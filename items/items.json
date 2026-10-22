@@ -1314,5 +1314,10 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "update"
+    },
+    {
+        "name" : "trashsanity",
+        "type" : "toggle",
+        "codes" : "trashsanity"
     }
 ]

@@ -27,19 +27,19 @@
                     {
                         "name": "Big seagull",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Left seagull",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Right seagull",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -58,9 +58,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "sections": [
                     {
                         "name": "Basket corn",
@@ -157,61 +156,61 @@
                     {
                         "name": "Cactus",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Far back brick",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Left brick",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Right brick",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rocket",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout box 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout box 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout cup",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -242,7 +241,7 @@
                     "beachlotc,holeffects",
                     "beachlotc,holeffects_fire"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             },
             {
@@ -251,7 +250,7 @@
                     "beachlotc,holeffects",
                     "beachlotc,holeffects_fire"
                 ],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             }
         ],

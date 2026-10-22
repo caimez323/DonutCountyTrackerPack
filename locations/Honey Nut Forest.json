@@ -14,9 +14,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "sections": [
                     {
                         "name": "Barn house",
@@ -192,79 +191,79 @@
                     {
                         "name": "Bee 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Bee 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Bee 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Beehive 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Beehive 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Beehive 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Left beehouse",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Left beehouse shelf",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Right beehouse",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Right beehouse shelf",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stump 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stump 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stump 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -296,97 +295,97 @@
                     {
                         "name": "Bee smoker",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Frog",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Honeycomb",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Milkcrate",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Pinecone 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Pinecone 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Pinecone 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Pinecone 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],

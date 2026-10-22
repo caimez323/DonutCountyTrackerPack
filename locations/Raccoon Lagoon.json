@@ -16,9 +16,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "sections": [
                     {
                         "name": "Ferris wheel",
@@ -259,7 +258,7 @@
                     {
                         "name": "Balloon dispenser",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -291,67 +290,67 @@
                     {
                         "name": "Fence 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Folding sign",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Raccoon 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Raccoon 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Raccoon 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Raccoon 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Ticket tent",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Trash can",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -383,31 +382,31 @@
                     {
                         "name": "Fence 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Log flume car",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -439,205 +438,205 @@
                     {
                         "name": "Big dirt pile 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Big dirt pile 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 11",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 12",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 13",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 14",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Hard hat",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Mug 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Mug 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Plank 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Plank 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Plank 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Plank 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Shovel",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Small dirt pile 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Small dirt pile 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Small dirt pile 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Small dirt pile 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soda can 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Soda can 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Stool",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Traffic cone 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Water balloon on stool",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["trashsanity"],
                         "item_count": 1
                     }
                 ],
@@ -662,13 +661,13 @@
             {
                 "name": "Fish",
                 "access_rules": [],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             },
             {
                 "name": "Water balloons",
                 "access_rules": [],
-                "visibility_rules": [],
+                "visibility_rules": ["trashsanity"],
                 "item_count": 1
             }
         ],
