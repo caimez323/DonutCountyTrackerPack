@@ -281,13 +281,15 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "holeeffects_fire",
-                    "holeeffects"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Right tent",
-                        "access_rules": [],
+                        "access_rules": [
+                            "holeeffects_fire",
+                            "holeeffects"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -311,19 +313,28 @@
                     },
                     {
                         "name": "Corn cart",
-                        "access_rules": [],
+                        "access_rules": [
+                            "holeeffects_fire",
+                            "holeeffects"
+                        ],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left crow",
-                        "access_rules": [],
+                        "access_rules": [
+                            "holeeffects_fire",
+                            "holeeffects"
+                        ],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right crow",
-                        "access_rules": [],
+                        "access_rules": [
+                            "holeeffects_fire",
+                            "holeeffects"
+                        ],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
@@ -343,8 +354,8 @@
             {
                 "name": "Campground",
                 "access_rules": [
-                    "campground,holeeffects",
-                    "campground,holeeffects_fire"
+                    "holeeffects_fire",
+                    "holeeffects"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -352,7 +363,8 @@
             {
                 "name": "Popped corn",
                 "access_rules": [
-                    "campground"
+                    "holeeffects_fire",
+                    "holeeffects"
                 ],
                 "visibility_rules": ["trashsanity2"],
                 "item_count": 1

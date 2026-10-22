@@ -44,8 +44,8 @@ ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 -- Implémenter le "glitch" en hors logique
 
 
--- Questions :
--- Aide pour faire le trashsanity
--- Pourquoi les checks sont pas fait, il reste des trucs collect ?, un mode pour pas prendre en compte ça ?
--- A partir de raccoons HQ, il y a les hallways, je crois que c'est que pour la collecte, ça donne pas de check
 
+-- Current bugs
+-- Salt & Pepper logic is bugged
+-- Achivements does not display on the overworld
+-- Salt & Pepper don't increment on the tracker

@@ -5,8 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "joshuatree,holeeffects",
-            "joshuatree,holeeffects_fire"
+            "joshuatree"
         ],
         "children": [
             {
@@ -20,55 +19,55 @@
                 "sections": [
                     {
                         "name": "Arson",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left leaf 1",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left leaf 2",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left leaf 3",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left leaf 4",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-right leaf 1",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-right leaf 2",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-right leaf 3",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-right leaf 4",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
@@ -86,49 +85,49 @@
                     },
                     {
                         "name": "Front-left leaf 1",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-left leaf 2",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-left leaf 3",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-left leaf 4",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right leaf 1",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right leaf 2",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right leaf 3",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right leaf 4",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
@@ -146,7 +145,7 @@
                     },
                     {
                         "name": "Laptop",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
@@ -164,13 +163,13 @@
                     },
                     {
                         "name": "Mug",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Picnic bench",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
@@ -230,13 +229,13 @@
                     },
                     {
                         "name": "Saucepan",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Trailer",
-                        "access_rules": [],
+                        "access_rules": ["holeeffects","holeeffects_fire"],
                         "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
