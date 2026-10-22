@@ -142,5 +142,11 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Trash Kings Office.png"
+    },
+    {
+        "name": "Overworld",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Overworld.png"
     }
 ]

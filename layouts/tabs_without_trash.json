@@ -7,7 +7,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Summary"
+                        "Overworld"
                     ]
                 }
             },
@@ -228,7 +228,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Summary"
+                        "Overworld"
                     ]
                 }
             },

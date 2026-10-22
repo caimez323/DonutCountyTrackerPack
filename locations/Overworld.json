@@ -18,6 +18,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Dark - Dark",
+                        "ref": "Abandoned House/Dark/Dark"
+                    },
+                    {
+                        "name": "Light - Light",
+                        "ref": "Abandoned House/Light/Light"
+                    },
+                    {
+                        "name": "Abandoned House - Abandoned House",
+                        "ref": "Abandoned House/Abandoned House"
+                    },
+                    {
                         "name": "Collect - Couch",
                         "ref": "Abandoned House/Collect/Couch"
                     },
@@ -84,10 +96,6 @@
                     {
                         "name": "Collect - Trash can",
                         "ref": "Abandoned House/Collect/Trash can"
-                    },
-                    {
-                        "name": "Dark - Dark",
-                        "ref": "Abandoned House/Dark/Dark"
                     },
                     {
                         "name": "Dark - Birdcage 1",
@@ -226,10 +234,6 @@
                         "ref": "Abandoned House/Dark/Tin can"
                     },
                     {
-                        "name": "Light - Light",
-                        "ref": "Abandoned House/Light/Light"
-                    },
-                    {
                         "name": "Light - Bowling ball",
                         "ref": "Abandoned House/Light/Bowling ball"
                     },
@@ -276,18 +280,15 @@
                     {
                         "name": "Without light - Candle 3",
                         "ref": "Abandoned House/Without light/Candle 3"
-                    },
-                    {
-                        "name": "Abandoned House - Abandoned House",
-                        "ref": "Abandoned House/Abandoned House"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 801,
-                        "y": 1559,
-                        "size": 6
+                        "x": 847,
+                        "y": 426,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -368,9 +369,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 2187,
-                        "y": 2292,
-                        "size": 6
+                        "x": 1673,
+                        "y": 74,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -547,9 +549,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1467,
-                        "y": 1280,
-                        "size": 6
+                        "x": 1468,
+                        "y": 392,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -682,9 +685,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 12,
-                        "y": 2146,
-                        "size": 6
+                        "x": 1712,
+                        "y": 627,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -977,9 +981,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1429,
-                        "y": 1541,
-                        "size": 6
+                        "x": 1391,
+                        "y": 392,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1064,9 +1069,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1170,
-                        "y": 472,
-                        "size": 6
+                        "x": 1391,
+                        "y": 473,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1271,9 +1277,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1592,
-                        "y": 1399,
-                        "size": 6
+                        "x": 1213,
+                        "y": 870,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1670,9 +1677,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1354,
-                        "y": 1079,
-                        "size": 6
+                        "x": 1009,
+                        "y": 570,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1937,9 +1945,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1690,
-                        "y": 2032,
-                        "size": 6
+                        "x": 740,
+                        "y": 756,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -2208,9 +2217,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 2344,
-                        "y": 119,
-                        "size": 6
+                        "x": 1005,
+                        "y": 678,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -2563,9 +2573,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1426,
-                        "y": 372,
-                        "size": 6
+                        "x": 1201,
+                        "y": 707,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -2806,9 +2817,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1390,
-                        "y": 704,
-                        "size": 6
+                        "x": 656,
+                        "y": 649,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -3141,9 +3153,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1695,
-                        "y": 2141,
-                        "size": 6
+                        "x": 777,
+                        "y": 545,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -3416,9 +3429,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 2125,
-                        "y": 76,
-                        "size": 6
+                        "x": 1304,
+                        "y": 959,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -3619,63 +3633,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 686,
-                        "y": 495,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Pepper 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1120,
-                        "y": 1472,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Pepper 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 2482,
-                        "y": 1937,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Pepper 3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1816,
-                        "y": 184,
-                        "size": 6
+                        "x": 905,
+                        "y": 678,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -4108,9 +4069,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 381,
-                        "y": 595,
-                        "size": 6
+                        "x": 1410,
+                        "y": 745,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -4263,9 +4225,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 2220,
-                        "y": 637,
-                        "size": 6
+                        "x": 1314,
+                        "y": 392,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -4654,9 +4617,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1212,
-                        "y": 1953,
-                        "size": 6
+                        "x": 381,
+                        "y": 740,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -5089,9 +5053,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 786,
-                        "y": 2350,
-                        "size": 6
+                        "x": 923,
+                        "y": 900,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -5300,80 +5265,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 444,
-                        "y": 1945,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Salt 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1254,
-                        "y": 2024,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Salt 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1223,
-                        "y": 198,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Snake danger",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Snake danger - Horn",
-                        "ref": "Snake danger/Horn"
-                    },
-                    {
-                        "name": "Snake danger - Sign",
-                        "ref": "Snake danger/Sign"
-                    },
-                    {
-                        "name": "Snake danger - Snake",
-                        "ref": "Snake danger/Snake"
-                    },
-                    {
-                        "name": "Snake danger - Swing",
-                        "ref": "Snake danger/Swing"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1532,
-                        "y": 1534,
-                        "size": 6
+                        "x": 553,
+                        "y": 476,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -5918,476 +5813,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1123,
-                        "y": 687,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Trash",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Flour - Icing Bag",
-                        "ref": "Trash/Flour/Icing Bag"
-                    },
-                    {
-                        "name": "Trash - Battery",
-                        "ref": "Trash/Battery"
-                    },
-                    {
-                        "name": "Trash - Beaker",
-                        "ref": "Trash/Beaker"
-                    },
-                    {
-                        "name": "Trash - Bee",
-                        "ref": "Trash/Bee"
-                    },
-                    {
-                        "name": "Trash - Bee Smoker",
-                        "ref": "Trash/Bee Smoker"
-                    },
-                    {
-                        "name": "Trash - Beehive",
-                        "ref": "Trash/Beehive"
-                    },
-                    {
-                        "name": "Trash - Beehouse",
-                        "ref": "Trash/Beehouse"
-                    },
-                    {
-                        "name": "Trash - Bird",
-                        "ref": "Trash/Bird"
-                    },
-                    {
-                        "name": "Trash - Bomb",
-                        "ref": "Trash/Bomb"
-                    },
-                    {
-                        "name": "Trash - Bone",
-                        "ref": "Trash/Bone"
-                    },
-                    {
-                        "name": "Trash - Book",
-                        "ref": "Trash/Book"
-                    },
-                    {
-                        "name": "Trash - Boulder",
-                        "ref": "Trash/Boulder"
-                    },
-                    {
-                        "name": "Trash - Bowl",
-                        "ref": "Trash/Bowl"
-                    },
-                    {
-                        "name": "Trash - Bowling Ball",
-                        "ref": "Trash/Bowling Ball"
-                    },
-                    {
-                        "name": "Trash - Brick",
-                        "ref": "Trash/Brick"
-                    },
-                    {
-                        "name": "Trash - Bucket",
-                        "ref": "Trash/Bucket"
-                    },
-                    {
-                        "name": "Trash - Building",
-                        "ref": "Trash/Building"
-                    },
-                    {
-                        "name": "Trash - Bunny",
-                        "ref": "Trash/Bunny"
-                    },
-                    {
-                        "name": "Trash - Bush",
-                        "ref": "Trash/Bush"
-                    },
-                    {
-                        "name": "Trash - Cactus",
-                        "ref": "Trash/Cactus"
-                    },
-                    {
-                        "name": "Trash - Cage",
-                        "ref": "Trash/Cage"
-                    },
-                    {
-                        "name": "Trash - Camera",
-                        "ref": "Trash/Camera"
-                    },
-                    {
-                        "name": "Trash - Campfire",
-                        "ref": "Trash/Campfire"
-                    },
-                    {
-                        "name": "Trash - Candle",
-                        "ref": "Trash/Candle"
-                    },
-                    {
-                        "name": "Trash - Car",
-                        "ref": "Trash/Car"
-                    },
-                    {
-                        "name": "Trash - Cardboard Box",
-                        "ref": "Trash/Cardboard Box"
-                    },
-                    {
-                        "name": "Trash - Carrot",
-                        "ref": "Trash/Carrot"
-                    },
-                    {
-                        "name": "Trash - Cart",
-                        "ref": "Trash/Cart"
-                    },
-                    {
-                        "name": "Trash - Cat",
-                        "ref": "Trash/Cat"
-                    },
-                    {
-                        "name": "Trash - Chair",
-                        "ref": "Trash/Chair"
-                    },
-                    {
-                        "name": "Trash - Character",
-                        "ref": "Trash/Character"
-                    },
-                    {
-                        "name": "Trash - Chicken",
-                        "ref": "Trash/Chicken"
-                    },
-                    {
-                        "name": "Trash - Clipboard",
-                        "ref": "Trash/Clipboard"
-                    },
-                    {
-                        "name": "Trash - Cockroach",
-                        "ref": "Trash/Cockroach"
-                    },
-                    {
-                        "name": "Trash - Corn",
-                        "ref": "Trash/Corn"
-                    },
-                    {
-                        "name": "Trash - Cow Skull",
-                        "ref": "Trash/Cow Skull"
-                    },
-                    {
-                        "name": "Trash - Crate",
-                        "ref": "Trash/Crate"
-                    },
-                    {
-                        "name": "Trash - Cup Ramen",
-                        "ref": "Trash/Cup Ramen"
-                    },
-                    {
-                        "name": "Trash - Dirtpile",
-                        "ref": "Trash/Dirtpile"
-                    },
-                    {
-                        "name": "Trash - Dog House",
-                        "ref": "Trash/Dog House"
-                    },
-                    {
-                        "name": "Trash - Donut",
-                        "ref": "Trash/Donut"
-                    },
-                    {
-                        "name": "Trash - Donut Box",
-                        "ref": "Trash/Donut Box"
-                    },
-                    {
-                        "name": "Trash - Donut County Logo Letters",
-                        "ref": "Trash/Donut County Logo Letters"
-                    },
-                    {
-                        "name": "Trash - Door",
-                        "ref": "Trash/Door"
-                    },
-                    {
-                        "name": "Trash - Drying Rack",
-                        "ref": "Trash/Drying Rack"
-                    },
-                    {
-                        "name": "Trash - Dumpster",
-                        "ref": "Trash/Dumpster"
-                    },
-                    {
-                        "name": "Trash - Egg",
-                        "ref": "Trash/Egg"
-                    },
-                    {
-                        "name": "Trash - Fan",
-                        "ref": "Trash/Fan"
-                    },
-                    {
-                        "name": "Trash - Fence",
-                        "ref": "Trash/Fence"
-                    },
-                    {
-                        "name": "Trash - Fire Alarm",
-                        "ref": "Trash/Fire Alarm"
-                    },
-                    {
-                        "name": "Trash - Fish",
-                        "ref": "Trash/Fish"
-                    },
-                    {
-                        "name": "Trash - Flashlight",
-                        "ref": "Trash/Flashlight"
-                    },
-                    {
-                        "name": "Trash - Fly",
-                        "ref": "Trash/Fly"
-                    },
-                    {
-                        "name": "Trash - Fridge",
-                        "ref": "Trash/Fridge"
-                    },
-                    {
-                        "name": "Trash - Frog",
-                        "ref": "Trash/Frog"
-                    },
-                    {
-                        "name": "Trash - Gardening",
-                        "ref": "Trash/Gardening"
-                    },
-                    {
-                        "name": "Trash - Gecko",
-                        "ref": "Trash/Gecko"
-                    },
-                    {
-                        "name": "Trash - Grass",
-                        "ref": "Trash/Grass"
-                    },
-                    {
-                        "name": "Trash - Hacking Device",
-                        "ref": "Trash/Hacking Device"
-                    },
-                    {
-                        "name": "Trash - Hard Hat",
-                        "ref": "Trash/Hard Hat"
-                    },
-                    {
-                        "name": "Trash - Haybale",
-                        "ref": "Trash/Haybale"
-                    },
-                    {
-                        "name": "Trash - Honeycomb",
-                        "ref": "Trash/Honeycomb"
-                    },
-                    {
-                        "name": "Trash - Hook Gun",
-                        "ref": "Trash/Hook Gun"
-                    },
-                    {
-                        "name": "Trash - Hook Panel",
-                        "ref": "Trash/Hook Panel"
-                    },
-                    {
-                        "name": "Trash - Hot Things",
-                        "ref": "Trash/Hot Things"
-                    },
-                    {
-                        "name": "Trash - Instrument",
-                        "ref": "Trash/Instrument"
-                    },
-                    {
-                        "name": "Trash - Joshua Leaf",
-                        "ref": "Trash/Joshua Leaf"
-                    },
-                    {
-                        "name": "Trash - Keycard",
-                        "ref": "Trash/Keycard"
-                    },
-                    {
-                        "name": "Trash - Laptop",
-                        "ref": "Trash/Laptop"
-                    },
-                    {
-                        "name": "Trash - Lawn Chair",
-                        "ref": "Trash/Lawn Chair"
-                    },
-                    {
-                        "name": "Trash - Mask",
-                        "ref": "Trash/Mask"
-                    },
-                    {
-                        "name": "Trash - Megaphone",
-                        "ref": "Trash/Megaphone"
-                    },
-                    {
-                        "name": "Trash - Microscope",
-                        "ref": "Trash/Microscope"
-                    },
-                    {
-                        "name": "Trash - Money",
-                        "ref": "Trash/Money"
-                    },
-                    {
-                        "name": "Trash - Monitor",
-                        "ref": "Trash/Monitor"
-                    },
-                    {
-                        "name": "Trash - Mug",
-                        "ref": "Trash/Mug"
-                    },
-                    {
-                        "name": "Trash - Nightstand",
-                        "ref": "Trash/Nightstand"
-                    },
-                    {
-                        "name": "Trash - Other Drinks",
-                        "ref": "Trash/Other Drinks"
-                    },
-                    {
-                        "name": "Trash - Other Food",
-                        "ref": "Trash/Other Food"
-                    },
-                    {
-                        "name": "Trash - Other Tools",
-                        "ref": "Trash/Other Tools"
-                    },
-                    {
-                        "name": "Trash - Paper",
-                        "ref": "Trash/Paper"
-                    },
-                    {
-                        "name": "Trash - Pinecone",
-                        "ref": "Trash/Pinecone"
-                    },
-                    {
-                        "name": "Trash - Pot",
-                        "ref": "Trash/Pot"
-                    },
-                    {
-                        "name": "Trash - Potted Plant",
-                        "ref": "Trash/Potted Plant"
-                    },
-                    {
-                        "name": "Trash - Quadcopter",
-                        "ref": "Trash/Quadcopter"
-                    },
-                    {
-                        "name": "Trash - Raccoon",
-                        "ref": "Trash/Raccoon"
-                    },
-                    {
-                        "name": "Trash - Radio",
-                        "ref": "Trash/Radio"
-                    },
-                    {
-                        "name": "Trash - Rock",
-                        "ref": "Trash/Rock"
-                    },
-                    {
-                        "name": "Trash - Rocket",
-                        "ref": "Trash/Rocket"
-                    },
-                    {
-                        "name": "Trash - Scooter",
-                        "ref": "Trash/Scooter"
-                    },
-                    {
-                        "name": "Trash - Shovel",
-                        "ref": "Trash/Shovel"
-                    },
-                    {
-                        "name": "Trash - Sign",
-                        "ref": "Trash/Sign"
-                    },
-                    {
-                        "name": "Trash - Snake",
-                        "ref": "Trash/Snake"
-                    },
-                    {
-                        "name": "Trash - Suitcase",
-                        "ref": "Trash/Suitcase"
-                    },
-                    {
-                        "name": "Trash - Table",
-                        "ref": "Trash/Table"
-                    },
-                    {
-                        "name": "Trash - Takeout",
-                        "ref": "Trash/Takeout"
-                    },
-                    {
-                        "name": "Trash - Television",
-                        "ref": "Trash/Television"
-                    },
-                    {
-                        "name": "Trash - Tennis Ball",
-                        "ref": "Trash/Tennis Ball"
-                    },
-                    {
-                        "name": "Trash - Tent",
-                        "ref": "Trash/Tent"
-                    },
-                    {
-                        "name": "Trash - Test Tube Rack",
-                        "ref": "Trash/Test Tube Rack"
-                    },
-                    {
-                        "name": "Trash - Tile",
-                        "ref": "Trash/Tile"
-                    },
-                    {
-                        "name": "Trash - Tin Can",
-                        "ref": "Trash/Tin Can"
-                    },
-                    {
-                        "name": "Trash - Tire",
-                        "ref": "Trash/Tire"
-                    },
-                    {
-                        "name": "Trash - Traffic Cone",
-                        "ref": "Trash/Traffic Cone"
-                    },
-                    {
-                        "name": "Trash - Trailer",
-                        "ref": "Trash/Trailer"
-                    },
-                    {
-                        "name": "Trash - Trash Can",
-                        "ref": "Trash/Trash Can"
-                    },
-                    {
-                        "name": "Trash - Tree",
-                        "ref": "Trash/Tree"
-                    },
-                    {
-                        "name": "Trash - Wall",
-                        "ref": "Trash/Wall"
-                    },
-                    {
-                        "name": "Trash - Water Balloon",
-                        "ref": "Trash/Water Balloon"
-                    },
-                    {
-                        "name": "Trash - Wheel",
-                        "ref": "Trash/Wheel"
-                    },
-                    {
-                        "name": "Trash - Wood Plank",
-                        "ref": "Trash/Wood Plank"
-                    },
-                    {
-                        "name": "Trash - Wood Shelf",
-                        "ref": "Trash/Wood Shelf"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 55,
-                        "y": 818,
-                        "size": 6
+                        "x": 515,
+                        "y": 813,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -6460,9 +5889,10 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1290,
-                        "y": 2373,
-                        "size": 6
+                        "x": 1391,
+                        "y": 311,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
