@@ -3,7 +3,7 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Summary",
+                "title": "Overworld",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -233,7 +233,7 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Summary",
+                "title": "Overworld",
                 "content": {
                     "type": "map",
                     "maps": [

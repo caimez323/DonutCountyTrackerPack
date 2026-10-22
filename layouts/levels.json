@@ -20,36 +20,32 @@
                         "rows": [
                             [
                                 "mirashouse",
-                                "pottersrock"
-                                "rangerstation"
-                                ""
-                                
-                                "abandonedhouse",
-                                "anthropologylab",
-                                "beachlotc",
-                                "biologylab",
-                                "bossfight",
-                                "campground"
-                            ],[
-                                "catsoup",
-                                "chickenbarn",
-                                "donutshop",
-                                "geckopark",
-                                "honeynutforest",
+                                "pottersrock",
+                                "rangerstation",
+                                "riverbed",
+                                "campground",
                                 "hoppersprings"
                             ],[
                                 "joshuatree",
-                                ""
+                                "beachlotc",
+                                "geckopark",
+                                "chickenbarn",
+                                "honeynutforest",
+                                "catsoup"
                             ],[
-                                "",
-                                "raccoonhq",
+                                "donutshop",
+                                "abandonedhouse",
                                 "raccoonlagoon",
-                                "",
-                                "riverbed"
-                            ],[
                                 "the405",
-                                "trashkingsoffice"
+                                "raccoonhq",
+                                "biologylab"
+                            ],[
+                                "anthropologylab",
+                                "trashkingsoffice",
+                                "bossfight"
+
                             ]
+
                         ]
                     }
                 ]
@@ -76,31 +72,31 @@
                         "item_width": 18,
                         "rows": [
                             [
-                                "abandonedhouse",
-                                "anthropologylab",
-                                "beachlotc",
-                                "biologylab",
-                                "bossfight"
-                            ],[
-                                "campground",
-                                "catsoup",
-                                "chickenbarn",
-                                "donutshop"
-                            ],[
-                                "geckopark",
-                                "honeynutforest",
-                                "hoppersprings",
-                                "joshuatree",
-                                "mirashouse"
-                            ],[
+                                "mirashouse",
                                 "pottersrock",
-                                "raccoonhq",
-                                "raccoonlagoon",
                                 "rangerstation",
-                                "riverbed"
+                                "riverbed",
+                                "campground",
+                                "hoppersprings"
                             ],[
+                                "joshuatree",
+                                "beachlotc",
+                                "geckopark",
+                                "chickenbarn",
+                                "honeynutforest",
+                                "catsoup"
+                            ],[
+                                "donutshop",
+                                "abandonedhouse",
+                                "raccoonlagoon",
                                 "the405",
-                                "trashkingsoffice"
+                                "raccoonhq",
+                                "biologylab"
+                            ],[
+                                "anthropologylab",
+                                "trashkingsoffice",
+                                "bossfight"
+
                             ]
                         ]
                     }

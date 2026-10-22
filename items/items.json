@@ -8,7 +8,7 @@
         "codes": "trash_egg"
     },
     {
-        "name": "texting",
+        "name": "Texting",
         "type": "toggle",
         "img": "images/items/texting.png",
         "initial_active_state": false,
@@ -24,7 +24,7 @@
         "codes": "trash_donut"
     },
     {
-        "name": "bossfight",
+        "name": "Boss Fight",
         "type": "toggle",
         "img": "images/items/bossfight.png",
         "initial_active_state": false,
@@ -80,7 +80,7 @@
         "codes": "trash_grass"
     },
     {
-        "name": "beachlotc",
+        "name": "Beach Lot C",
         "type": "toggle",
         "img": "images/items/beachlotc.png",
         "initial_active_state": false,
@@ -120,7 +120,7 @@
         "codes": "trash_beehive"
     },
     {
-        "name": "the405",
+        "name": "The 405",
         "type": "toggle",
         "img": "images/items/the405.png",
         "initial_active_state": false,
@@ -136,7 +136,7 @@
         "codes": "trash_bowl"
     },
     {
-        "name": "anthropologylab",
+        "name": "Anthropology lab",
         "type": "toggle",
         "img": "images/items/anthropologylab.png",
         "initial_active_state": false,
@@ -152,7 +152,7 @@
         "codes": "trash_rock"
     },
     {
-        "name": "biologylab",
+        "name": "Biology lab",
         "type": "toggle",
         "img": "images/items/biologylab.png",
         "initial_active_state": false,
@@ -184,7 +184,7 @@
         "codes": "trash_hookgun"
     },
     {
-        "name": "bkdoesone(1)backflip",
+        "name": "bk does one (1) backflip",
         "type": "toggle",
         "img": "images/items/bkdoesone(1)backflip.png",
         "initial_active_state": false,
@@ -248,7 +248,7 @@
         "codes": "trash_car"
     },
     {
-        "name": "catapults_raccoons",
+        "name": "Catapults raccoons",
         "type": "toggle",
         "img": "images/items/catapults_raccoons.png",
         "initial_active_state": false,
@@ -264,7 +264,7 @@
         "codes": "trash_fan"
     },
     {
-        "name": "raccoonlagoon",
+        "name": "Raccoon Lagoon",
         "type": "toggle",
         "img": "images/items/raccoonlagoon.png",
         "initial_active_state": false,
@@ -288,7 +288,7 @@
         "codes": "trash_scooter"
     },
     {
-        "name": "rangerstation",
+        "name": "Ranger Station",
         "type": "toggle",
         "img": "images/items/rangerstation.png",
         "initial_active_state": false,
@@ -296,7 +296,7 @@
         "codes": "rangerstation"
     },
     {
-        "name": "quadcopterpiece",
+        "name": "Quadcopter Piece",
         "type": "toggle",
         "img": "images/items/quadcopterpiece.png",
         "initial_active_state": false,
@@ -352,7 +352,7 @@
         "codes": "trash_chicken"
     },
     {
-        "name": "progressivesnakedanger",
+        "name": "Progressive Snake Danger",
         "type": "consumable",
         "img": "images/items/progressivesnakedanger.png",
         "initial_active_state": false,
@@ -396,7 +396,7 @@
         "codes": "trash_bowlingball"
     },
     {
-        "name": "progressivepepper",
+        "name": "Progressive Pepper",
         "type": "consumable",
         "img": "images/items/progressivepepper.png",
         "initial_active_state": false,
@@ -440,7 +440,7 @@
         "codes": "trash_donutcountylogoletters"
     },
     {
-        "name": "riverbed",
+        "name": "Riverbed",
         "type": "toggle",
         "img": "images/items/riverbed.png",
         "initial_active_state": false,
@@ -480,7 +480,7 @@
         "codes": "trash_megaphone"
     },
     {
-        "name": "progressivesalt",
+        "name": "Progressive Salt",
         "type": "consumable",
         "img": "images/items/progressivesalt.png",
         "initial_active_state": false,
@@ -516,7 +516,7 @@
         "codes": "trash_suitcase"
     },
     {
-        "name": "catsoup",
+        "name": "Cat Soup",
         "type": "toggle",
         "img": "images/items/catsoup.png",
         "initial_active_state": false,
@@ -524,7 +524,7 @@
         "codes": "catsoup"
     },
     {
-        "name": "joshuatree",
+        "name": "Joshua Tree",
         "type": "toggle",
         "img": "images/items/joshuatree.png",
         "initial_active_state": false,
@@ -532,7 +532,7 @@
         "codes": "joshuatree"
     },
     {
-        "name": "chickenbarn",
+        "name": "Chicken Barn",
         "type": "toggle",
         "img": "images/items/chickenbarn.png",
         "initial_active_state": false,
@@ -540,7 +540,7 @@
         "codes": "chickenbarn"
     },
     {
-        "name": "holeeffects_fire",
+        "name": "Hole Effects Fire",
         "type": "toggle",
         "img": "images/items/holeeffects_fire.png",
         "initial_active_state": false,
@@ -548,7 +548,7 @@
         "codes": "holeeffects_fire"
     },
     {
-        "name": "catapults_honeycomb",
+        "name": "Catapults Honeycomb",
         "type": "toggle",
         "img": "images/items/catapults_honeycomb.png",
         "initial_active_state": false,
@@ -572,7 +572,7 @@
         "codes": "trash_keycard"
     },
     {
-        "name": "holeeffects_bunnies",
+        "name": "Hole Effects Bunnies",
         "type": "toggle",
         "img": "images/items/holeeffects_bunnies.png",
         "initial_active_state": false,
@@ -588,7 +588,7 @@
         "codes": "trash_hardhat"
     },
     {
-        "name": "pottersrock",
+        "name": "Potter's Rock",
         "type": "toggle",
         "img": "images/items/pottersrock.png",
         "initial_active_state": false,
@@ -604,7 +604,7 @@
         "codes": "trash_waterballoon"
     },
     {
-        "name": "catapults_bombs",
+        "name": "Catapults Bombs",
         "type": "toggle",
         "img": "images/items/catapults_bombs.png",
         "initial_active_state": false,
@@ -620,7 +620,7 @@
         "codes": "trash_campfire"
     },
     {
-        "name": "catapults_eggs",
+        "name": "Catapults Eggs",
         "type": "toggle",
         "img": "images/items/catapults_eggs.png",
         "initial_active_state": false,
@@ -676,7 +676,7 @@
         "codes": "launchtrap(unimplemented)"
     },
     {
-        "name": "donutshop",
+        "name": "Donut Shop",
         "type": "toggle",
         "img": "images/items/donutshop.png",
         "initial_active_state": false,
@@ -724,7 +724,7 @@
         "codes": "trash_tennisball"
     },
     {
-        "name": "catapults_donutsandcameras",
+        "name": "Catapults Donuts and Cameras",
         "type": "toggle",
         "img": "images/items/catapults_donutsandcameras.png",
         "initial_active_state": false,
@@ -764,7 +764,7 @@
         "codes": "trash_gecko"
     },
     {
-        "name": "holeeffects_snake",
+        "name": "Hole Effects Snake",
         "type": "toggle",
         "img": "images/items/holeeffects_snake.png",
         "initial_active_state": false,
@@ -772,7 +772,7 @@
         "codes": "holeeffects_snake"
     },
     {
-        "name": "honeynutforest",
+        "name": "Honey Nut Forest",
         "type": "toggle",
         "img": "images/items/honeynutforest.png",
         "initial_active_state": false,
@@ -836,7 +836,7 @@
         "codes": "trash_tincan"
     },
     {
-        "name": "abandonedhouse",
+        "name": "Abandoned House",
         "type": "toggle",
         "img": "images/items/abandonedhouse.png",
         "initial_active_state": false,
@@ -844,7 +844,7 @@
         "codes": "abandonedhouse"
     },
     {
-        "name": "holeeffects_light",
+        "name": "Hole Effects Light",
         "type": "toggle",
         "img": "images/items/holeeffects_light.png",
         "initial_active_state": false,
@@ -892,7 +892,7 @@
         "codes": "trash_gardening"
     },
     {
-        "name": "catapults_chickens",
+        "name": "Catapults Chickens",
         "type": "toggle",
         "img": "images/items/catapults_chickens.png",
         "initial_active_state": false,
@@ -916,7 +916,7 @@
         "codes": "trash_cardboardbox"
     },
     {
-        "name": "geckopark",
+        "name": "Gecko Park",
         "type": "toggle",
         "img": "images/items/geckopark.png",
         "initial_active_state": false,
@@ -940,7 +940,7 @@
         "codes": "trash_nightstand"
     },
     {
-        "name": "hoppersprings",
+        "name": "Hopper Springs",
         "type": "toggle",
         "img": "images/items/hoppersprings.png",
         "initial_active_state": false,
@@ -964,7 +964,7 @@
         "codes": "trash_door"
     },
     {
-        "name": "catapults_hackingdevice",
+        "name": "Catapults Hacking Device",
         "type": "toggle",
         "img": "images/items/catapults_hackingdevice.png",
         "initial_active_state": false,
@@ -1020,7 +1020,7 @@
         "codes": "trash_clipboard"
     },
     {
-        "name": "mirashouse",
+        "name": "Mira's House",
         "type": "toggle",
         "img": "images/items/mirashouse.png",
         "initial_active_state": false,
@@ -1116,7 +1116,7 @@
         "codes": "trash_television"
     },
     {
-        "name": "catapults_water-balloons-andfish",
+        "name": "Catapults Water,Balloons and Fish",
         "type": "toggle",
         "img": "images/items/catapults_water-balloons-andfish.png",
         "initial_active_state": false,
@@ -1124,7 +1124,7 @@
         "codes": "catapults_water-balloons-andfish"
     },
     {
-        "name": "catapults_frogs",
+        "name": "Catapults Frogs",
         "type": "toggle",
         "img": "images/items/catapults_frogs.png",
         "initial_active_state": false,
@@ -1140,7 +1140,7 @@
         "codes": "trash_fridge"
     },
     {
-        "name": "catapults",
+        "name": "Catapults",
         "type": "toggle",
         "img": "images/items/catapults.png",
         "initial_active_state": false,
@@ -1148,7 +1148,7 @@
         "codes": "catapults"
     },
     {
-        "name": "campground",
+        "name": "Campground",
         "type": "toggle",
         "img": "images/items/campground.png",
         "initial_active_state": false,
@@ -1188,7 +1188,7 @@
         "codes": "trash_candle"
     },
     {
-        "name": "raccoonhq",
+        "name": "Raccoon HQ",
         "type": "toggle",
         "img": "images/items/raccoonhq.png",
         "initial_active_state": false,
@@ -1244,7 +1244,7 @@
         "codes": "trash_tile"
     },
     {
-        "name": "catapults_keycards",
+        "name": "Catapults Keycards",
         "type": "toggle",
         "img": "images/items/catapults_keycards.png",
         "initial_active_state": false,
@@ -1260,7 +1260,7 @@
         "codes": "trash_cactus"
     },
     {
-        "name": "holeeffects",
+        "name": "Hole Effects",
         "type": "toggle",
         "img": "images/items/holeeffects.png",
         "initial_active_state": false,
@@ -1292,7 +1292,7 @@
         "codes": "trash_hackingdevice"
     },
     {
-        "name": "catapults_boxes",
+        "name": "Catapults Boxes",
         "type": "toggle",
         "img": "images/items/catapults_boxes.png",
         "initial_active_state": false,
@@ -1300,7 +1300,7 @@
         "codes": "catapults_boxes"
     },
     {
-        "name": "trashkingsoffice",
+        "name": "Trash King's Office",
         "type": "toggle",
         "img": "images/items/trashkingsoffice.png",
         "initial_active_state": false,
