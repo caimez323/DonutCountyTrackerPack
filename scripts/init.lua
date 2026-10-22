@@ -39,7 +39,6 @@ ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 -- Ajouter salt 1/2 pepper 1/2/3
 -- Mettre le buy catapult pareil
 -- Implémenter le "glitch" en hors logique
--- Faire les achievements
 
 
 -- Questions :
