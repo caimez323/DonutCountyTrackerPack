@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [],
-                "visibility_rules": ["trashsanity"],
+                "visibility_rules": ["trashsanity2"],
                 "sections": [
                     {
                         "name": "Back-left donut crumb 1",
@@ -183,127 +183,127 @@
                     {
                         "name": "County C",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "County N",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "County O",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "County T",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "County U",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "County Y",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut D",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut N",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut O",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut T",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut U",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Back-right grass 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Bone",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Center-right grass",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut crumb near C",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut crumb near N",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Donut crumb near T",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass near C",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass near O",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Grass near T",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Tennis ball near U",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],

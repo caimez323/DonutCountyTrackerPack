@@ -228,11 +228,10 @@ function OnClear(slot_data)
         print(key, value)
     end
     print("------------")
-    local slot_trashsanity = slot_data["trashsanity"]
-    local item_trashsanity = Tracker:FindObjectForCode("trashsanity")
-    if slot_trashsanity and item_trashsanity ~= nil then
-        item_trashsanity.Active = slot_trashsanity == 1 or slot_trashsanity == true 
-    end
+    local slot_trashsanity_lvl = tonumber(slot_data["trashsanity"]) or 0
+    Tracker:FindObjectForCode("trashsanity1").Active = (slot_trashsanity_lvl == 1)
+    Tracker:FindObjectForCode("trashsanity2").Active = (slot_trashsanity_lvl == 2)
+
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then

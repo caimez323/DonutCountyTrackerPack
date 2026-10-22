@@ -27,115 +27,115 @@
                     {
                         "name": "Big carrot",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left tile 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left tile 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right grass 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right grass 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right grass 3",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 3",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 4",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 5",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 6",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 7",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 8",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right tile 9",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Shovel",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Start bunny lower",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Start bunny upper",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Succulent",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],
@@ -168,181 +168,181 @@
                     {
                         "name": "Boulder near pen",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Dirt mound",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Fenced carrot 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Fenced carrot 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Fenced carrot 3",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-left boulder",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right boulder",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left boulder 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left boulder 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left bunny 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left bunny 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen door",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 10",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 11",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 12",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 3",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 4",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 5",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 6",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 7",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 8",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pen fence 9",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Plant pot",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right fence 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right fence 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Upper carrot",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Upper-left rock",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Upper-right rock",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],
@@ -375,19 +375,19 @@
                     {
                         "name": "Right boulder",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right bunny 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right bunny 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],
@@ -419,31 +419,31 @@
                     {
                         "name": "Center tile 1",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Center tile 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Center tile 3",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Left carrot",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Right carrot",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],
@@ -463,7 +463,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [],
-                "visibility_rules": ["trashsanity"],
+                "visibility_rules": ["trashsanity2"],
                 "sections": [
                     {
                         "name": "House chunk 1",

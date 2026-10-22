@@ -27,7 +27,7 @@
                     {
                         "name": "Bomb",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],
@@ -59,79 +59,79 @@
                     {
                         "name": "Hacking device",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm back left",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm back right",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm front left",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm front right",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter back",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter head 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter missile rack",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop back left",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop back right",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop front left",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop front right",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter tail 2",
                         "access_rules": [],
-                        "visibility_rules": ["trashsanity"],
+                        "visibility_rules": ["trashsanity2"],
                         "item_count": 1
                     }
                 ],

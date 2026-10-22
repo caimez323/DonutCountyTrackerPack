@@ -1316,8 +1316,20 @@
         "codes": "update"
     },
     {
-        "name" : "trashsanity",
+        "name" : "Trashsanity",
         "type" : "toggle",
-        "codes" : "trashsanity"
+        "img": "images/settings/trashsanity1.png",
+        "codes" : "trashsanity1",
+        "initial_active_state": false,
+        "overlay_align": "right"
+    }
+    ,
+    {
+        "name" : "Trashsanity All",
+        "type" : "toggle",
+        "img": "images/settings/trashsanity2.png",
+        "codes" : "trashsanity2",
+        "initial_active_state": false,
+        "overlay_align": "right"
     }
 ]

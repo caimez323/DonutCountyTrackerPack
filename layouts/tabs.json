@@ -217,6 +217,15 @@
                         "Achievement"
                     ]
                 }
+            },
+            {
+                "title": "Trashopedia",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Trashopedia"
+                    ]
+                }
             }
         ]
     },
@@ -436,6 +445,15 @@
                     "type": "map",
                     "maps": [
                         "Achievement"
+                    ]
+                }
+            },
+            {
+                "title": "Trashopedia",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Trashopedia"
                     ]
                 }
             }
