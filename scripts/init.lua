@@ -39,9 +39,9 @@ ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 
 
 -- TODO 
--- Ajouter salt 1/2 pepper 1/2/3
--- Mettre le buy catapult pareil
 -- Implémenter le "glitch" en hors logique
+-- Ajouter le setting trash souls
+-- Faire un affichage hybride pour trashsouls 1 par catégorie (faisaible même ?)
 
 
 
@@ -49,3 +49,4 @@ ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 -- Salt & Pepper logic is bugged
 -- Achivements does not display on the overworld
 -- Salt & Pepper don't increment on the tracker
+-- Quadcopter piece won't increment (nor unlock the boss fight ?)
