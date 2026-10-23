@@ -39,5 +39,6 @@ As of last release :
 - Add trashsoul setting (trashopedia (done) +logic)
 - Make an hybrid display, for trashsanity set to 1, with just trash category displayed
 - Add definitive .png for items/levels/settings
+- Compress .png and reduce overall repo size
 
 
