@@ -1,7 +1,7 @@
 import re
 import json
-
-
+import html
+from pathlib import Path
 
 
 def display_name_item_from_subregion(list):
@@ -14,15 +14,62 @@ def display_name_item_from_subregion(list):
 # "sub1" : [row]
 # "sub2" : [row]
 
-def update_level(jsonPath,thisRegion):
+def normalise(s):
+    return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
 
-    with open(jsonPath) as locationJson:
-        locationJsonData = json.load(locationJson)
-        subRegionList = thisRegion.keys()
-        print(thisRegion["Collect"])
-        if locationJsonData[0]["children"][0]["name"] == thisRegion["Collect"]:
-            print("ouai")
-            pass
+def add_acces_rule(section,code):
+    rules = [r for r in (section.get("access_rules") or []) if r.strip()]
+    #emtpy
+    if not rules:
+        section["access_rules"] = [code]
+        return
+    #else
+    new_rules = []
+    for r in rules:
+        parts = [p.strip() for p in r.split(",")]
+        new_rules.append(r if code in parts else "{},{}".format(r,code))
+    section["access_rules"] = new_rules
+
+
+
+def update_level(jsonPath,thisRegion):
+    #ONLY TRASH FOR NOW
+    #Need to add another
+    CHILD_TO_KEY = {
+        "Pile": "Intro"
+        } 
+    INDEX_NAME = 5
+    INDEX_TYPE = 6
+    jsonData=[]
+    with open(jsonPath,encoding="utf-8") as f:
+        jsonData = json.load(f)
+    path = Path(jsonPath)
+    lookup = {}
+    for zone, rows in thisRegion.items():
+        if not isinstance(rows,list):
+            continue #For the first one eg
+        lookup[zone] = {normalise(r[INDEX_NAME]): r[INDEX_TYPE] for r in rows}
+    print(lookup)
+
+    for loc in jsonData:
+        for child in loc.get("children",[]): #get children
+            zone = CHILD_TO_KEY.get(child["name"],child["name"]) #sub
+            zone_map = lookup.get(zone,{})
+            for section in child.get("sections",[]): #get the trash
+                trash_type = zone_map.get(normalise(section["name"]))
+                if trash_type is None: continue #unmatched usually the section name
+                #Now we add the acces rule
+                add_acces_rule(section,"trash_"+trash_type.lower())
+
+    with open(jsonPath,'w',encoding="utf-8") as f:
+        json.dump(jsonData,f,indent=4)
+        f.write("\n")
+
+
+
+
+
+
 
 def get_connection_logic():
     logic_lines = []
@@ -124,7 +171,7 @@ while "999ft" not in logic_lines[currIndex]:
 
 print("==== End of Parsing")
 
-with open("Rows.txt", "a") as f:
+with open("Rows.txt", "w") as f:
   for r in reconstructed_rows:
     thisLine = ",".join(r)
     f.write(thisLine+"\n")

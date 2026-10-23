@@ -29,9 +29,11 @@ Nothing in this repo was created partially or entirely by  generative IA.
 
 As of last release :
 - Salt & Pepper logic is bugged
--  Salt & Pepper don't increment correctly on the tracker
--  Achivements does not display on the overworld
+- Salt & Pepper don't increment correctly on the tracker
+- Achivements does not display on the overworld
 - Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
+- Si on a pas genre certaines options, genre texting, alors il faut la donner direct, autrement ça bloque des checks qu'on pourrait faire (ça doit aussi être vrai avec salt/pepper/snake/catapults/hole d'ailleurs)
+- Texting Glitch de la region de Mira's est ignoré pr l'instant
 
 ## Todo
 
