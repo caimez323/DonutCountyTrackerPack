@@ -17,6 +17,12 @@ def display_name_item_from_subregion(list):
 def normalise(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
 
+def add_alternate_rule(section,rule):
+    rules = section.get("access_rules") or []
+    if rule not in rules:
+        rules.append(rule)
+    section["access_rules"] = rules
+
 def add_acces_rule(section,codes):
     if isinstance(codes,str):
         codes = [codes]
@@ -53,7 +59,9 @@ def zone_codes(zone,order,lookup):
             codes.add("trash_" + trash_type.lower())
     return sorted(codes)
 
-
+TYPE_ALIASES = {
+    "flourbag": "flour_icingbag",
+}
 def update_level(jsonPath,thisRegion):
     #ONLY TRASH FOR NOW
     #Need to add another
@@ -68,7 +76,9 @@ def update_level(jsonPath,thisRegion):
     for zone, rows in thisRegion.items():
         if not isinstance(rows,list):
             continue #For the first one eg
-        lookup[zone] = {normalise(r[INDEX_NAME]): r[INDEX_TYPE] for r in rows}
+        lookup[zone] = {
+            normalise(r[INDEX_NAME]): TYPE_ALIASES.get(r[INDEX_TYPE].lower(), r[INDEX_TYPE])
+            }
     print(lookup)
 
     for loc in jsonData:
@@ -91,10 +101,9 @@ def update_level(jsonPath,thisRegion):
                 trash_type = zone_map.get(normalise(section["name"]))
                 if trash_type is None:
                     continue
-                #trash_flour_icingbag
-                if trash_type.lower() == "flourbag": trash_type = "flour_icingbag"
                 own_code = "trash_" + trash_type.lower()
                 add_acces_rule(section, [own_code] + [c for c in prev if c != own_code])
+                add_alternate_rule(section, "$trashsouls")
 
     with open(jsonPath,'w',encoding="utf-8") as f:
         json.dump(jsonData,f,indent=4)

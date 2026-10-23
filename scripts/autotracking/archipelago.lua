@@ -555,6 +555,11 @@ end
 -------------------
 
 
+-- To ignore certains checks when trashsouls is not active
+function trashsouls()
+    return not(Tracker:FindObjectForCode("trashsouls").Active)
+end
+
 --doc
 --hint layout
 -- {
