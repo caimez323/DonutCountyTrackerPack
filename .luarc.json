@@ -1,7 +1,0 @@
-{
-    "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
-    "workspace.library": [
-        "C:/Users/Cl\u00e9ment/Desktop/archipelago/Tracker/poptracker_0-35-4_win64/poptracker/api/lua/definition"
-    ],
-    "runtime.version": "Lua 5.4"
-}

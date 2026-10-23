@@ -35,8 +35,9 @@ As of last release :
 
 ## Todo
 
--  Add "glitch" OoL
+- Add "glitch" OoL
 - Add trashsoul setting (trashopedia (done) +logic)
+- Make the same detection as settings for splitting catapults/holeeffects
 - Make an hybrid display, for trashsanity set to 1, with just trash category displayed
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
