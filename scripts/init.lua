@@ -36,17 +36,3 @@ end
 require("scripts.luaitems")
 require("scripts.watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
-
-
--- TODO 
--- Implémenter le "glitch" en hors logique
--- Ajouter le setting trash souls
--- Faire un affichage hybride pour trashsouls 1 par catégorie (faisaible même ?)
-
-
-
--- Current bugs
--- Salt & Pepper logic is bugged
--- Achivements does not display on the overworld
--- Salt & Pepper don't increment on the tracker
--- Quadcopter piece won't increment (nor unlock the boss fight ?)
