@@ -1,6 +1,83 @@
+import re
+import json
+
+
+
+
+def display_name_item_from_subregion(list):
+    for elem in list:
+        print(elem[5])
+
+# Json Path is the json path to location
+#this region is :{
+# "region" : "code"
+# "sub1" : [row]
+# "sub2" : [row]
+
+def update_level(jsonPath,thisRegion):
+
+    with open(jsonPath) as locationJson:
+        locationJsonData = json.load(locationJson)
+        subRegionList = thisRegion.keys()
+        print(thisRegion["Collect"])
+        if locationJsonData[0]["children"][0]["name"] == thisRegion["Collect"]:
+            print("ouai")
+            pass
+
+def get_connection_logic():
+    logic_lines = []
+    # GET FROM REGIONSLOGIC.JSON, MANUALLY UPDATE IT
+
+    # with open("logic.xml") as logic_file:
+    #     logic_lines = logic_file.readlines()
+    # startIndex = 0
+    # while "ss:Name=\"regions\"" not in logic_lines[startIndex]: startIndex+=1
+    # currIndex = startIndex+10
+
+    # regions_rows = []
+    # thisRow= []
+    # while "Worksheet" not in logic_lines[currIndex]:
+    #     thisLine = logic_lines[currIndex]
+    #     if "Row" in thisLine:
+    #         regions_rows.append(thisRow)
+    #         thisRow = []
+        
+    #     if "<Cell" in thisLine:
+    #         if "<Cell ss:StyleID=\"" in thisLine:
+    #             currIndex+=1
+    #             continue
+    #         indexGetted = None
+    #         if "ss:Index=" in thisLine:
+    #             indexGetted = int(thisLine.split("Index=\"")[1][0])
+    #         if indexGetted and len(thisRow) != indexGetted:
+    #             #On rajoute la diff
+    #             for i in range(indexGetted-len(thisRow)-1):
+    #                 thisRow.append("")
+    #         content = thisLine.split(">")[2].split("<")[0]
+    #         thisRow.append(content)
+    #     currIndex+=1
+
+    # #filter
+    # regions_rows_filtered = []
+    # for row in list(regions_rows):
+    #     print(len(row))
+    #     print(row)
+    #     if len(row)<4 or row[3] not in ["Segment","Delivry","Logic"]:
+    #         continue
+    #     regions_rows_filtered.append(row)
+    # print(regions_rows_filtered)
+
+
+    # # [ {Zone : Contrainte}, [{sub : contrainte},{sub}],
+    # regions_organized = []
+    # organizedIndex = -1
+    # for region in regions_rows_filtered:
+    #     if region[6].strip() is not "":
+    #         organizedIndex +=1
+    #         regions_organized[regions_organized]
+
 
 ## FIRST WE PARSE THE LOGIC FILE
-import re
 
 #Get the file
 logic_lines = []
@@ -145,7 +222,7 @@ for row in reconstructed_rows[1:]:
                 subRegion = re.split(r'(?=[A-Z])', subRegion)[1]
             #Append
             if not subRegion in region_content:
-                region_content[subRegion] = row
+                region_content[subRegion] = [row]
             else:
                 region_content[subRegion].append(row)
 
@@ -160,4 +237,14 @@ for row in reconstructed_rows[1:]:
     #             print(regionName)
     #             regions_levels[region_index][regionName] = row
 
-print(regions_levels[0]["scn_mom_house_merged"])
+# print(regions_levels[3]["Dog"])
+#Pour chaque item, la condition c'est : Region + (subregion) + (Trash) + Special
+
+# Potter rock
+# Intro
+# display_name_item_from_subregion(pottersrock["Intro"])
+
+# FOR NOW REGIONS LOGIC IS IGNORED
+#get_connection_logic()
+update_level("../locations/Potters Rock.json",regions_levels[1])
+
