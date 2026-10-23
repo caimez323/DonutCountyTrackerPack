@@ -132,10 +132,10 @@
         "img": "images/maps/The 405.png"
     },
     {
-        "name": "Trash",
+        "name": "Trashopedia",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Trash.png"
+        "img": "images/maps/Trashopedia.png"
     },
     {
         "name": "Trash Kings Office",

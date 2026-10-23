@@ -221,10 +221,8 @@
             {
                 "title": "Trashopedia",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trashopedia"
-                    ]
+                    "type": "layout",
+                    "key" : "shared_trash_grid_horizontal"
                 }
             }
         ]
@@ -451,10 +449,8 @@
             {
                 "title": "Trashopedia",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Trashopedia"
-                    ]
+                    "type": "layout",
+                    "key" : "shared_trash_grid_vertical"
                 }
             }
         ]

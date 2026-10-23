@@ -41,7 +41,7 @@
 "trash_beesmoker",
 "trash_dirtpile",
 "trash_cowskull",
-"trash_flour/icingbag",
+"trash_flour_icingbag",
 "trash_chicken",
 "progressivesnakedanger",
 "trash_woodplank",

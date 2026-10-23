@@ -1,8 +1,8 @@
 [
     {
-        "name": "trash_egg",
+        "name": "Trash : Egg",
         "type": "toggle",
-        "img": "images/items/trash_egg.png",
+        "img": "images/items/trash/trash_egg.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_egg"
@@ -16,9 +16,9 @@
         "codes": "texting"
     },
     {
-        "name": "trash_donut",
+        "name": "Trash : Donut",
         "type": "toggle",
-        "img": "images/items/trash_donut.png",
+        "img": "images/items/trash/trash_donut.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_donut"
@@ -32,49 +32,49 @@
         "codes": "bossfight"
     },
     {
-        "name": "trash_tent",
+        "name": "Trash : Tent",
         "type": "toggle",
-        "img": "images/items/trash_tent.png",
+        "img": "images/items/trash/trash_tent.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tent"
     },
     {
-        "name": "trash_chair",
+        "name": "Trash : Chair",
         "type": "toggle",
-        "img": "images/items/trash_chair.png",
+        "img": "images/items/trash/trash_chair.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_chair"
     },
     {
-        "name": "trash_radio",
+        "name": "Trash : Radio",
         "type": "toggle",
-        "img": "images/items/trash_radio.png",
+        "img": "images/items/trash/trash_radio.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_radio"
     },
     {
-        "name": "trash_testtuberack",
+        "name": "Trash : Testtuberack",
         "type": "toggle",
-        "img": "images/items/trash_testtuberack.png",
+        "img": "images/items/trash/trash_testtuberack.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_testtuberack"
     },
     {
-        "name": "trash_bird",
+        "name": "Trash : Bird",
         "type": "toggle",
-        "img": "images/items/trash_bird.png",
+        "img": "images/items/trash/trash_bird.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bird"
     },
     {
-        "name": "trash_grass",
+        "name": "Trash : Grass",
         "type": "toggle",
-        "img": "images/items/trash_grass.png",
+        "img": "images/items/trash/trash_grass.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_grass"
@@ -88,33 +88,33 @@
         "codes": "beachlotc"
     },
     {
-        "name": "trash_wall",
+        "name": "Trash : Wall",
         "type": "toggle",
-        "img": "images/items/trash_wall.png",
+        "img": "images/items/trash/trash_wall.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_wall"
     },
     {
-        "name": "trash_otherfood",
+        "name": "Trash : Otherfood",
         "type": "toggle",
-        "img": "images/items/trash_otherfood.png",
+        "img": "images/items/trash/trash_otherfood.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_otherfood"
     },
     {
-        "name": "trash_raccoon",
+        "name": "Trash : Raccoon",
         "type": "toggle",
-        "img": "images/items/trash_raccoon.png",
+        "img": "images/items/trash/trash_raccoon.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_raccoon"
     },
     {
-        "name": "trash_beehive",
+        "name": "Trash : Beehive",
         "type": "toggle",
-        "img": "images/items/trash_beehive.png",
+        "img": "images/items/trash/trash_beehive.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_beehive"
@@ -128,9 +128,9 @@
         "codes": "the405"
     },
     {
-        "name": "trash_bowl",
+        "name": "Trash : Bowl",
         "type": "toggle",
-        "img": "images/items/trash_bowl.png",
+        "img": "images/items/trash/trash_bowl.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bowl"
@@ -144,9 +144,9 @@
         "codes": "anthropologylab"
     },
     {
-        "name": "trash_rock",
+        "name": "Trash : Rock",
         "type": "toggle",
-        "img": "images/items/trash_rock.png",
+        "img": "images/items/trash/trash_rock.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_rock"
@@ -160,25 +160,25 @@
         "codes": "biologylab"
     },
     {
-        "name": "trash_dumpster",
+        "name": "Trash : Dumpster",
         "type": "toggle",
-        "img": "images/items/trash_dumpster.png",
+        "img": "images/items/trash/trash_dumpster.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_dumpster"
     },
     {
-        "name": "trash_hotthings",
+        "name": "Trash : Hotthings",
         "type": "toggle",
-        "img": "images/items/trash_hotthings.png",
+        "img": "images/items/trash/trash_hotthings.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_hotthings"
     },
     {
-        "name": "trash_hookgun",
+        "name": "Trash : Hookgun",
         "type": "toggle",
-        "img": "images/items/trash_hookgun.png",
+        "img": "images/items/trash/trash_hookgun.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_hookgun"
@@ -192,57 +192,57 @@
         "codes": "bkdoesone(1)backflip"
     },
     {
-        "name": "trash_trashcan",
+        "name": "Trash : Trashcan",
         "type": "toggle",
-        "img": "images/items/trash_trashcan.png",
+        "img": "images/items/trash/trash_trashcan.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_trashcan"
     },
     {
-        "name": "trash_joshualeaf",
+        "name": "Trash : Joshualeaf",
         "type": "toggle",
-        "img": "images/items/trash_joshualeaf.png",
+        "img": "images/items/trash/trash_joshualeaf.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_joshualeaf"
     },
     {
-        "name": "trash_donutbox",
+        "name": "Trash : Donutbox",
         "type": "toggle",
-        "img": "images/items/trash_donutbox.png",
+        "img": "images/items/trash/trash_donutbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_donutbox"
     },
     {
-        "name": "trash_tree",
+        "name": "Trash : Tree",
         "type": "toggle",
-        "img": "images/items/trash_tree.png",
+        "img": "images/items/trash/trash_tree.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tree"
     },
     {
-        "name": "trash_character",
+        "name": "Trash : Character",
         "type": "toggle",
-        "img": "images/items/trash_character.png",
+        "img": "images/items/trash/trash_character.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_character"
     },
     {
-        "name": "trash_cage",
+        "name": "Trash : Cage",
         "type": "toggle",
-        "img": "images/items/trash_cage.png",
+        "img": "images/items/trash/trash_cage.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cage"
     },
     {
-        "name": "trash_car",
+        "name": "Trash : Car",
         "type": "toggle",
-        "img": "images/items/trash_car.png",
+        "img": "images/items/trash/trash_car.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_car"
@@ -256,9 +256,9 @@
         "codes": "catapults_raccoons"
     },
     {
-        "name": "trash_fan",
+        "name": "Trash : Fan",
         "type": "toggle",
-        "img": "images/items/trash_fan.png",
+        "img": "images/items/trash/trash_fan.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_fan"
@@ -272,17 +272,17 @@
         "codes": "raccoonlagoon"
     },
     {
-        "name": "trash_bucket",
+        "name": "Trash : Bucket",
         "type": "toggle",
-        "img": "images/items/trash_bucket.png",
+        "img": "images/items/trash/trash_bucket.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bucket"
     },
     {
-        "name": "trash_scooter",
+        "name": "Trash : Scooter",
         "type": "toggle",
-        "img": "images/items/trash_scooter.png",
+        "img": "images/items/trash/trash_scooter.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_scooter"
@@ -304,49 +304,49 @@
         "codes": "quadcopterpiece"
     },
     {
-        "name": "trash_flashlight",
+        "name": "Trash : Flashlight",
         "type": "toggle",
-        "img": "images/items/trash_flashlight.png",
+        "img": "images/items/trash/trash_flashlight.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_flashlight"
     },
     {
-        "name": "trash_beesmoker",
+        "name": "Trash : Beesmoker",
         "type": "toggle",
-        "img": "images/items/trash_beesmoker.png",
+        "img": "images/items/trash/trash_beesmoker.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_beesmoker"
     },
     {
-        "name": "trash_dirtpile",
+        "name": "Trash : Dirtpile",
         "type": "toggle",
-        "img": "images/items/trash_dirtpile.png",
+        "img": "images/items/trash/trash_dirtpile.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_dirtpile"
     },
     {
-        "name": "trash_cowskull",
+        "name": "Trash : Cowskull",
         "type": "toggle",
-        "img": "images/items/trash_cowskull.png",
+        "img": "images/items/trash/trash_cowskull.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cowskull"
     },
     {
-        "name": "trash_flour/icingbag",
+        "name": "Trash : Flour Icingbag",
         "type": "toggle",
-        "img": "images/items/trash_flour/icingbag.png",
+        "img": "images/items/trash/trash_flour_icingbag.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "trash_flour/icingbag"
+        "codes": "trash_flour_icingbag"
     },
     {
-        "name": "trash_chicken",
+        "name": "Trash : Chicken",
         "type": "toggle",
-        "img": "images/items/trash_chicken.png",
+        "img": "images/items/trash/trash_chicken.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_chicken"
@@ -359,38 +359,38 @@
         "overlay_align": "right",
         "min_quantity": 0,
         "initial_quantity": 0,
-        "max_quantity" : 4,
+        "max_quantity": 4,
         "overlay_font_size": 15,
         "codes": "progressivesnakedanger"
     },
     {
-        "name": "trash_woodplank",
+        "name": "Trash : Woodplank",
         "type": "toggle",
-        "img": "images/items/trash_woodplank.png",
+        "img": "images/items/trash/trash_woodplank.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_woodplank"
     },
     {
-        "name": "trash_othertools",
+        "name": "Trash : Othertools",
         "type": "toggle",
-        "img": "images/items/trash_othertools.png",
+        "img": "images/items/trash/trash_othertools.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_othertools"
     },
     {
-        "name": "trash_brick",
+        "name": "Trash : Brick",
         "type": "toggle",
-        "img": "images/items/trash_brick.png",
+        "img": "images/items/trash/trash_brick.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_brick"
     },
     {
-        "name": "trash_bowlingball",
+        "name": "Trash : Bowlingball",
         "type": "toggle",
-        "img": "images/items/trash_bowlingball.png",
+        "img": "images/items/trash/trash_bowlingball.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bowlingball"
@@ -403,38 +403,38 @@
         "overlay_align": "right",
         "min_quantity": 0,
         "initial_quantity": 0,
-        "max_quantity" : 3,
+        "max_quantity": 3,
         "overlay_font_size": 15,
         "codes": "progressivepepper"
     },
     {
-        "name": "trash_doghouse",
+        "name": "Trash : Doghouse",
         "type": "toggle",
-        "img": "images/items/trash_doghouse.png",
+        "img": "images/items/trash/trash_doghouse.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_doghouse"
     },
     {
-        "name": "trash_cat",
+        "name": "Trash : Cat",
         "type": "toggle",
-        "img": "images/items/trash_cat.png",
+        "img": "images/items/trash/trash_cat.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cat"
     },
     {
-        "name": "trash_shovel",
+        "name": "Trash : Shovel",
         "type": "toggle",
-        "img": "images/items/trash_shovel.png",
+        "img": "images/items/trash/trash_shovel.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_shovel"
     },
     {
-        "name": "trash_donutcountylogoletters",
+        "name": "Trash : Donutcountylogoletters",
         "type": "toggle",
-        "img": "images/items/trash_donutcountylogoletters.png",
+        "img": "images/items/trash/trash_donutcountylogoletters.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_donutcountylogoletters"
@@ -448,33 +448,33 @@
         "codes": "riverbed"
     },
     {
-        "name": "trash_boulder",
+        "name": "Trash : Boulder",
         "type": "toggle",
-        "img": "images/items/trash_boulder.png",
+        "img": "images/items/trash/trash_boulder.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_boulder"
     },
     {
-        "name": "trash_frog",
+        "name": "Trash : Frog",
         "type": "toggle",
-        "img": "images/items/trash_frog.png",
+        "img": "images/items/trash/trash_frog.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_frog"
     },
     {
-        "name": "trash_paper",
+        "name": "Trash : Paper",
         "type": "toggle",
-        "img": "images/items/trash_paper.png",
+        "img": "images/items/trash/trash_paper.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_paper"
     },
     {
-        "name": "trash_megaphone",
+        "name": "Trash : Megaphone",
         "type": "toggle",
-        "img": "images/items/trash_megaphone.png",
+        "img": "images/items/trash/trash_megaphone.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_megaphone"
@@ -487,30 +487,30 @@
         "overlay_align": "right",
         "min_quantity": 0,
         "initial_quantity": 0,
-        "max_quantity" : 2,
+        "max_quantity": 2,
         "overlay_font_size": 15,
         "codes": "progressivesalt"
     },
     {
-        "name": "trash_fence",
+        "name": "Trash : Fence",
         "type": "toggle",
-        "img": "images/items/trash_fence.png",
+        "img": "images/items/trash/trash_fence.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_fence"
     },
     {
-        "name": "trash_pot",
+        "name": "Trash : Pot",
         "type": "toggle",
-        "img": "images/items/trash_pot.png",
+        "img": "images/items/trash/trash_pot.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_pot"
     },
     {
-        "name": "trash_suitcase",
+        "name": "Trash : Suitcase",
         "type": "toggle",
-        "img": "images/items/trash_suitcase.png",
+        "img": "images/items/trash/trash_suitcase.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_suitcase"
@@ -556,17 +556,17 @@
         "codes": "catapults_honeycomb"
     },
     {
-        "name": "trash_honeycomb",
+        "name": "Trash : Honeycomb",
         "type": "toggle",
-        "img": "images/items/trash_honeycomb.png",
+        "img": "images/items/trash/trash_honeycomb.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_honeycomb"
     },
     {
-        "name": "trash_keycard",
+        "name": "Trash : Keycard",
         "type": "toggle",
-        "img": "images/items/trash_keycard.png",
+        "img": "images/items/trash/trash_keycard.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_keycard"
@@ -580,9 +580,9 @@
         "codes": "holeeffects_bunnies"
     },
     {
-        "name": "trash_hardhat",
+        "name": "Trash : Hardhat",
         "type": "toggle",
-        "img": "images/items/trash_hardhat.png",
+        "img": "images/items/trash/trash_hardhat.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_hardhat"
@@ -596,9 +596,9 @@
         "codes": "pottersrock"
     },
     {
-        "name": "trash_waterballoon",
+        "name": "Trash : Waterballoon",
         "type": "toggle",
-        "img": "images/items/trash_waterballoon.png",
+        "img": "images/items/trash/trash_waterballoon.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_waterballoon"
@@ -612,9 +612,9 @@
         "codes": "catapults_bombs"
     },
     {
-        "name": "trash_campfire",
+        "name": "Trash : Campfire",
         "type": "toggle",
-        "img": "images/items/trash_campfire.png",
+        "img": "images/items/trash/trash_campfire.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_campfire"
@@ -628,33 +628,33 @@
         "codes": "catapults_eggs"
     },
     {
-        "name": "trash_cockroach",
+        "name": "Trash : Cockroach",
         "type": "toggle",
-        "img": "images/items/trash_cockroach.png",
+        "img": "images/items/trash/trash_cockroach.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cockroach"
     },
     {
-        "name": "trash_fish",
+        "name": "Trash : Fish",
         "type": "toggle",
-        "img": "images/items/trash_fish.png",
+        "img": "images/items/trash/trash_fish.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_fish"
     },
     {
-        "name": "trash_otherdrinks",
+        "name": "Trash : Otherdrinks",
         "type": "toggle",
-        "img": "images/items/trash_otherdrinks.png",
+        "img": "images/items/trash/trash_otherdrinks.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_otherdrinks"
     },
     {
-        "name": "trash_woodshelf",
+        "name": "Trash : Woodshelf",
         "type": "toggle",
-        "img": "images/items/trash_woodshelf.png",
+        "img": "images/items/trash/trash_woodshelf.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_woodshelf"
@@ -684,17 +684,17 @@
         "codes": "donutshop"
     },
     {
-        "name": "trash_trailer",
+        "name": "Trash : Trailer",
         "type": "toggle",
-        "img": "images/items/trash_trailer.png",
+        "img": "images/items/trash/trash_trailer.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_trailer"
     },
     {
-        "name": "trash_haybale",
+        "name": "Trash : Haybale",
         "type": "toggle",
-        "img": "images/items/trash_haybale.png",
+        "img": "images/items/trash/trash_haybale.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_haybale"
@@ -708,17 +708,17 @@
         "codes": "999ftbelowtrap"
     },
     {
-        "name": "trash_money",
+        "name": "Trash : Money",
         "type": "toggle",
-        "img": "images/items/trash_money.png",
+        "img": "images/items/trash/trash_money.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_money"
     },
     {
-        "name": "trash_tennisball",
+        "name": "Trash : Tennisball",
         "type": "toggle",
-        "img": "images/items/trash_tennisball.png",
+        "img": "images/items/trash/trash_tennisball.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tennisball"
@@ -732,9 +732,9 @@
         "codes": "catapults_donutsandcameras"
     },
     {
-        "name": "trash_bee",
+        "name": "Trash : Bee",
         "type": "toggle",
-        "img": "images/items/trash_bee.png",
+        "img": "images/items/trash/trash_bee.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bee"
@@ -748,17 +748,17 @@
         "codes": "holeeffects_water"
     },
     {
-        "name": "trash_laptop",
+        "name": "Trash : Laptop",
         "type": "toggle",
-        "img": "images/items/trash_laptop.png",
+        "img": "images/items/trash/trash_laptop.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_laptop"
     },
     {
-        "name": "trash_gecko",
+        "name": "Trash : Gecko",
         "type": "toggle",
-        "img": "images/items/trash_gecko.png",
+        "img": "images/items/trash/trash_gecko.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_gecko"
@@ -780,57 +780,57 @@
         "codes": "honeynutforest"
     },
     {
-        "name": "trash_microscope",
+        "name": "Trash : Microscope",
         "type": "toggle",
-        "img": "images/items/trash_microscope.png",
+        "img": "images/items/trash/trash_microscope.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_microscope"
     },
     {
-        "name": "trash_quadcopter",
+        "name": "Trash : Quadcopter",
         "type": "toggle",
-        "img": "images/items/trash_quadcopter.png",
+        "img": "images/items/trash/trash_quadcopter.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_quadcopter"
     },
     {
-        "name": "trash_crate",
+        "name": "Trash : Crate",
         "type": "toggle",
-        "img": "images/items/trash_crate.png",
+        "img": "images/items/trash/trash_crate.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_crate"
     },
     {
-        "name": "trash_firealarm",
+        "name": "Trash : Firealarm",
         "type": "toggle",
-        "img": "images/items/trash_firealarm.png",
+        "img": "images/items/trash/trash_firealarm.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_firealarm"
     },
     {
-        "name": "trash_cupramen",
+        "name": "Trash : Cupramen",
         "type": "toggle",
-        "img": "images/items/trash_cupramen.png",
+        "img": "images/items/trash/trash_cupramen.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cupramen"
     },
     {
-        "name": "trash_bomb",
+        "name": "Trash : Bomb",
         "type": "toggle",
-        "img": "images/items/trash_bomb.png",
+        "img": "images/items/trash/trash_bomb.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bomb"
     },
     {
-        "name": "trash_tincan",
+        "name": "Trash : Tincan",
         "type": "toggle",
-        "img": "images/items/trash_tincan.png",
+        "img": "images/items/trash/trash_tincan.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tincan"
@@ -852,41 +852,41 @@
         "codes": "holeeffects_light"
     },
     {
-        "name": "trash_book",
+        "name": "Trash : Book",
         "type": "toggle",
-        "img": "images/items/trash_book.png",
+        "img": "images/items/trash/trash_book.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_book"
     },
     {
-        "name": "trash_snake",
+        "name": "Trash : Snake",
         "type": "toggle",
-        "img": "images/items/trash_snake.png",
+        "img": "images/items/trash/trash_snake.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_snake"
     },
     {
-        "name": "trash_tire",
+        "name": "Trash : Tire",
         "type": "toggle",
-        "img": "images/items/trash_tire.png",
+        "img": "images/items/trash/trash_tire.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tire"
     },
     {
-        "name": "trash_table",
+        "name": "Trash : Table",
         "type": "toggle",
-        "img": "images/items/trash_table.png",
+        "img": "images/items/trash/trash_table.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_table"
     },
     {
-        "name": "trash_gardening",
+        "name": "Trash : Gardening",
         "type": "toggle",
-        "img": "images/items/trash_gardening.png",
+        "img": "images/items/trash/trash_gardening.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_gardening"
@@ -900,17 +900,17 @@
         "codes": "catapults_chickens"
     },
     {
-        "name": "trash_cart",
+        "name": "Trash : Cart",
         "type": "toggle",
-        "img": "images/items/trash_cart.png",
+        "img": "images/items/trash/trash_cart.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cart"
     },
     {
-        "name": "trash_cardboardbox",
+        "name": "Trash : Cardboardbox",
         "type": "toggle",
-        "img": "images/items/trash_cardboardbox.png",
+        "img": "images/items/trash/trash_cardboardbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cardboardbox"
@@ -924,17 +924,17 @@
         "codes": "geckopark"
     },
     {
-        "name": "trash_sign",
+        "name": "Trash : Sign",
         "type": "toggle",
-        "img": "images/items/trash_sign.png",
+        "img": "images/items/trash/trash_sign.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_sign"
     },
     {
-        "name": "trash_nightstand",
+        "name": "Trash : Nightstand",
         "type": "toggle",
-        "img": "images/items/trash_nightstand.png",
+        "img": "images/items/trash/trash_nightstand.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_nightstand"
@@ -948,17 +948,17 @@
         "codes": "hoppersprings"
     },
     {
-        "name": "trash_carrot",
+        "name": "Trash : Carrot",
         "type": "toggle",
-        "img": "images/items/trash_carrot.png",
+        "img": "images/items/trash/trash_carrot.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_carrot"
     },
     {
-        "name": "trash_door",
+        "name": "Trash : Door",
         "type": "toggle",
-        "img": "images/items/trash_door.png",
+        "img": "images/items/trash/trash_door.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_door"
@@ -980,41 +980,41 @@
         "codes": "cementtrap"
     },
     {
-        "name": "trash_lawnchair",
+        "name": "Trash : Lawnchair",
         "type": "toggle",
-        "img": "images/items/trash_lawnchair.png",
+        "img": "images/items/trash/trash_lawnchair.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_lawnchair"
     },
     {
-        "name": "trash_monitor",
+        "name": "Trash : Monitor",
         "type": "toggle",
-        "img": "images/items/trash_monitor.png",
+        "img": "images/items/trash/trash_monitor.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_monitor"
     },
     {
-        "name": "trash_mug",
+        "name": "Trash : Mug",
         "type": "toggle",
-        "img": "images/items/trash_mug.png",
+        "img": "images/items/trash/trash_mug.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_mug"
     },
     {
-        "name": "trash_bush",
+        "name": "Trash : Bush",
         "type": "toggle",
-        "img": "images/items/trash_bush.png",
+        "img": "images/items/trash/trash_bush.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bush"
     },
     {
-        "name": "trash_clipboard",
+        "name": "Trash : Clipboard",
         "type": "toggle",
-        "img": "images/items/trash_clipboard.png",
+        "img": "images/items/trash/trash_clipboard.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_clipboard"
@@ -1036,81 +1036,81 @@
         "codes": "debugtoggle"
     },
     {
-        "name": "trash_camera",
+        "name": "Trash : Camera",
         "type": "toggle",
-        "img": "images/items/trash_camera.png",
+        "img": "images/items/trash/trash_camera.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_camera"
     },
     {
-        "name": "trash_rocket",
+        "name": "Trash : Rocket",
         "type": "toggle",
-        "img": "images/items/trash_rocket.png",
+        "img": "images/items/trash/trash_rocket.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_rocket"
     },
     {
-        "name": "trash_mask",
+        "name": "Trash : Mask",
         "type": "toggle",
-        "img": "images/items/trash_mask.png",
+        "img": "images/items/trash/trash_mask.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_mask"
     },
     {
-        "name": "trash_hookpanel",
+        "name": "Trash : Hookpanel",
         "type": "toggle",
-        "img": "images/items/trash_hookpanel.png",
+        "img": "images/items/trash/trash_hookpanel.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_hookpanel"
     },
     {
-        "name": "trash_dryingrack",
+        "name": "Trash : Dryingrack",
         "type": "toggle",
-        "img": "images/items/trash_dryingrack.png",
+        "img": "images/items/trash/trash_dryingrack.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_dryingrack"
     },
     {
-        "name": "trash_pottedplant",
+        "name": "Trash : Pottedplant",
         "type": "toggle",
-        "img": "images/items/trash_pottedplant.png",
+        "img": "images/items/trash/trash_pottedplant.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_pottedplant"
     },
     {
-        "name": "trash_building",
+        "name": "Trash : Building",
         "type": "toggle",
-        "img": "images/items/trash_building.png",
+        "img": "images/items/trash/trash_building.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_building"
     },
     {
-        "name": "trash_trafficcone",
+        "name": "Trash : Trafficcone",
         "type": "toggle",
-        "img": "images/items/trash_trafficcone.png",
+        "img": "images/items/trash/trash_trafficcone.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_trafficcone"
     },
     {
-        "name": "trash_fly",
+        "name": "Trash : Fly",
         "type": "toggle",
-        "img": "images/items/trash_fly.png",
+        "img": "images/items/trash/trash_fly.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_fly"
     },
     {
-        "name": "trash_television",
+        "name": "Trash : Television",
         "type": "toggle",
-        "img": "images/items/trash_television.png",
+        "img": "images/items/trash/trash_television.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_television"
@@ -1132,9 +1132,9 @@
         "codes": "catapults_frogs"
     },
     {
-        "name": "trash_fridge",
+        "name": "Trash : Fridge",
         "type": "toggle",
-        "img": "images/items/trash_fridge.png",
+        "img": "images/items/trash/trash_fridge.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_fridge"
@@ -1156,33 +1156,33 @@
         "codes": "campground"
     },
     {
-        "name": "trash_bone",
+        "name": "Trash : Bone",
         "type": "toggle",
-        "img": "images/items/trash_bone.png",
+        "img": "images/items/trash/trash_bone.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bone"
     },
     {
-        "name": "trash_battery",
+        "name": "Trash : Battery",
         "type": "toggle",
-        "img": "images/items/trash_battery.png",
+        "img": "images/items/trash/trash_battery.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_battery"
     },
     {
-        "name": "trash_wheel",
+        "name": "Trash : Wheel",
         "type": "toggle",
-        "img": "images/items/trash_wheel.png",
+        "img": "images/items/trash/trash_wheel.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_wheel"
     },
     {
-        "name": "trash_candle",
+        "name": "Trash : Candle",
         "type": "toggle",
-        "img": "images/items/trash_candle.png",
+        "img": "images/items/trash/trash_candle.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_candle"
@@ -1196,49 +1196,49 @@
         "codes": "raccoonhq"
     },
     {
-        "name": "trash_takeout",
+        "name": "Trash : Takeout",
         "type": "toggle",
-        "img": "images/items/trash_takeout.png",
+        "img": "images/items/trash/trash_takeout.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_takeout"
     },
     {
-        "name": "trash_bunny",
+        "name": "Trash : Bunny",
         "type": "toggle",
-        "img": "images/items/trash_bunny.png",
+        "img": "images/items/trash/trash_bunny.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_bunny"
     },
     {
-        "name": "trash_corn",
+        "name": "Trash : Corn",
         "type": "toggle",
-        "img": "images/items/trash_corn.png",
+        "img": "images/items/trash/trash_corn.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_corn"
     },
     {
-        "name": "trash_beaker",
+        "name": "Trash : Beaker",
         "type": "toggle",
-        "img": "images/items/trash_beaker.png",
+        "img": "images/items/trash/trash_beaker.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_beaker"
     },
     {
-        "name": "trash_instrument",
+        "name": "Trash : Instrument",
         "type": "toggle",
-        "img": "images/items/trash_instrument.png",
+        "img": "images/items/trash/trash_instrument.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_instrument"
     },
     {
-        "name": "trash_tile",
+        "name": "Trash : Tile",
         "type": "toggle",
-        "img": "images/items/trash_tile.png",
+        "img": "images/items/trash/trash_tile.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_tile"
@@ -1252,9 +1252,9 @@
         "codes": "catapults_keycards"
     },
     {
-        "name": "trash_cactus",
+        "name": "Trash : Cactus",
         "type": "toggle",
-        "img": "images/items/trash_cactus.png",
+        "img": "images/items/trash/trash_cactus.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_cactus"
@@ -1268,25 +1268,25 @@
         "codes": "holeeffects"
     },
     {
-        "name": "trash_pinecone",
+        "name": "Trash : Pinecone",
         "type": "toggle",
-        "img": "images/items/trash_pinecone.png",
+        "img": "images/items/trash/trash_pinecone.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_pinecone"
     },
     {
-        "name": "trash_beehouse",
+        "name": "Trash : Beehouse",
         "type": "toggle",
-        "img": "images/items/trash_beehouse.png",
+        "img": "images/items/trash/trash_beehouse.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_beehouse"
     },
     {
-        "name": "trash_hackingdevice",
+        "name": "Trash : Hackingdevice",
         "type": "toggle",
-        "img": "images/items/trash_hackingdevice.png",
+        "img": "images/items/trash/trash_hackingdevice.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trash_hackingdevice"
@@ -1316,27 +1316,26 @@
         "codes": "update"
     },
     {
-        "name" : "Trashsanity",
-        "type" : "toggle",
+        "name": "Trashsanity",
+        "type": "toggle",
         "img": "images/settings/trashsanity1.png",
-        "codes" : "trashsanity1",
+        "codes": "trashsanity1",
         "initial_active_state": false,
         "overlay_align": "right"
     },
     {
-        "name" : "Trashsanity All",
-        "type" : "toggle",
+        "name": "Trashsanity All",
+        "type": "toggle",
         "img": "images/settings/trashsanity2.png",
-        "codes" : "trashsanity2",
+        "codes": "trashsanity2",
         "initial_active_state": false,
         "overlay_align": "right"
-    }
-    ,
+    },
     {
-        "name" : "Trashsouls",
-        "type" : "toggle",
+        "name": "Trashsouls",
+        "type": "toggle",
         "img": "images/settings/trashsouls.png",
-        "codes" : "trashsouls",
+        "codes": "trashsouls",
         "initial_active_state": false,
         "overlay_align": "right"
     }

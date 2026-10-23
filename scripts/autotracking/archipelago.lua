@@ -237,6 +237,7 @@ function OnClear(slot_data)
     -- Trashopedia is needed only with trashsouls
     if Tracker:FindObjectForCode("trashsouls").Active then
         Tracker:AddLayouts("layouts/tabs_default.json") 
+        Tracker:AddLayouts("layouts/trashopedia.json")
     else
         Tracker:AddLayouts("layouts/tabs_without_trash.json")
     end
