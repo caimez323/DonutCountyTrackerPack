@@ -17,27 +17,47 @@ def display_name_item_from_subregion(list):
 def normalise(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
 
-def add_acces_rule(section,code):
+def add_acces_rule(section,codes):
+    if isinstance(codes,str):
+        codes = [codes]
     rules = [r for r in (section.get("access_rules") or []) if r.strip()]
     #emtpy
     if not rules:
-        section["access_rules"] = [code]
+        section["access_rules"] = [",".join(codes)]
         return
     #else
     new_rules = []
     for r in rules:
         parts = [p.strip() for p in r.split(",")]
-        new_rules.append(r if code in parts else "{},{}".format(r,code))
+        missing = [c for c in codes if c not in parts]
+        new_rules.append(",".join([r] + missing) if missing else r)
     section["access_rules"] = new_rules
 
+
+#Manually is easier for now
+ZONE_ORDER ={
+    "Potters Rock" : ["Intro","Front","Potter","Pots","Launch","Collect"]
+}
+
+CHILD_TO_KEY = {
+        "Pile": "Intro"
+}
+
+
+def zone_codes(zone,order,lookup):
+    if zone not in order:
+        return []
+    codes = set()
+    for prev in order[:order.index(zone)]:
+        for trash_type in lookup.get(prev, {}).values():
+            codes.add("trash_" + trash_type.lower())
+    return sorted(codes)
 
 
 def update_level(jsonPath,thisRegion):
     #ONLY TRASH FOR NOW
     #Need to add another
-    CHILD_TO_KEY = {
-        "Pile": "Intro"
-        } 
+     
     INDEX_NAME = 5
     INDEX_TYPE = 6
     jsonData=[]
@@ -52,14 +72,29 @@ def update_level(jsonPath,thisRegion):
     print(lookup)
 
     for loc in jsonData:
-        for child in loc.get("children",[]): #get children
-            zone = CHILD_TO_KEY.get(child["name"],child["name"]) #sub
-            zone_map = lookup.get(zone,{})
-            for section in child.get("sections",[]): #get the trash
+        order = ZONE_ORDER.get(loc["name"],[])
+        
+        
+        for child in loc.get("children", []):
+            zone = CHILD_TO_KEY.get(child["name"], child["name"])
+            zone_map = lookup.get(zone, {})
+
+            own_all = sorted({"trash_" + t.lower() for t in zone_map.values()})
+            prev = zone_codes(zone, order, lookup)
+
+            for section in child.get("sections", []):
+                # if it is the header, it need all below
+                if normalise(section["name"]) == normalise(child["name"]):
+                    add_acces_rule(section, own_all + [c for c in prev if c not in own_all])
+                    continue
+
                 trash_type = zone_map.get(normalise(section["name"]))
-                if trash_type is None: continue #unmatched usually the section name
-                #Now we add the acces rule
-                add_acces_rule(section,"trash_"+trash_type.lower())
+                if trash_type is None:
+                    continue
+                #trash_flour_icingbag
+                if trash_type.lower() == "flourbag": trash_type = "flour_icingbag"
+                own_code = "trash_" + trash_type.lower()
+                add_acces_rule(section, [own_code] + [c for c in prev if c != own_code])
 
     with open(jsonPath,'w',encoding="utf-8") as f:
         json.dump(jsonData,f,indent=4)
