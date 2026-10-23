@@ -1,5 +1,6 @@
 
 ## FIRST WE PARSE THE LOGIC FILE
+import re
 
 #Get the file
 logic_lines = []
@@ -108,19 +109,55 @@ for region in regions_list:
     regions_levels.append(thisDict)
 
 
-print(regions_levels)
 #Now we need to add the content (could be doable early but it is easier to structure that way)
 
 lastRegionName = None
+brokenRows= []
+SUB_REGION_CORRECTION = {
+    "hs1" : "Bunnies 1 & 2", 
+    "hs2" : "Bunnies 3 & 4",
+    "hs3" : "Bunnies 5 & 6", 
+    "tko1" : "Donut 1-3",
+    "tko2" : "Donut 4-6",
+    "tko3" : "Donut 7-8",
+    "tkoCollect" : "Final Donut",
+    "bf1" : "Phase 1",
+    "bf2" : "Phase 2",
+    }
+    
 
 for row in reconstructed_rows[1:]:
     if row[1]: #if there is a region
         lastRegionName = row[1]
 
     # Each row look for its parent
-    regions_levels_copy = regions_levels.copy()
-    for region in regions_levels_copy: # Pour pas itérer sur ce qu'on modifie
-        for k,v in region.items():
-            if k == lastRegionName:
+    if len(row)<=7: #We need to skip this row, it is probably a joint, or a broken props
+        brokenRows.append(row)
+        continue
+    subRegion = row[7]
 
-                break
+    for region_content in regions_levels:
+        if lastRegionName in region_content:
+            # Get subregion
+            if subRegion in SUB_REGION_CORRECTION:
+                subRegion = SUB_REGION_CORRECTION[subRegion]
+            else:
+                subRegion = re.split(r'(?=[A-Z])', subRegion)[1]
+            #Append
+            if not subRegion in region_content:
+                region_content[subRegion] = row
+            else:
+                region_content[subRegion].append(row)
+
+
+
+    # regions_levels_copy = regions_levels.copy()
+    # for region_index,region_content in enumerate(regions_levels_copy): # Pour pas itérer sur ce qu'on modifie
+    #     for k,v in region_content.items():
+    #         if k == lastRegionName:
+    #             # 7 = Region in the rows
+    #             regionName = row[7]
+    #             print(regionName)
+    #             regions_levels[region_index][regionName] = row
+
+print(regions_levels[0]["scn_mom_house_merged"])
