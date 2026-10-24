@@ -95,6 +95,11 @@ ZONE_ORDER ={
     "Abandoned House" : ["No","Dark","Light","Collect"],
     "Raccoon Lagoon" : ["Water","Flume","Dispenser","Wheel","Collect"],
     "The 405" : ["Car","Truck","Cops","Big","Collect"],
+    "Raccoon HQ": ["Exterior", "Device", "HQ Hallway"],
+    "Biology Lab": ["Raccoons", "Snake", "Frog", "Bio Hallway"],
+    "Anthropology Lab": ["Garbage bin", "Fire Alarm", "Firework"],
+    "Trash King's Office": ["Donut 1-3", "Donut 4-6", "Donut 7-8", "Final Donut"],
+    "Boss Fight": ["Phase 1", "Phase 2"],
 }
 
 #Final : Excel
@@ -127,6 +132,18 @@ CHILD_TO_KEY = {
         "Small car" : "Car",
         "Big boy" : "Big",
 }
+CHILD_TO_KEY_BY_REGION = {
+    "Raccoon HQ":       {"Hacking device": "Device", "Hallway": "HQ Hallway"},
+    "Biology Lab":      {"Hallway": "Bio Hallway"},
+    "Anthropology Lab": {},
+}
+
+REGION_ALIAS = {
+    "Biology Lab": "Raccoon HQ",
+    "Anthropology Lab": "Raccoon HQ",
+    "Trash King's Office": "Raccoon HQ",
+    "Boss Fight": "Raccoon HQ",
+}
 
 ALT_RULE = "$trashsouls"
 def zone_codes(zone,order,lookup):
@@ -141,6 +158,9 @@ def zone_codes(zone,order,lookup):
 TYPE_ALIASES = {
     "flourbag": "flour_icingbag",
 }
+
+#This is starting to be messy, maybe sometime rewrite this
+
 def update_level(jsonPath,thisRegion):
     #ONLY TRASH FOR NOW
     #Need to add another
@@ -161,13 +181,23 @@ def update_level(jsonPath,thisRegion):
             for r in rows
             }
 
+
+    CHILD_N = {normalise(k): v for k, v in CHILD_TO_KEY.items()}
+
     for loc in jsonData:
-        order = ZONE_ORDER.get(loc["name"],[])
+        order_key = REGION_ALIAS.get(loc["name"],loc["name"])
+        order = [z.strip() for z in ZONE_ORDER.get(loc["name"], [])]
+        local = {normalise(k): v for k, v in CHILD_TO_KEY_BY_REGION.get(loc["name"],{}).items()}
         
         
         for child in loc.get("children", []):
-            zone = CHILD_TO_KEY.get(child["name"], child["name"])
-            if zone not in lookup: continue
+            n = normalise(child["name"])
+            zone = local.get(n) or CHILD_N.get(n) or child["name"]
+            zone = zone.strip()
+            if zone not in lookup: 
+                print("{} / {} : {} absent de lookup".format(loc['name'],child["name"],zone))
+                continue
+
             zone_map = lookup[zone]
 
             own_all = sorted({"trash_" + t.lower() for t in zone_map.values()})
@@ -373,6 +403,10 @@ SUB_REGION_CORRECTION = {
     "tkoCollect" : "Final Donut",
     "bf1" : "Phase 1",
     "bf2" : "Phase 2",
+    "hqHallway": "HQ Hallway",
+    "blHallway": "Bio Hallway",
+    "blIntro": "Raccoons",
+    "alIntro": "Garbage bin",
     }
     
 
@@ -430,10 +464,15 @@ for row in reconstructed_rows[1:]:
 #update_level("../locations/Abandoned House.json",regions_levels[13]) #Refaire après confirmation du light effect
 #update_level("../locations/Raccoon Lagoon.json",regions_levels[14])# METTRE L EAU CATAPULTS A LA MAIN
 #update_level("../locations/The 405.json",regions_levels[15]) #Catapult pour collect
-#update_level("../locations/Donut Shop.json",regions_levels[16])
 
+# for p in [
+#     "../locations/Raccoon HQ.json",
+#     "../locations/Biology Lab.json", #J'ai modif à la main pour frog c'est un peu buggé
+#     "../locations/Anthropology Lab.json",
+#     "../locations/Trash Kings Office.json",
+#     "../locations/Boss Fight.json",
+# ]:
+#     update_level(p, regions_levels[16])
 
-
-#STILL NEED TO CHECK FOR THINGS THAT NEED ANOTHER ITEM TO ADD MANUALLY THE "holeeffects_water,$trashsouls" for example
-
+#Qq trucs à rajouter à la main, j'ai fait une copie de ceux que j'ai changé dans le doute
 
