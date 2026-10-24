@@ -13,74 +13,125 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "Exterior",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bandits note",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 1",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 3",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Flashlight",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_flashlight",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hammer",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_othertools",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hook gun",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_hookgun",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Laptop",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_laptop",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Padlock",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_othertools",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Suitcase",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_suitcase",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -100,13 +151,18 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults",
-                    "catapults_hackingdevice"
+                    "catapults,trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "Hacking device",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_hackingdevice",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -127,128 +183,230 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults",
-                    "catapults_hackingdevice"
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "Battery 1",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battery 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battery 3",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battery 4",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battery 5",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battery 6",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_battery",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Beaker",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_beaker",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Biology Lab keycard",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_keycard",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coffee cup",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_otherdrinks",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Microscope",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_microscope",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 1",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 3",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball 4",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Phone",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_camera",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sleeping raccoon",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_raccoon",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stool",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_chair",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Succulent",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_pottedplant",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Test tube rack",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_testtuberack",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toilet paper",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -279,7 +437,9 @@
                     "catapults",
                     "catapults_hackingdevice"
                 ],
-                "visibility_rules": ["trashsanity2"],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
                 "item_count": 1
             }
         ],

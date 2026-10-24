@@ -5,8 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "bossfight,catapults",
-            "bossfight,catapults_bombs"
+            "bossfight,trash_bomb",
+            "bossfight,$trashsouls"
         ],
         "children": [
             {
@@ -14,20 +14,24 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "Phase 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "catapults_bombs,",
+                            "catapults"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bomb",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -47,91 +51,184 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
                 ],
                 "sections": [
                     {
                         "name": "Phase 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hacking device",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_hackingdevice",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm back left",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm back right",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm front left",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter arm front right",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter back",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter head 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter missile rack",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop back left",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop back right",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop front left",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter prop front right",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Quadcopter tail 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "catapults,trash_hackingdevice,trash_quadcopter",
+                            "catapults,$trashsouls",
+                            "catapults_hackingdevice,trash_hackingdevice,trash_quadcopter",
+                            "catapults_hackingdevice,$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],

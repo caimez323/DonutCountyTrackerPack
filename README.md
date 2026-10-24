@@ -1,15 +1,5 @@
 # Donut County Poptracker Pack
 
-
-
-
-# Usage
-Download the latest release of the pack : [Pack release](https://github.com/caimez323/DonutCountyTrackerPack/releases).
-
-If you don't have Poptracker yet : [Poptracker](https://github.com/black-sliver/PopTracker/releases/).
-
-You can also find the Donut County .apworld [here](https://github.com/1e1001/DonutCountyAP/releases/).
-
 ## Features
 
 Track Donut County (crazy right ?)
@@ -18,23 +8,16 @@ This pack auto adjust to your configuration if you connect to the autotracking v
 It will add/remove tabs and simplify the layout if it detects things not relevant via the configuration.
 **This does mean that** if the screen is pitch black, it may be an issue with your archipelago connection. (Although it should be default case implemented)
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+See **Issues** below if you have any trouble, or check the archipelago Donut County channel if you find any logic issues.
 
-## Regarding IA
-Nothing in this repo was created partially or entirely by  generative IA. 
+# Usage
+Download the latest release of the pack : [Pack release](https://github.com/caimez323/DonutCountyTrackerPack/releases).
+
+If you don't have Poptracker yet : [Poptracker](https://github.com/black-sliver/PopTracker/releases/).
+
+You can also find the Donut County .apworld [here](https://github.com/1e1001/DonutCountyAP/releases/).
 
 # Issues & Todo
-
-## Know Issues
-
-As of last release :
-- Salt & Pepper don't increment correctly on the tracker
-- Achievements does not display on the overworld
-- Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
-- Si on a pas genre certaines options, genre texting, alors il faut la donner direct, autrement ça bloque des checks qu'on pourrait faire (ça doit aussi être vrai avec salt/pepper/snake/catapults/hole d'ailleurs)
-- Abandonned House logic is not accurate
-- Texting Glitch de la region de Mira's est ignoré pr l'instant
-- C'est mis en vert le fait de finir une zone si on a le trashsouls et pas les items = l'ajouter dans la condition de zone
 
 ## Todo
 
@@ -44,5 +27,20 @@ As of last release :
 - Make an hybrid display, for trashsanity set to 1, with just trash category displayed
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
+- Remove Achivement tab if not needed
+- Add texting glitch logic e.g. miras house
+
+## Know Issues
+
+As of last release :
+- Salt & Pepper don't increment correctly on the tracker
+- Achievements does not display on the overworld
+- Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
+- Abandonned House logic is not accurate
+- I have some doubt with bio lab frog logic
+- End of level is never checked (grey)
+- Ending a zone ignores the trashsouls logic
+
+
 
 

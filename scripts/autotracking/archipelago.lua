@@ -234,6 +234,16 @@ function OnClear(slot_data)
     Tracker:FindObjectForCode("trashsanity2").Active = (slot_trashsanity_lvl == 2)
     Tracker:FindObjectForCode("trashsouls").Active = (slot_trashsouls == 1)
 
+    -- 0 = Pas randomized, get it
+    -- 1 = Randomized, don't get it
+    local texting = tonumber(slot_data["texting"])
+    if tonumber(slot_data["salt_and_pepper"]) == 0 then 
+        Tracker:FindObjectForCode("progressivesalt").AcquiredCount = 2
+        Tracker:FindObjectForCode("progressivepepper").AcquiredCount = 3
+    end
+    if tonumber(slot_data["snake_danger"]) == 0 then Tracker:FindObjectForCode("progressivesnakedanger").AcquiredCount = 4 end
+
+
     -- Trashopedia is needed only with trashsouls
     if Tracker:FindObjectForCode("trashsouls").Active then
         Tracker:AddLayouts("layouts/tabs_default.json") 
