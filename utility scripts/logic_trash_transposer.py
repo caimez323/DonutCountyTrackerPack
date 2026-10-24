@@ -14,10 +14,34 @@ def display_name_item_from_subregion(list):
 # "sub1" : [row]
 # "sub2" : [row]
 
+def is_generated(token):
+    return token.startswith("trash_") or token.startswith("$trash")
+
+
+def clean_all(node):
+    # parcourt récursivement tout le JSON
+    if isinstance(node, dict):
+        rules = node.get("access_rules")
+        if isinstance(rules, list):
+            cleaned = []
+            for r in rules:
+                if not isinstance(r, str):
+                    continue
+                parts = [p.strip() for p in r.split(",")]
+                parts = [p for p in parts if p and not is_generated(p)]
+                rule = ",".join(parts)
+                if rule and rule not in cleaned:
+                    cleaned.append(rule)
+            node["access_rules"] = cleaned
+        for v in node.values():
+            clean_all(v)
+    elif isinstance(node, list):
+        for item in node:
+            clean_all(item)
+
 def normalise(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
 
-ALT_RULE = "$trashsouls"
 
 def add_alternate_rule(section,rule):
     rules = section.get("access_rules") or []
@@ -75,7 +99,8 @@ def update_level(jsonPath,thisRegion):
     jsonData=[]
     with open(jsonPath,encoding="utf-8") as f:
         jsonData = json.load(f)
-    path = Path(jsonPath)
+
+    clean_all(jsonData)
     lookup = {}
     for zone, rows in thisRegion.items():
         if not isinstance(rows,list):
@@ -332,15 +357,11 @@ for row in reconstructed_rows[1:]:
     #             print(regionName)
     #             regions_levels[region_index][regionName] = row
 
-# print(regions_levels[3]["Dog"])
 #Pour chaque item, la condition c'est : Region + (subregion) + (Trash) + Special
 
-# Potter rock
-# Intro
-
 # FOR NOW REGIONS LOGIC IS IGNORED
-#get_connection_logic()
-update_level("../locations/Potters Rock.json",regions_levels[1])
+
+#update_level("../locations/Potters Rock.json",regions_levels[1])
 update_level("../locations/Riverbed.json",regions_levels[3])
 
 #STILL NEED TO CHECK FOR THINGS THAT NEED ANOTHER ITEM TO ADD MANUALLY THE "holeeffects_water,$trashsouls" for example

@@ -332,8 +332,8 @@
                         "access_rules": [
                             "holeeffects_water,trash_tennisball,trash_character,trash_fish,trash_grass,trash_rock",
                             "holeeffects,trash_tennisball,trash_character,trash_fish,trash_grass,trash_rock",
-                            "holeeffects_water,$trashsouls",
-                            "holeeffects,$trashsouls"
+                            "holeeffects,$trashsouls",
+                            "holeeffects_water,$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -381,14 +381,12 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "Little dog",
                         "access_rules": [
-                            "trash_lawnchair,trash_character,trash_fish,trash_grass,trash_rock",
+                            "trash_character,trash_fish,trash_grass,trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
