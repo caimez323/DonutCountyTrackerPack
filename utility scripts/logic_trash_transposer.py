@@ -17,6 +17,8 @@ def display_name_item_from_subregion(list):
 def normalise(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
 
+ALT_RULE = "$trashsouls"
+
 def add_alternate_rule(section,rule):
     rules = section.get("access_rules") or []
     if rule not in rules:
@@ -42,11 +44,13 @@ def add_acces_rule(section,codes):
 
 #Manually is easier for now
 ZONE_ORDER ={
-    "Potters Rock" : ["Intro","Front","Potter","Pots","Launch","Collect"]
+    "Potters Rock" : ["Intro","Front","Potter","Pots","Launch","Collect"],
+    "Riverbed" : ["Dog","Collect"],
 }
 
 CHILD_TO_KEY = {
-        "Pile": "Intro"
+        "Pile": "Intro",
+        "Little dog" : "Dog",
 }
 
 
@@ -78,8 +82,8 @@ def update_level(jsonPath,thisRegion):
             continue #For the first one eg
         lookup[zone] = {
             normalise(r[INDEX_NAME]): TYPE_ALIASES.get(r[INDEX_TYPE].lower(), r[INDEX_TYPE])
+            for r in rows
             }
-    print(lookup)
 
     for loc in jsonData:
         order = ZONE_ORDER.get(loc["name"],[])
@@ -333,9 +337,12 @@ for row in reconstructed_rows[1:]:
 
 # Potter rock
 # Intro
-# display_name_item_from_subregion(pottersrock["Intro"])
 
 # FOR NOW REGIONS LOGIC IS IGNORED
 #get_connection_logic()
 update_level("../locations/Potters Rock.json",regions_levels[1])
+update_level("../locations/Riverbed.json",regions_levels[3])
+
+#STILL NEED TO CHECK FOR THINGS THAT NEED ANOTHER ITEM TO ADD MANUALLY THE "holeeffects_water,$trashsouls" for example
+
 
