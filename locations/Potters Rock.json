@@ -14,8 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "holeeffects",
-                    "holeeffects_fire"
+                    "holeeffects,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                    "holeeffects_fire,$trashsouls"
                 ],
                 "visibility_rules": [
                     "trashsanity2"
@@ -24,7 +26,7 @@
                     {
                         "name": "Back-center boulder",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -33,7 +35,7 @@
                     {
                         "name": "Back-left boulder",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -42,7 +44,7 @@
                     {
                         "name": "Back-right boulder",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -51,7 +53,7 @@
                     {
                         "name": "Back-right boulder piece",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -60,7 +62,7 @@
                     {
                         "name": "Donut shard big",
                         "access_rules": [
-                            "trash_building,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_building",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -69,7 +71,7 @@
                     {
                         "name": "Donut shard small",
                         "access_rules": [
-                            "trash_building,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_building",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -78,7 +80,7 @@
                     {
                         "name": "Fence door",
                         "access_rules": [
-                            "trash_door,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_door",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -87,7 +89,7 @@
                     {
                         "name": "Front-right boulder",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -96,7 +98,7 @@
                     {
                         "name": "Left hook panel",
                         "access_rules": [
-                            "trash_hookpanel,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_hookpanel",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -105,7 +107,7 @@
                     {
                         "name": "Pool",
                         "access_rules": [
-                            "trash_building,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_building",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -114,7 +116,7 @@
                     {
                         "name": "Potters house",
                         "access_rules": [
-                            "trash_building,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_building",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -123,7 +125,7 @@
                     {
                         "name": "Potters house wall chunk",
                         "access_rules": [
-                            "trash_building,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_building",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -132,7 +134,7 @@
                     {
                         "name": "Right hool panel",
                         "access_rules": [
-                            "trash_hookpanel,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_hookpanel",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -141,7 +143,7 @@
                     {
                         "name": "Right small boulder",
                         "access_rules": [
-                            "trash_boulder,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_boulder",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -150,7 +152,7 @@
                     {
                         "name": "Wall 1",
                         "access_rules": [
-                            "trash_wall,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_wall",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -159,7 +161,7 @@
                     {
                         "name": "Wall 2",
                         "access_rules": [
-                            "trash_wall,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_wall",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -168,7 +170,7 @@
                     {
                         "name": "Wall 3",
                         "access_rules": [
-                            "trash_wall,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_wall",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -177,7 +179,7 @@
                     {
                         "name": "Wall 4",
                         "access_rules": [
-                            "trash_wall,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_wall",
                             "$trashsouls"
                         ],
                         "visibility_rules": [],
@@ -199,12 +201,16 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                    "$trashsouls"
+                ],
                 "sections": [
                     {
                         "name": "Front",
                         "access_rules": [
-                            "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_pot,trash_pottedplant,trash_rock,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_suitcase"
+                            "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_pot,trash_pottedplant,trash_rock",
+                            "$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -212,7 +218,7 @@
                     {
                         "name": "Back succulent",
                         "access_rules": [
-                            "trash_pottedplant,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_pottedplant",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -223,7 +229,7 @@
                     {
                         "name": "Bone",
                         "access_rules": [
-                            "trash_bone,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_bone",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -234,7 +240,7 @@
                     {
                         "name": "Brick",
                         "access_rules": [
-                            "trash_brick,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_brick",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -245,7 +251,7 @@
                     {
                         "name": "Front succulent",
                         "access_rules": [
-                            "trash_pottedplant,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_pottedplant",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -256,7 +262,7 @@
                     {
                         "name": "Left cactus",
                         "access_rules": [
-                            "trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_cactus",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -267,7 +273,7 @@
                     {
                         "name": "Left succulent",
                         "access_rules": [
-                            "trash_pottedplant,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_pottedplant",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -278,7 +284,7 @@
                     {
                         "name": "Pot",
                         "access_rules": [
-                            "trash_pot,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -289,7 +295,7 @@
                     {
                         "name": "Right cactus",
                         "access_rules": [
-                            "trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_cactus",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -300,7 +306,7 @@
                     {
                         "name": "Right succulent",
                         "access_rules": [
-                            "trash_pottedplant,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_pottedplant",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -311,7 +317,7 @@
                     {
                         "name": "Rock under succulent",
                         "access_rules": [
-                            "trash_rock,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -322,7 +328,7 @@
                     {
                         "name": "Waterbowl",
                         "access_rules": [
-                            "trash_bowl,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "trash_bowl",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -346,13 +352,18 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                    "$trashsouls"
+                ],
                 "sections": [
                     {
                         "name": "Launch",
                         "access_rules": [
-                            "holeeffects_fire,trash_brick,trash_hotthings,trash_scooter,trash_sign,trash_bone,trash_bowl,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
-                            "holeeffects,trash_brick,trash_hotthings,trash_scooter,trash_sign,trash_bone,trash_bowl,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf"
+                            "holeeffects_fire,trash_brick,trash_hotthings,trash_scooter,trash_sign",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_brick,trash_hotthings,trash_scooter,trash_sign",
+                            "holeeffects,$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -360,7 +371,7 @@
                     {
                         "name": "Sold sign",
                         "access_rules": [
-                            "trash_sign,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_sign",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -371,7 +382,7 @@
                     {
                         "name": "Brick 1",
                         "access_rules": [
-                            "trash_brick,trash_bone,trash_bowl,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_brick",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -382,7 +393,7 @@
                     {
                         "name": "Brick 2",
                         "access_rules": [
-                            "trash_brick,trash_bone,trash_bowl,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_brick",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -393,7 +404,7 @@
                     {
                         "name": "Brick 3",
                         "access_rules": [
-                            "trash_brick,trash_bone,trash_bowl,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_brick",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -404,7 +415,7 @@
                     {
                         "name": "Kiln",
                         "access_rules": [
-                            "trash_hotthings,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_hotthings",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -415,7 +426,7 @@
                     {
                         "name": "Scooter",
                         "access_rules": [
-                            "trash_scooter,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                            "trash_scooter",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -444,7 +455,8 @@
                     {
                         "name": "Pile",
                         "access_rules": [
-                            "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase"
+                            "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
+                            "$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -608,12 +620,16 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                    "$trashsouls"
+                ],
                 "sections": [
                     {
                         "name": "Pots",
                         "access_rules": [
-                            "trash_crate,trash_hotthings,trash_lawnchair,trash_nightstand,trash_pot,trash_rock,trash_woodplank,trash_woodshelf,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_flour_icingbag,trash_mug,trash_othertools,trash_paper,trash_pottedplant,trash_suitcase"
+                            "trash_crate,trash_hotthings,trash_lawnchair,trash_nightstand,trash_pot,trash_rock,trash_woodplank,trash_woodshelf",
+                            "$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -621,7 +637,7 @@
                     {
                         "name": "Back-left milkcrate",
                         "access_rules": [
-                            "trash_crate,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_crate",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -632,7 +648,7 @@
                     {
                         "name": "Back-left nightstand",
                         "access_rules": [
-                            "trash_nightstand,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_nightstand",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -643,7 +659,7 @@
                     {
                         "name": "Back-left plank 1",
                         "access_rules": [
-                            "trash_woodplank,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodplank",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -654,7 +670,7 @@
                     {
                         "name": "Back-left plank 2",
                         "access_rules": [
-                            "trash_woodplank,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodplank",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -665,7 +681,7 @@
                     {
                         "name": "Back-left pot 1",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -676,7 +692,7 @@
                     {
                         "name": "Back-left pot 2",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -687,7 +703,7 @@
                     {
                         "name": "Back-left pot 3",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -698,7 +714,7 @@
                     {
                         "name": "Back-left pot 4",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -709,7 +725,7 @@
                     {
                         "name": "Back-left pot 5",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -720,7 +736,7 @@
                     {
                         "name": "Back-left pot 6",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -731,7 +747,7 @@
                     {
                         "name": "Back-left wood shelf",
                         "access_rules": [
-                            "trash_woodshelf,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodshelf",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -742,7 +758,7 @@
                     {
                         "name": "Back-right nightstand",
                         "access_rules": [
-                            "trash_nightstand,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_nightstand",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -753,7 +769,7 @@
                     {
                         "name": "Back-right pot",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -764,7 +780,7 @@
                     {
                         "name": "Front-left nightstand",
                         "access_rules": [
-                            "trash_nightstand,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_nightstand",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -775,7 +791,7 @@
                     {
                         "name": "Front-left plank",
                         "access_rules": [
-                            "trash_woodplank,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodplank",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -786,7 +802,7 @@
                     {
                         "name": "Front-left pot 1",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -797,7 +813,7 @@
                     {
                         "name": "Front-left pot 2",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -808,7 +824,7 @@
                     {
                         "name": "Front-left pot 3",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -819,7 +835,7 @@
                     {
                         "name": "Front-left pot 4",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -830,7 +846,7 @@
                     {
                         "name": "Front-right milkcrate",
                         "access_rules": [
-                            "trash_crate,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_crate",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -841,7 +857,7 @@
                     {
                         "name": "Front-right nightstand",
                         "access_rules": [
-                            "trash_nightstand,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_nightstand",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -852,7 +868,7 @@
                     {
                         "name": "Front-right plank 1",
                         "access_rules": [
-                            "trash_woodplank,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodplank",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -863,7 +879,7 @@
                     {
                         "name": "Front-right plank 2",
                         "access_rules": [
-                            "trash_woodplank,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodplank",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -874,7 +890,7 @@
                     {
                         "name": "Front-right pot 1",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -885,7 +901,7 @@
                     {
                         "name": "Front-right pot 2",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -896,7 +912,7 @@
                     {
                         "name": "Front-right pot 3",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -907,7 +923,7 @@
                     {
                         "name": "Front-right pot 4",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -918,7 +934,7 @@
                     {
                         "name": "Front-right pot 5",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -929,7 +945,7 @@
                     {
                         "name": "Front-right pot 6",
                         "access_rules": [
-                            "trash_pot,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_pot",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -940,7 +956,7 @@
                     {
                         "name": "Front-right wood shelf",
                         "access_rules": [
-                            "trash_woodshelf,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_woodshelf",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -951,7 +967,7 @@
                     {
                         "name": "Lawn chair",
                         "access_rules": [
-                            "trash_lawnchair,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_lawnchair",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -962,7 +978,7 @@
                     {
                         "name": "Rock near stove 1",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -973,7 +989,7 @@
                     {
                         "name": "Rock near stove 2",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -984,7 +1000,7 @@
                     {
                         "name": "Rock near stove 3",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -995,7 +1011,7 @@
                     {
                         "name": "Rock near stove 4",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1006,7 +1022,7 @@
                     {
                         "name": "Rock near stove 5",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1017,7 +1033,7 @@
                     {
                         "name": "Rock near stove 6",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1028,7 +1044,7 @@
                     {
                         "name": "Rock near stove 7",
                         "access_rules": [
-                            "trash_rock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_suitcase",
+                            "trash_rock",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1039,7 +1055,7 @@
                     {
                         "name": "Stove",
                         "access_rules": [
-                            "trash_hotthings,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_hotthings",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1063,12 +1079,16 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                    "$trashsouls"
+                ],
                 "sections": [
                     {
                         "name": "Potter",
                         "access_rules": [
-                            "trash_brick,trash_bucket,trash_cardboardbox,trash_character,trash_crate,trash_flour_icingbag,trash_nightstand,trash_bone,trash_bowl,trash_cactus,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase"
+                            "trash_brick,trash_bucket,trash_cardboardbox,trash_character,trash_crate,trash_flour_icingbag,trash_nightstand",
+                            "$trashsouls"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1076,7 +1096,7 @@
                     {
                         "name": "Brick",
                         "access_rules": [
-                            "trash_brick,trash_bone,trash_bowl,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_brick",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1087,7 +1107,7 @@
                     {
                         "name": "Flour bag",
                         "access_rules": [
-                            "trash_flour_icingbag,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_flour_icingbag",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1098,7 +1118,7 @@
                     {
                         "name": "Front-right bucket",
                         "access_rules": [
-                            "trash_bucket,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_bucket",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1109,7 +1129,7 @@
                     {
                         "name": "Left bucket",
                         "access_rules": [
-                            "trash_bucket,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_bucket",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1120,7 +1140,7 @@
                     {
                         "name": "Left cardboard box",
                         "access_rules": [
-                            "trash_cardboardbox,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_cardboardbox",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1131,7 +1151,7 @@
                     {
                         "name": "Left milkcrate",
                         "access_rules": [
-                            "trash_crate,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_crate",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1142,7 +1162,7 @@
                     {
                         "name": "Nightstand",
                         "access_rules": [
-                            "trash_nightstand,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_nightstand",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1153,7 +1173,7 @@
                     {
                         "name": "Pottery Wheel",
                         "access_rules": [
-                            "trash_character,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_character",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1164,7 +1184,7 @@
                     {
                         "name": "Right bucket",
                         "access_rules": [
-                            "trash_bucket,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_bucket",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1175,7 +1195,7 @@
                     {
                         "name": "Right cardboard box",
                         "access_rules": [
-                            "trash_cardboardbox,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_cardboardbox",
                             "$trashsouls"
                         ],
                         "visibility_rules": [
@@ -1186,7 +1206,7 @@
                     {
                         "name": "Right milkcrate",
                         "access_rules": [
-                            "trash_crate,trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
+                            "trash_crate",
                             "$trashsouls"
                         ],
                         "visibility_rules": [

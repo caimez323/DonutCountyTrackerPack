@@ -14,18 +14,25 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "texting"
+                    "texting,trash_brick,trash_cage,trash_chicken,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon,trash_scooter",
+                    "texting,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "BKs apartment",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -33,7 +40,10 @@
                     },
                     {
                         "name": "Grass 3",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -41,7 +51,10 @@
                     },
                     {
                         "name": "Grass 4",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -64,7 +77,8 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "texting"
+                    "texting,trash_brick,trash_cage,trash_chicken,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon,trash_scooter",
+                    "texting,$trashsouls"
                 ],
                 "sections": [
                     {
@@ -89,19 +103,23 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "Boxes",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick,trash_cage,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_raccoon,trash_scooter",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -109,7 +127,10 @@
                     },
                     {
                         "name": "Brick 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -117,7 +138,10 @@
                     },
                     {
                         "name": "Brick 3",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -125,7 +149,10 @@
                     },
                     {
                         "name": "Chicken cage",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_cage",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -133,7 +160,10 @@
                     },
                     {
                         "name": "Clipboard",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_clipboard",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -141,7 +171,10 @@
                     },
                     {
                         "name": "Flour bag",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_flour_icingbag",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -149,7 +182,10 @@
                     },
                     {
                         "name": "Grass 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -157,7 +193,10 @@
                     },
                     {
                         "name": "Grass 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -165,7 +204,10 @@
                     },
                     {
                         "name": "Grass 4",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -173,7 +215,10 @@
                     },
                     {
                         "name": "Icing bag",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_flour_icingbag",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -181,7 +226,10 @@
                     },
                     {
                         "name": "Orange crate",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -189,7 +237,10 @@
                     },
                     {
                         "name": "Raccoon Scientist",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_raccoon",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -197,7 +248,10 @@
                     },
                     {
                         "name": "Scooter",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_scooter",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -205,7 +259,10 @@
                     },
                     {
                         "name": "Strawberry crate",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -213,7 +270,10 @@
                     },
                     {
                         "name": "Watermelon crate",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -236,19 +296,27 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults_boxes,texting",
-                    "catapults,texting"
+                    "catapults_boxes,texting,trash_brick,trash_cage,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_raccoon,trash_scooter",
+                    "catapults_boxes,texting,$trashsouls",
+                    "catapults,texting,trash_brick,trash_cage,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_raccoon,trash_scooter",
+                    "catapults,texting,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "Catapult tutorial",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_cage,trash_chicken,trash_crate,trash_otherfood",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chicken",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_chicken",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -256,7 +324,10 @@
                     },
                     {
                         "name": "Chicken cage debris",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_cage",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -264,7 +335,10 @@
                     },
                     {
                         "name": "Orange",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_otherfood",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -272,7 +346,10 @@
                     },
                     {
                         "name": "Orange crate debris",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -280,7 +357,10 @@
                     },
                     {
                         "name": "Strawberry 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_otherfood",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -288,7 +368,10 @@
                     },
                     {
                         "name": "Strawberry 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_otherfood",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -296,7 +379,10 @@
                     },
                     {
                         "name": "Strawberry crate debris",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -304,7 +390,10 @@
                     },
                     {
                         "name": "Watermelon",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_otherfood",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -312,7 +401,10 @@
                     },
                     {
                         "name": "Watermelon crate debris",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -334,146 +426,218 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "texting,trash_brick,trash_building,trash_cage,trash_chicken,trash_clipboard,trash_crate,trash_egg,trash_fence,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon,trash_scooter",
+                    "$trashsouls,texting"
+                ],
                 "visibility_rules": [
                     "trashsanity2"
                 ],
                 "sections": [
                     {
                         "name": "Back-left barn",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left crate",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_crate",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Back-left shovel",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_shovel",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 4",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brick 5",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chicken barn",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chicken statue",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 3",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 4",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 5",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 6",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 7",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 5",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 6",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 7",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Haybale 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_haybale",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Haybale 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_haybale",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pickup truck",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_car",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Real chicken coop 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Real chicken coop 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -494,19 +658,27 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults_chickens,catapults_eggs,catapults_boxes,texting",
-                    "catapults,texting"
+                    "catapults_chickens,catapults_eggs,catapults_boxes,texting,trash_brick,trash_cage,trash_chicken,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon,trash_scooter",
+                    "catapults_chickens,catapults_eggs,catapults_boxes,texting,$trashsouls",
+                    "catapults,texting,trash_brick,trash_cage,trash_chicken,trash_clipboard,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon,trash_scooter",
+                    "catapults,texting,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "Egg toss",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building,trash_egg,trash_fence,trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Egg",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_egg",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -514,7 +686,10 @@
                     },
                     {
                         "name": "Fence 8",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_fence",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -522,7 +697,10 @@
                     },
                     {
                         "name": "Grass 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -530,7 +708,10 @@
                     },
                     {
                         "name": "Grass 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -538,7 +719,10 @@
                     },
                     {
                         "name": "Grass 3",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_grass",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],
@@ -546,7 +730,10 @@
                     },
                     {
                         "name": "Silo",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [
                             "trashsanity2"
                         ],

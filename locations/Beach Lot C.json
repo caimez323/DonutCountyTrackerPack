@@ -5,8 +5,8 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "beachlotc,holeffects",
-            "beachlotc,holeffects_fire"
+            "beachlotc,holeeffects",
+            "beachlotc,holeeffects_fire"
         ],
         "children": [
             {
@@ -15,31 +15,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "holeeffects,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                    "holeeffects_fire,$trashsouls"
                 ],
                 "sections": [
                     {
                         "name": "Birds",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_bird",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Big seagull",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_bird",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Left seagull",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_bird",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Right seagull",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_bird",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -58,72 +79,112 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
-                "visibility_rules": ["trashsanity2"],
+                "access_rules": [
+                    "holeeffects,trash_bird,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,trash_bird,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                    "holeeffects_fire,$trashsouls"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
                 "sections": [
                     {
                         "name": "Basket corn",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_corn",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Book",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_book",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Campfire",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_campfire",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Car",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_car",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cliff",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_boulder",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cliff chunk 1",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_rock",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cliff chunk 2",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_rock",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gift shop",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_building",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Picnic basket",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_takeout",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seag",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_character",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seags corn",
-                        "access_rules": [],
+                        "access_rules": [
+                            "trash_corn",
+                            "$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -143,74 +204,127 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "First firework",
-                        "access_rules": [],
+                        "access_rules": [
+                            "holeeffects_fire,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_brick,trash_cactus,trash_paper,trash_rock,trash_rocket,trash_takeout",
+                            "holeeffects,$trashsouls"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cactus",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_cactus",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Far back brick",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Left brick",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paper ball",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_paper",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Right brick",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_brick",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rock",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_rock",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rocket",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_rocket",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout box 1",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_takeout",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout box 2",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_takeout",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Takeout cup",
-                        "access_rules": [],
-                        "visibility_rules": ["trashsanity2"],
+                        "access_rules": [
+                            "trash_takeout",
+                            "$trashsouls"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -229,8 +343,8 @@
             {
                 "name": "Beach Lot C",
                 "access_rules": [
-                    "beachlotc,holeffects",
-                    "beachlotc,holeffects_fire"
+                    "holeeffects",
+                    "holeeffects_fire"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -238,19 +352,23 @@
             {
                 "name": "Cliff",
                 "access_rules": [
-                    "beachlotc,holeffects",
-                    "beachlotc,holeffects_fire"
+                    "holeeffects",
+                    "holeeffects_fire"
                 ],
-                "visibility_rules": ["trashsanity2"],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
                 "item_count": 1
             },
             {
                 "name": "Popped corn",
                 "access_rules": [
-                    "beachlotc,holeffects",
-                    "beachlotc,holeffects_fire"
+                    "holeeffects",
+                    "holeeffects_fire"
                 ],
-                "visibility_rules": ["trashsanity2"],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
                 "item_count": 1
             }
         ],

@@ -1,7 +1,6 @@
 import re
 import json
 import html
-from pathlib import Path
 
 
 def display_name_item_from_subregion(list):
@@ -78,10 +77,24 @@ def add_acces_rule(section,codes):
 
 
 #Manually is easier for now
+#EXCEL NAMES / Colonne 2
 ZONE_ORDER ={
     "Miras House" : ["Logo","Collect"],
     "Potters Rock" : ["Intro","Front","Potter","Pots","Launch","Collect"],
+    "Ranger Station" : ["Intro","Get","Collect"], #GetSnake
     "Riverbed" : ["Dog","Collect"],
+    "Campground" : ["Popcorn","Tent","Collect"],
+    "Hopper Springs" : ["Carrots", "Bunnies 1 & 2", "Bunnies 3 & 4", "Bunnies 5 & 6", "Collect"],
+    "Joshua Tree" : ["Arson","Collect"],
+    "Beach Lot C" : ["First","Birds","Collect"],
+    "Gecko Park" : ["Geckos","Coco","Collect"],
+    "Chicken Barn" : ["Intro", "Boxes", "Texting", "Buy Catapult", "Egg", "Collect"],
+    "Honey Nut Forest" : ["Get","Frog","Collect"], #GetFrog
+    "Cat Soup" : ["Outside","Inside","Dining","Cars","Collect"],
+    "Donut Shop" : ["Intro","Collect"],
+    "Abandoned House" : ["No","Dark","Light","Collect"],
+    "Raccoon Lagoon" : ["Water","Flume","Dispenser","Wheel","Collect"],
+    "The 405" : ["Car","Truck","Cops","Big","Collect"],
 }
 
 #Final : Excel
@@ -89,6 +102,30 @@ CHILD_TO_KEY = {
         "Pile": "Intro",
         "Donut County" : "Logo",
         "Little dog" : "Dog",
+        "Snakes":"Intro",
+        "Snake hole" : "Get", #GetSnake
+        "Right tent":"Tent",
+        "hs1" : "Bunnies 1 & 2",
+        "hs2" : "Bunnies 3 & 4",
+        "hs3" : "Bunnies 5 & 6",
+        "First firework" : "First",
+        "Boxes": "Intro",
+        "Catapult tutorial": "Boxes",
+        "BKs apartment": "Texting",
+        "Egg toss": "Egg",
+        "Frog tutorial" : "Frog",
+        "Get frog" : "Get",
+        "Cooking":"Inside",
+        "Car":"Intro",
+        "Without light" : "No",
+        "Water wheel" : "Water",
+        "Log flume" : "Flume",
+        "Dispenser":"Dispenser",
+        "Ferris wheel" : "Wheel",
+        "Cop raccoons" : "Cops",
+        "Truck repair" : "Truck",
+        "Small car" : "Car",
+        "Big boy" : "Big",
 }
 
 ALT_RULE = "$trashsouls"
@@ -377,9 +414,25 @@ for row in reconstructed_rows[1:]:
 
 # FOR NOW REGIONS LOGIC IS IGNORED
 
-update_level("../locations/Miras House.json",regions_levels[0])
+#update_level("../locations/Miras House.json",regions_levels[0])
 #update_level("../locations/Potters Rock.json",regions_levels[1])
+#update_level("../locations/Ranger Station.json",regions_levels[2])
 #update_level("../locations/Riverbed.json",regions_levels[3])
+#update_level("../locations/Campground.json",regions_levels[4])
+#update_level("../locations/Hopper Springs.json",regions_levels[5])
+#update_level("../locations/Joshua Tree.json",regions_levels[6])
+#update_level("../locations/Beach Lot C.json",regions_levels[7])
+#update_level("../locations/Gecko Park.json",regions_levels[8])
+#update_level("../locations/Chicken Barn.json",regions_levels[9]) #PENSER A AJOUTER LES TRASH PRECEDENTES POUR BUY CATAPULT
+#update_level("../locations/Honey Nut Forest.json",regions_levels[10])
+#update_level("../locations/Cat Soup.json",regions_levels[11]) # FAIRE PEPPER ET SALT A LA MAIN
+#update_level("../locations/Donut Shop.json",regions_levels[12])
+#update_level("../locations/Abandoned House.json",regions_levels[13]) #Refaire après confirmation du light effect
+#update_level("../locations/Raccoon Lagoon.json",regions_levels[14])# METTRE L EAU CATAPULTS A LA MAIN
+#update_level("../locations/The 405.json",regions_levels[15]) #Catapult pour collect
+#update_level("../locations/Donut Shop.json",regions_levels[16])
+
+
 
 #STILL NEED TO CHECK FOR THINGS THAT NEED ANOTHER ITEM TO ADD MANUALLY THE "holeeffects_water,$trashsouls" for example
 
