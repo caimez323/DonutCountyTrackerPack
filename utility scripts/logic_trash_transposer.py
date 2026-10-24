@@ -18,26 +18,37 @@ def is_generated(token):
     return token.startswith("trash_") or token.startswith("$trash")
 
 
+def add_rules_with_alt(node, codes):
+    if not codes: return
+    base = [r for r in (node.get("access_rules") or []) if r.strip()]
+    joined = ",".join(codes)
+    if not base:
+        node["access_rules"] = [joined, ALT_RULE]
+        return
+    new_rules = []
+    for r in base:
+        new_rules.append("{},{}".format(r,joined))
+        new_rules.append("{},{}".format(r,ALT_RULE))
+    node["access_rules"] = new_rules
+
+
 def clean_all(node):
-    # parcourt récursivement tout le JSON
+    # rec JSON
     if isinstance(node, dict):
         rules = node.get("access_rules")
         if isinstance(rules, list):
             cleaned = []
             for r in rules:
-                if not isinstance(r, str):
-                    continue
+                if not isinstance(r, str):continue
                 parts = [p.strip() for p in r.split(",")]
                 parts = [p for p in parts if p and not is_generated(p)]
                 rule = ",".join(parts)
-                if rule and rule not in cleaned:
-                    cleaned.append(rule)
+                if rule and rule not in cleaned:cleaned.append(rule)
             node["access_rules"] = cleaned
-        for v in node.values():
-            clean_all(v)
+        for v in node.values():clean_all(v)
     elif isinstance(node, list):
-        for item in node:
-            clean_all(item)
+        for item in node: clean_all(item)
+
 
 def normalise(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).lower())
@@ -68,16 +79,19 @@ def add_acces_rule(section,codes):
 
 #Manually is easier for now
 ZONE_ORDER ={
+    "Miras House" : ["Logo","Collect"],
     "Potters Rock" : ["Intro","Front","Potter","Pots","Launch","Collect"],
     "Riverbed" : ["Dog","Collect"],
 }
 
+#Final : Excel
 CHILD_TO_KEY = {
         "Pile": "Intro",
+        "Donut County" : "Logo",
         "Little dog" : "Dog",
 }
 
-
+ALT_RULE = "$trashsouls"
 def zone_codes(zone,order,lookup):
     if zone not in order:
         return []
@@ -116,23 +130,25 @@ def update_level(jsonPath,thisRegion):
         
         for child in loc.get("children", []):
             zone = CHILD_TO_KEY.get(child["name"], child["name"])
-            zone_map = lookup.get(zone, {})
+            if zone not in lookup: continue
+            zone_map = lookup[zone]
 
             own_all = sorted({"trash_" + t.lower() for t in zone_map.values()})
             prev = zone_codes(zone, order, lookup)
 
+            # big zone
+            add_rules_with_alt(child,prev)
+
             for section in child.get("sections", []):
                 # if it is the header, it need all below
                 if normalise(section["name"]) == normalise(child["name"]):
-                    add_acces_rule(section, own_all + [c for c in prev if c not in own_all])
+                    add_rules_with_alt(section, own_all)
                     continue
-
+                #trash part
                 trash_type = zone_map.get(normalise(section["name"]))
                 if trash_type is None:
                     continue
-                own_code = "trash_" + trash_type.lower()
-                add_acces_rule(section, [own_code] + [c for c in prev if c != own_code])
-                add_alternate_rule(section, "$trashsouls")
+                add_rules_with_alt(section, ["trash_" + trash_type.lower()])
 
     with open(jsonPath,'w',encoding="utf-8") as f:
         json.dump(jsonData,f,indent=4)
@@ -361,8 +377,9 @@ for row in reconstructed_rows[1:]:
 
 # FOR NOW REGIONS LOGIC IS IGNORED
 
+update_level("../locations/Miras House.json",regions_levels[0])
 #update_level("../locations/Potters Rock.json",regions_levels[1])
-update_level("../locations/Riverbed.json",regions_levels[3])
+#update_level("../locations/Riverbed.json",regions_levels[3])
 
 #STILL NEED TO CHECK FOR THINGS THAT NEED ANOTHER ITEM TO ADD MANUALLY THE "holeeffects_water,$trashsouls" for example
 
