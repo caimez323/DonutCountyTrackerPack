@@ -251,6 +251,17 @@ function OnClear(slot_data)
     else
         Tracker:AddLayouts("layouts/tabs_without_trash.json")
     end
+    
+    if Tracker:FindObjectForCode("trashsanity1").Active then
+        -- For Trashsanity 1, need to add a trash category map
+        Tracker:AddLayouts("layouts/tabs_trash_category.json")
+    else
+        -- For Trashsanity 2, the visibilty rule trigger, no need for anything more
+        -- For Trashsanity 0, no need for anything
+        Tracker:AddLayouts("layouts/tabs_without_trash.json")
+    end
+
+    
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then

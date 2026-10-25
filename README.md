@@ -29,6 +29,7 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 - Compress .png and reduce overall repo size
 - Remove Achivement tab if not needed
 - Add texting glitch logic e.g. miras house
+- On a un cas on/off avec le trashsouls Et un cas on/off avec le trash sanity, il faudrait mélanger les deux, donc faire 2 paires de json, c'est bof, y a peut être un autre moyen
 
 ## Know Issues
 

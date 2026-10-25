@@ -1,0 +1,462 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Map details",
+                "type": "tabbed",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Miras House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Miras House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Potters Rock",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Potters Rock"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ranger Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ranger Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverbed",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverbed"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Campground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Campground"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hopper Springs",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hopper Springs"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Joshua Tree",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Joshua Tree"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Beach Lot C",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Beach Lot C"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gecko Park",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gecko Park"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chicken Barn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chicken Barn"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Honey Nut Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Honey Nut Forest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cat Soup",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cat Soup"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Donut Shop",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Donut Shop"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Abandoned House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Abandoned House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon Lagoon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon Lagoon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The 405",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The 405"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon HQ",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon HQ"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Biology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Biology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anthropology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anthropology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trash Kings Office",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Trash Kings Office"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Boss Fight",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boss Fight"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Achievement",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Achievement"
+                    ]
+                }
+            },
+            {
+                "title": "Trash Category",
+                "content": {
+                    "type": "map",
+                    "maps" : [
+                        "Trash"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Map details",
+                "type": "tabbed",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Miras House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Miras House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Potters Rock",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Potters Rock"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ranger Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ranger Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverbed",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverbed"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Campground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Campground"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hopper Springs",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hopper Springs"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Joshua Tree",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Joshua Tree"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Beach Lot C",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Beach Lot C"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gecko Park",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gecko Park"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chicken Barn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chicken Barn"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Honey Nut Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Honey Nut Forest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cat Soup",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cat Soup"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Donut Shop",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Donut Shop"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Abandoned House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Abandoned House"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon Lagoon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon Lagoon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The 405",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The 405"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Raccoon HQ",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Raccoon HQ"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Biology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Biology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anthropology Lab",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anthropology Lab"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trash Kings Office",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Trash Kings Office"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Boss Fight",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boss Fight"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Achievement",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Achievement"
+                    ]
+                }
+            },
+            {
+                "title": "Trash Category",
+                "content": {
+                    "type": "map",
+                    "maps" : [
+                        "Trash"
+                    ]
+                }
+            }
+        ]
+    }
+}
