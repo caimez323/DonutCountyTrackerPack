@@ -376,6 +376,16 @@
                     }
                 ]
             }
+        ],
+        "sections": [
+            {
+                "name": "Achievement",
+                "access_rules": [
+                    ""
+                ],
+                "visibility_rules": [],
+                "item_count": 1
+            }
         ]
     }
 ]

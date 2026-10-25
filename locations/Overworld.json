@@ -303,74 +303,74 @@
                 "sections": [
                     {
                         "name": "Achievement - Bandit",
-                        "ref": "Achievement/Bandit"
+                        "ref": "Achievement/Bandit/Bandit"
                     },
                     {
                         "name": "Achievement - Boss Fight",
-                        "ref": "Achievement/Boss Fight"
+                        "ref": "Achievement/Boss Fight/Boss Fight"
                     },
                     {
                         "name": "Achievement - Dethroner",
-                        "ref": "Achievement/Dethroner"
+                        "ref": "Achievement/Dethroner/Dethroner"
                     },
                     {
                         "name": "Achievement - Disrespecter",
-                        "ref": "Achievement/Disrespecter"
+                        "ref": "Achievement/Disrespecter/Disrespecter"
                     },
                     {
                         "name": "Achievement - Donut County",
-                        "ref": "Achievement/Donut County"
+                        "ref": "Achievement/Donut County/Donut County"
                     },
                     {
                         "name": "Achievement - Egg Breaker",
-                        "ref": "Achievement/Egg Breaker"
+                        "ref": "Achievement/Egg Breaker/Egg Breaker"
                     },
                     {
                         "name": "Achievement - Flawless",
-                        "ref": "Achievement/Flawless"
+                        "ref": "Achievement/Flawless/Flawless"
                     },
                     {
                         "name": "Achievement - Game Over",
-                        "ref": "Achievement/Game Over"
+                        "ref": "Achievement/Game Over/Game Over"
                     },
                     {
                         "name": "Achievement - Gamer",
-                        "ref": "Achievement/Gamer"
+                        "ref": "Achievement/Gamer/Gamer"
                     },
                     {
                         "name": "Achievement - Hacker",
-                        "ref": "Achievement/Hacker"
+                        "ref": "Achievement/Hacker/Hacker"
                     },
                     {
                         "name": "Achievement - Music Lover",
-                        "ref": "Achievement/Music Lover"
+                        "ref": "Achievement/Music Lover/Music Lover"
                     },
                     {
                         "name": "Achievement - Pups Odyssey",
-                        "ref": "Achievement/Pups Odyssey"
+                        "ref": "Achievement/Pups Odyssey/Pups Odyssey"
                     },
                     {
                         "name": "Achievement - Pyro",
-                        "ref": "Achievement/Pyro"
+                        "ref": "Achievement/Pyro/Pyro"
                     },
                     {
                         "name": "Achievement - Quack Enthusiast",
-                        "ref": "Achievement/Quack Enthusiast"
+                        "ref": "Achievement/Quack Enthusiast/Quack Enthusiast"
                     },
                     {
                         "name": "Achievement - Secret Soup",
-                        "ref": "Achievement/Secret Soup"
+                        "ref": "Achievement/Secret Soup/Secret Soup"
                     },
                     {
                         "name": "Achievement - The Flume Is Doomed",
-                        "ref": "Achievement/The Flume Is Doomed"
+                        "ref": "Achievement/The Flume Is Doomed/The Flume Is Doomed"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1673,
-                        "y": 74,
+                        "x": 1723,
+                        "y": 136,
                         "size": 40,
                         "shape": "rect"
                     }

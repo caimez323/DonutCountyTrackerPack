@@ -15,8 +15,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_bone,trash_bowlingball,trash_cage,trash_camera,trash_candle,trash_cardboardbox,trash_cat,trash_character,trash_cowskull,trash_cupramen,trash_fan,trash_flashlight,trash_fridge,trash_mask,trash_nightstand,trash_paper,trash_table,trash_tennisball,trash_tincan",
-                    "$trashsouls"
+                    "holeeffects,trash_bone,trash_bowlingball,trash_cage,trash_camera,trash_candle,trash_cardboardbox,trash_cat,trash_character,trash_cowskull,trash_cupramen,trash_fan,trash_flashlight,trash_fridge,trash_mask,trash_nightstand,trash_paper,trash_table,trash_tennisball,trash_tincan",
+                    "holeeffects_light,trash_bone,trash_bowlingball,trash_cage,trash_camera,trash_candle,trash_cardboardbox,trash_cat,trash_character,trash_cowskull,trash_cupramen,trash_fan,trash_flashlight,trash_fridge,trash_mask,trash_nightstand,trash_paper,trash_table,trash_tennisball,trash_tincan",
+                    "$trashsouls,holeeffects_light",
+                    "$trashsouls,holeeffects"
                 ],
                 "visibility_rules": [
                     "trashsanity2"
@@ -596,8 +598,11 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_bone,trash_cage,trash_candle,trash_cardboardbox,trash_cowskull,trash_cupramen,trash_flashlight,trash_mask,trash_nightstand,trash_paper,trash_tennisball,trash_tincan",
-                    "$trashsouls"
+                    "holeeffects_light,trash_bone,trash_cage,trash_candle,trash_cardboardbox,trash_cowskull,trash_cupramen,trash_flashlight,trash_mask,trash_nightstand,trash_paper,trash_tennisball,trash_tincan",
+                    "holeeffects,trash_bone,trash_cage,trash_candle,trash_cardboardbox,trash_cowskull,trash_cupramen,trash_flashlight,trash_mask,trash_nightstand,trash_paper,trash_tennisball,trash_tincan",
+                    "holeeffects_light,$trashsouls",
+                    "holeeffects,$trashsouls"
+
                 ],
                 "sections": [
                     {

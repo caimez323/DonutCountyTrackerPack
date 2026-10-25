@@ -9,16 +9,51 @@
         ],
         "children": [
             {
-                "name": "Flour",
+                "name": "Battery",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
                 ],
+                "visibility_rules": [],
                 "sections": [
                     {
-                        "name": "Icing Bag",
+                        "name": "Battery",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Beaker",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "csOutside",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blIntro",
+                    "alIntro"
+                ],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Beaker",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -27,687 +62,3313 @@
                 "map_locations": [
                     {
                         "map": "Trash",
-                        "x": 2194,
-                        "y": 284,
-                        "size": 6
+                        "x": 270,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
-            }
-        ],
-        "sections": [
-            {
-                "name": "Battery",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Beaker",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
             },
             {
                 "name": "Bee",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfFrog",
+                    "hnfCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Bee Smoker",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bee",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Beehive",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfFrog"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Beehive",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Beehouse",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfFrog",
+                    "hnfCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Beehouse",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Bee Smoker",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfGetFrog",
+                    "hnfCollect"
+                ],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Bee Smoker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bird",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cTent",
+                    "blcBirds"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bird",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bomb",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bf1"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bomb",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bone",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhLogo",
+                    "prFront",
+                    "ahDark",
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Book",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "blcCollect",
+                    "gpCoco"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Book",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Boulder",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prCollect",
+                    "rsCollect",
+                    "cCollect",
+                    "hs2",
+                    "hs3",
+                    "jtCollect",
+                    "blcCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Boulder",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bowl",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prFront",
+                    "cCollect",
+                    "jtArson",
+                    "csDining"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bowl",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bowling Ball",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahLight",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bowling Ball",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Brick",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prLaunch",
+                    "prPotter",
+                    "prFront",
+                    "rCollect",
+                    "blcFirst",
+                    "cbIntro",
+                    "cbCollect",
+                    "csOutside",
+                    "csDining",
+                    "dsIntro",
+                    "rlWater",
+                    "t4Truck",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Brick",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 100,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bucket",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPotter",
+                    "rCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bucket",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Building",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prCollect",
+                    "rsCollect",
+                    "hsCollect",
+                    "blcCollect",
+                    "gpCollect",
+                    "cbCollect",
+                    "cbEgg",
+                    "hnfCollect",
+                    "csCars",
+                    "csCollect",
+                    "dsCollect",
+                    "ahCollect",
+                    "rlCollect",
+                    "rlDispenser",
+                    "rlWheel"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Building",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bunny",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hsCollect",
+                    "hs1",
+                    "hs2",
+                    "hs3",
+                    "blFrog",
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bunny",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Bush",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Bush",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cactus",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prFront",
+                    "rsIntro",
+                    "rsGetSnake",
+                    "cCollect",
+                    "jtArson",
+                    "blcFirst",
+                    "dsIntro",
+                    "dsCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cactus",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cage",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rsGetSnake",
+                    "cbIntro",
+                    "cbBoxes",
+                    "ahDark",
+                    "blFrog",
+                    "blSnake",
+                    "blIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Camera",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahLight",
+                    "t4Cops",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Camera",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Campfire",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cPopcorn",
+                    "jtArson",
+                    "blcCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Campfire",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Candle",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "csDining",
+                    "ahNoLight"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Candle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Car",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtCollect",
+                    "blcCollect",
+                    "cbCollect",
+                    "csCars",
+                    "dsIntro",
+                    "t4Car",
+                    "t4Collect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Car",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cardboard Box",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPotter",
+                    "prIntro",
+                    "gpCoco",
+                    "gpCollect",
+                    "ahDark",
+                    "alFirst"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cardboard Box",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Carrot",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hs2",
+                    "hsCarrots",
+                    "hs1"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Carrot",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cart",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cTent",
+                    "csDining"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cat",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahLight"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cat",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 270,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Chair",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rsCollect",
+                    "gpCoco",
+                    "csDining",
+                    "ahCollect",
+                    "rlWater",
+                    "t4Truck",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Chair",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Character",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhCollect",
+                    "prPotter",
+                    "rsCollect",
+                    "rCollect",
+                    "rDog",
+                    "blcCollect",
+                    "gpCoco",
+                    "hnfCollect",
+                    "csOutside",
+                    "ahLight",
+                    "rlCollect",
+                    "t4BigBoy"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Character",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Chicken",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rsCollect",
+                    "cbBoxes"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Chicken",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Clipboard",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cbIntro",
+                    "blIntro",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Clipboard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cockroach",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "csDining",
+                    "csOutside",
+                    "csCars"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cockroach",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Corn",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cPopcorn",
+                    "blcCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Corn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cow Skull",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prIntro",
+                    "ahDark"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cow Skull",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Crate",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPotter",
+                    "prPots",
+                    "cPopcorn",
+                    "gpCoco",
+                    "cbIntro",
+                    "cbBoxes",
+                    "cbCollect",
+                    "hnfGetFrog",
+                    "csDining",
+                    "csOutside",
+                    "blIntro",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Crate",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Cup Ramen",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahDark"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Cup Ramen",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Dirtpile",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hs2",
+                    "rlWater",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Dirtpile",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Dog House",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Dog House",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Donut",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhCollect",
+                    "mhLogo",
+                    "t4Truck",
+                    "blIntro",
+                    "alIntro",
+                    "tko1",
+                    "tko2",
+                    "tko3",
+                    "tkoCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Donut",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Donut Box",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhCollect",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Donut Box",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Donut County Logo Letters",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhLogo"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Donut County Logo Letters",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 440,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Door",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prCollect",
+                    "hsCollect",
+                    "hs2"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Door",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Drying Rack",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCoco"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Drying Rack",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Dumpster",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "csCars",
+                    "dsIntro",
+                    "ahCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Egg",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cbEgg"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Egg",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fan",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCoco",
+                    "ahLight"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fan",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fence",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhCollect",
+                    "cCollect",
+                    "hsCollect",
+                    "hs2",
+                    "cbCollect",
+                    "cbEgg",
+                    "rlFlume",
+                    "rlWheel",
+                    "t4Cops"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fence",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fire Alarm",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "alFirework"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fire Alarm",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fish",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rDog",
+                    "rCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fish",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Flashlight",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahDark",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Flashlight",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Flour Icing Bag",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPotter",
+                    "cbIntro"
+                ],
+                "sections": [
+                    {
+                        "name": "Flour/Icing Bag",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fly",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "blFrog"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fly",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Fridge",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCoco",
+                    "ahLight"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Fridge",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Frog",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfGetFrog",
+                    "blSnake"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Frog",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Gardening",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCoco",
+                    "ahCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Gardening",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 610,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Gecko",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpGeckos",
+                    "gpCoco"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Gecko",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Grass",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhCollect",
+                    "mhLogo",
+                    "rsIntro",
+                    "rsGetSnake",
+                    "rCollect",
+                    "rDog",
+                    "cPopcorn",
+                    "cTent",
+                    "cCollect",
+                    "hs1",
+                    "hsCollect",
+                    "gpCoco",
+                    "gpCollect",
+                    "gpGeckos",
+                    "cbCollect",
+                    "cbTexting",
+                    "cbIntro",
+                    "cbEgg",
+                    "hnfGetFrog",
+                    "hnfCollect",
+                    "csCars",
+                    "csOutside",
+                    "csDining",
+                    "dsIntro",
+                    "dsCollect",
+                    "ahCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Grass",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hacking Device",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hqDevice",
+                    "bf2"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Hacking Device",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hard Hat",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rlWater",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Hard Hat",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Haybale",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cbCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Haybale",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Honeycomb",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfGetFrog"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Honeycomb",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hook Gun",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "t4BigBoy",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Hook Gun",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hook Panel",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Hook Panel",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Hot Things",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "prLaunch",
+                    "jtCollect",
+                    "jtArson"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Hot Things",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Instrument",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rCollect",
+                    "jtArson",
+                    "gpCoco"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Instrument",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Joshua Leaf",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtArson"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Joshua Leaf",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Keycard",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Keycard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Laptop",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtArson",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Laptop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Lawn Chair",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "hsCollect",
+                    "jtArson",
+                    "ahCollect",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Lawn Chair",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 780,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Mask",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ahDark",
+                    "ahLight"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Mask",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Megaphone",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "t4BigBoy",
+                    "t4Cops"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Megaphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Microscope",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blIntro",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Microscope",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Money",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Money",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Monitor",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "alFirst"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Monitor",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Mug",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prIntro",
+                    "rCollect",
+                    "jtArson",
+                    "gpCoco",
+                    "rlWater",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Mug",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Nightstand",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "prPotter",
+                    "ahDark"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Nightstand",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Other Drinks",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rlWater",
+                    "t4Car",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Other Drinks",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Other Food",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cbBoxes"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Other Food",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Other Tools",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prIntro",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Other Tools",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Paper",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prIntro",
+                    "blcFirst",
+                    "ahDark",
+                    "t4Car",
+                    "hqExterior",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Paper",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Pinecone",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hnfGetFrog",
+                    "hnfCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Pinecone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Pot",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "prIntro",
+                    "prFront"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Pot",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Potted Plant",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prFront",
+                    "hs1",
+                    "hs2",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Potted Plant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Quadcopter",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "dsIntro",
+                    "t4BigBoy",
+                    "t4Cops",
+                    "bf2",
+                    "blHallway"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Quadcopter",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Raccoon",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cbIntro",
+                    "dsIntro",
+                    "rlFlume",
+                    "rlWheel",
+                    "t4Truck",
+                    "t4BigBoy",
+                    "t4Cops",
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blIntro",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Raccoon",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Radio",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCoco",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Radio",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Rock",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "prFront",
+                    "prIntro",
+                    "rsIntro",
+                    "rsGetSnake",
+                    "rsCollect",
+                    "rCollect",
+                    "rDog",
+                    "cCollect",
+                    "cPopcorn",
+                    "cTent",
+                    "hs2",
+                    "jtArson",
+                    "jtCollect",
+                    "blcCollect",
+                    "blcFirst",
+                    "hnfGetFrog",
+                    "hnfCollect",
+                    "t4Car"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Rock",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Rocket",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "blcFirst",
+                    "alFirst"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Rocket",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Scooter",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prLaunch",
+                    "cbIntro",
+                    "hnfCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Scooter",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Shovel",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hs1",
+                    "cbCollect",
+                    "rlWater"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Shovel",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Sign",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prLaunch",
+                    "rsCollect",
+                    "rlWheel"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Sign",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Snake",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rsIntro",
+                    "rsCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Snake",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Suitcase",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prIntro",
+                    "t4Truck",
+                    "hqExterior"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Suitcase",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Table",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtArson",
+                    "gpCoco",
+                    "csDining",
+                    "csCars",
+                    "ahLight",
+                    "t4Truck",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Table",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Takeout",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rCollect",
+                    "blcCollect",
+                    "blcFirst",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Takeout",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Television",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Television",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tennis Ball",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "mhLogo",
+                    "mhCollect",
+                    "rCollect",
+                    "ahDark"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tennis Ball",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 1120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tent",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cTent",
+                    "cCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tent",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 100,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Test Tube Rack",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,$trashsouls",
+                    "blIntro",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Test Tube Rack",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 270,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tile",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "hs1",
+                    "hsCarrots",
+                    "csCars",
+                    "dsIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tile",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 440,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tin Can",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "cPopcorn",
+                    "cCollect",
+                    "csOutside",
+                    "csInside",
+                    "ahDark"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tin Can",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 610,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tire",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rsCollect",
+                    "gpCoco",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tire",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 780,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Traffic Cone",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rlWater",
+                    "rlFlume",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Traffic Cone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 950,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Trailer",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rCollect",
+                    "jtArson"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Trailer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1120,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Trash Can",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gpCollect",
+                    "csDining",
+                    "ahCollect",
+                    "rlWheel",
+                    "alIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Trash Can",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1290,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Tree",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jtCollect",
+                    "gpCoco",
+                    "hnfFrog",
+                    "csCars",
+                    "dsIntro"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Tree",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1460,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Wall",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Wall",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1630,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Water Balloon",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rlWater"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Water Balloon",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1800,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Wheel",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rlCollect"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Wheel",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 1970,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Wood Plank",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots",
+                    "rCollect",
+                    "gpCoco",
+                    "csDining",
+                    "rlWater",
+                    "t4Truck"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Wood Plank",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2140,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             },
             {
                 "name": "Wood Shelf",
-                "access_rules": [],
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "prPots"
+                ],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                        "name": "Wood Shelf",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Trash",
+                        "x": 2310,
+                        "y": 1290,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             }
         ],
         "map_locations": [
             {
                 "map": "Trash",
-                "x": 2474,
-                "y": 912,
-                "size": 6
+                "x": 2391,
+                "y": 1283,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

@@ -21,13 +21,12 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 ## Todo
 
+- Add auto tabbing
 - Add "glitch" OoL
-- Add trashsoul setting (trashopedia (done) +logic)
 - Make the same detection as settings for splitting catapults/holeeffects
-- Make an hybrid display, for trashsanity set to 1, with just trash category displayed
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
-- Remove Achivement tab if not needed
+- Remove Achievement tab if not needed
 - Add texting glitch logic e.g. miras house
 - On a un cas on/off avec le trashsouls Et un cas on/off avec le trash sanity, il faudrait mélanger les deux, donc faire 2 paires de json, c'est bof, y a peut être un autre moyen
 
@@ -35,12 +34,10 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 As of last release :
 - Salt & Pepper don't increment correctly on the tracker
-- Achievements does not display on the overworld
 - Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
-- Abandonned House logic is not accurate
 - I have some doubt with bio lab frog logic
-- End of level is never checked (grey)
 - Ending a zone ignores the trashsouls logic
+- Trash Category doesn't check/(Logic is more complicated and maybe need to rewrite the trashsouls/trashsanity logic due to "hole size" or item that might not be reachable)
 
 
 
