@@ -23,12 +23,11 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 - Add auto tabbing
 - Add "glitch" OoL
-- Make the same detection as settings for splitting catapults/holeeffects
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
-- Remove Achievement tab if not needed
+- Remove Achievements from overworld if not needed (items already exists, bugged somewhere else)
 - Add texting glitch logic e.g. miras house
-- On a un cas on/off avec le trashsouls Et un cas on/off avec le trash sanity, il faudrait mélanger les deux, donc faire 2 paires de json, c'est bof, y a peut être un autre moyen
+- Refaire les sections, y a des doublons même sur l'overworld (peut etre les retirer des maps)
 
 ## Know Issues
 

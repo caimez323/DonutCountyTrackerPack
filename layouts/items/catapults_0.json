@@ -1,0 +1,14 @@
+{
+    "slot_catapults_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": []
+    },
+    "slot_catapults_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": []
+    }
+}

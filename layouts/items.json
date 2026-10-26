@@ -6,7 +6,7 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
@@ -24,32 +24,18 @@
                                 "progressivepepper",
                                 "progressivesalt",
                                 "progressivesnakedanger"
-                                
-                            ],[
-                                "holeeffects",
-                                "holeeffects_bunnies",
-                                "holeeffects_fire",
-                                "holeeffects_light",
-                                "holeeffects_snake",
-                                "holeeffects_water"
-                            ],[
-                                "catapults",
-                                "catapults_bombs",
-                                "catapults_boxes",
-                                "catapults_chickens",
-                                "catapults_donutsandcameras",
-                                "catapults_eggs" 
-                            ],[
-                                "catapults_frogs",
-                                "catapults_hackingdevice",
-                                "catapults_honeycomb",
-                                "catapults_keycards",
-                                "catapults_raccoons",
-                                "catapults_water-balloons-andfish"
                             ]
                         ]
                     }
                 ]
+            },
+            {
+                "type": "layout",
+                "key": "slot_holeeffects_horizontal"
+            },
+            {
+                "type": "layout",
+                "key": "slot_catapults_horizontal"
             }
         ]
     },
@@ -78,32 +64,18 @@
                                 "progressivepepper",
                                 "progressivesalt",
                                 "progressivesnakedanger"
-                                
-                            ],[
-                                "holeeffects",
-                                "holeeffects_bunnies",
-                                "holeeffects_fire",
-                                "holeeffects_light",
-                                "holeeffects_snake",
-                                "holeeffects_water"
-                            ],[
-                                "catapults",
-                                "catapults_bombs",
-                                "catapults_boxes",
-                                "catapults_chickens",
-                                "catapults_donutsandcameras",
-                                "catapults_eggs" 
-                            ],[
-                                "catapults_frogs",
-                                "catapults_hackingdevice",
-                                "catapults_honeycomb",
-                                "catapults_keycards",
-                                "catapults_raccoons",
-                                "catapults_water-balloons-andfish"
                             ]
                         ]
                     }
                 ]
+            },
+            {
+                "type": "layout",
+                "key": "slot_holeeffects_vertical"
+            },
+            {
+                "type": "layout",
+                "key": "slot_catapults_vertical"
             }
         ]
     }

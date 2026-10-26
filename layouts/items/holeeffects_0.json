@@ -1,0 +1,14 @@
+{
+    "slot_holeeffects_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": []
+    },
+    "slot_holeeffects_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": []
+    }
+}

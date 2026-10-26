@@ -1338,5 +1338,11 @@
         "codes": "trashsouls",
         "initial_active_state": false,
         "overlay_align": "right"
+    },
+    {
+        "name": "Achievements",
+        "type": "toggle",
+        "codes": "achievements",
+        "initial_active_state": false
     }
 ]

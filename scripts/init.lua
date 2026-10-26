@@ -13,16 +13,18 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Layout
 require("scripts.layouts_import")
+require("scripts.layout_loader")
+
+
 
 -- Locations
 require("scripts.locations_import")
 
 -- AutoTracking for PopTracker
 if PopVersion and PopVersion >= "0.26.0" then
-    require("scripts.autotracking")
+    require("scripts.autotracking")   -- OnClear appellera LoadLayouts(...)
 else
-    -- Charger le layout tabs par défaut
-    Tracker:AddLayouts("layouts/tabs_default.json")
+    LoadLayouts()
 end
 
 function OnFrameHandler()

@@ -1,0 +1,44 @@
+{
+    "slot_catapults_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2, 2",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "item_height": 36,
+                "item_width": 36,
+                "rows": [
+                    [
+                        "catapults"
+                    ]
+                ]
+            }
+        ]
+    },
+    "slot_catapults_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2, 2",
+                "h_alignment": "left",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "item_height": 18,
+                "item_width": 18,
+                "rows": [
+                    [
+                        "catapults"
+                    ]
+                ]
+            }
+        ]
+    }
+}

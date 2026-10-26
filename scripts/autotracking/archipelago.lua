@@ -1,5 +1,6 @@
 require("scripts.autotracking.item_mapping")
 require("scripts.autotracking.location_mapping")
+require("scripts.layout_loader")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -58,13 +59,30 @@ function DumpTable(o, depth)
     end
 end
 
+-- Move this part here for stability stockage manuel (ItemState du LuaItem), en le créant s'il n'existe pas encore.
+-- Returnr itemState for manual storage if it doesn't exist
+
+local function GetStorage()
+    local obj = Tracker:FindObjectForCode("manual_location_storage")
+    if obj == nil then
+        local ok, err = pcall(CreateLuaManualStorageItem, "manual_location_storage")
+        if not ok then print("GetStorage: création impossible : " .. tostring(err)) end
+        obj = Tracker:FindObjectForCode("manual_location_storage")
+    end
+    if obj == nil then
+        print("GetStorage: manual_location_storage introuvable")
+        return nil
+    end
+    return obj.ItemState
+end
+
 ---helper function that gets called when a LocationSection has changed state.
 ---checks if the interaction was from the server or manual.
 ---if manual, puts it into a cache for keeping that LocationSection toggled when reconnecting
 ---@param location LocationSection
 function LocationHandler(location)
     if MANUAL_CHECKED then
-        local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+        local custom_storage_item = GetStorage()
         if not custom_storage_item then
             return
         end
@@ -148,7 +166,7 @@ local function LocationUpdate(location_obj, custom_storage_item, location_id, re
     ---@cast location_obj LocationSection
 
     if reset then --reset
-        if custom_storage_item and custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
+        if custom_storage_item and custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] and custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
             location_obj.AvailableChestCount = custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID]
         else
             location_obj.AvailableChestCount = location_obj.ChestCount
@@ -203,7 +221,7 @@ local function PreOnClear()
 
         ROOM_SEED = seed_base --something like 2345_0_12
         for _, custom_item_code in pairs({"manual_location_storage"}) do -- add more to the table if you created more storage cache items
-            local custom_storage_item = Tracker:FindObjectForCode(custom_item_code).ItemState
+            local custom_storage_item = GetStorage()
             if custom_storage_item then
                 if #custom_storage_item.MANUAL_LOCATIONS > 10 then
                     custom_storage_item.MANUAL_LOCATIONS[custom_storage_item.MANUAL_LOCATIONS_ORDER[1]] = nil
@@ -222,55 +240,25 @@ end
 
 ---function that gets called when the pack connects to an AP server
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
-function OnClear(slot_data)
+function OnClearInner(slot_data)
     print("------------")
     for key, value in pairs(slot_data) do
         print(key, value)
     end
     print("------------")
-    local slot_trashsanity_lvl = tonumber(slot_data["trashsanity"]) or 0
-    local slot_trashsouls = tonumber(slot_data["trash_souls"]) or 0
-    Tracker:FindObjectForCode("trashsanity1").Active = (slot_trashsanity_lvl == 1)
-    Tracker:FindObjectForCode("trashsanity2").Active = (slot_trashsanity_lvl == 2)
-    Tracker:FindObjectForCode("trashsouls").Active = (slot_trashsouls == 1)
-
-    -- 0 = Pas randomized, get it
-    -- 1 = Randomized, don't get it
-    local texting = tonumber(slot_data["texting"])
-    if tonumber(slot_data["salt_and_pepper"]) == 0 then 
-        Tracker:FindObjectForCode("progressivesalt").AcquiredCount = 2
-        Tracker:FindObjectForCode("progressivepepper").AcquiredCount = 3
-    end
-    if tonumber(slot_data["snake_danger"]) == 0 then Tracker:FindObjectForCode("progressivesnakedanger").AcquiredCount = 4 end
-
-
-    -- Trashopedia is needed only with trashsouls
-    if Tracker:FindObjectForCode("trashsouls").Active then
-        Tracker:AddLayouts("layouts/tabs_default.json") 
-        Tracker:AddLayouts("layouts/trashopedia.json")
-    else
-        Tracker:AddLayouts("layouts/tabs_without_trash.json")
-    end
-    
-    if Tracker:FindObjectForCode("trashsanity1").Active then
-        -- For Trashsanity 1, need to add a trash category map
-        Tracker:AddLayouts("layouts/tabs_trash_category.json")
-    else
-        -- For Trashsanity 2, the visibilty rule trigger, no need for anything more
-        -- For Trashsanity 0, no need for anything
-        Tracker:AddLayouts("layouts/tabs_without_trash.json")
-    end
-
-    
+    slot_data = slot_data or {}
+    -- Layouts loaded now first
+    local settings = ParseSlotSettings(slot_data)
+    local ok, err = pcall(LoadLayouts, settings.layouts)
+    if not ok then print("LoadLayouts failed : " .. tostring(err)) end
+    print("1. Layout loaded ")
     MANUAL_CHECKED = false
-    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
-    if custom_storage_item == nil then
-        CreateLuaManualStorageItem("manual_location_storage")
-        custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
-    end
+
+    local custom_storage_item = GetStorage()
     -- repeat that here for every cache-storage item you create just to be safe
 
     PreOnClear()
+    print("2. PreOnClear OK")
 
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
@@ -287,11 +275,12 @@ function OnClear(slot_data)
                     if location:sub(1, 1) == "@" then
                         ---@type LocationSection
                         local location_obj = Tracker:FindObjectForCode(location) --[[@as LocationSection]]
-                        local custom_storage_item = (Tracker:FindObjectForCode("manual_location_storage") --[[@as LuaItem]])
-                        .ItemState
 
                         if location_obj then
-                            LocationUpdate(location_obj, custom_storage_item, location_ID, true)
+                            local okl, errl = pcall(LocationUpdate, location_obj, custom_storage_item, location_ID, true)
+                            if not okl then
+                                print(string.format("CHEMIN INVALIDE (id %s) : '%s' -> %s", tostring(location_ID), location, tostring(errl)))
+                            end
                         end
                     else
                         ---@cast location JsonItem
@@ -315,6 +304,12 @@ function OnClear(slot_data)
             end
         end
     end
+    local ok2, err2 = pcall(ApplySlotSettings, slot_data, settings)
+    if not ok2 then print("ApplySlotSettings a échoué : " .. tostring(err2)) end
+    -- Display all items
+    DumpItems({"trashsanity1","trashsanity2","trashsouls","achievements",
+           "texting","progressivesalt","progressivepepper","progressivesnakedanger",
+           "catapults","holeeffects"})
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
@@ -341,6 +336,116 @@ function OnClear(slot_data)
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
 end
+
+-- Wrapper : affiche l'erreur (et la ligne) si OnClearInner plante
+function OnClear(slot_data)
+    print("+++++++++++++++++++++")
+    for key, value in pairs(slot_data) do
+        print(key, value)
+    end
+    print("+++++++++++++++++++++")
+    local ok, err = xpcall(OnClearInner, function(e) return debug and debug.traceback and debug.traceback(tostring(e)) or tostring(e) end, slot_data)
+    if not ok then
+        print("ERREUR during OnClear :")
+        print(err)
+    end
+end
+
+
+-------------------
+-- Settings from slot_data apworld
+SLOT_KEYS = {
+    trashsanity = "trashsanity",       -- 0 / 1 / 2
+    trashsouls  = "trash_souls",       -- 0 / 1
+    catapults   = "catapult",          -- 0 / 1 / 2
+    holeeffects = "hole",              -- 0 / 1 / 2
+    achievement = "achievements",      -- 0 / 1
+    texting     = "texting",           -- bool / 0 / 1  (0 = pas randomisé -> donné d'office)
+    salt_and_pepper = "salt_and_pepper",
+    snake_danger    = "snake_danger",
+}
+
+CATAPULT_SUBS = {"bombs", "boxes", "chickens", "donutsandcameras", "eggs", "frogs",
+    "hackingdevice", "honeycomb", "keycards", "raccoons", "water-balloons-andfish"}
+HOLEEFFECT_SUBS = {"bunnies", "fire", "light", "snake", "water"}
+
+-- read value from slot_data
+local function SlotNum(slot_data, key, default)
+    local v = slot_data[SLOT_KEYS[key]]
+    print(string.format("Reading from SlotNum: %s (code '%s') = %s [%s]", key, SLOT_KEYS[key], tostring(v), type(v)))
+    if v == nil then return default end
+    if v == true then return 1 end
+    if v == false then return 0 end
+    return tonumber(v) or default
+end
+
+-- Give player an item
+local function GiveItem(code)
+    local obj = Tracker:FindObjectForCode(code)
+    print("GiveItem: " .. code .. (obj and (" type=" .. tostring(obj.Type)) or " NOT FOUND"))
+    if not obj then
+        print(string.format("GiveItem: no item found %s", code))
+        return
+    end
+    if obj.Type == "consumable" then
+        local ok, max = pcall(function() return obj.MaxCount end)
+        obj.AcquiredCount = (ok and max and max > 0) and max or 1
+    elseif obj.Type == "progressive" or obj.Type == "progressive_toggle" then
+        obj.Active = true
+    else
+        obj.Active = true
+    end
+end
+
+local function GiveGroup(prefix, subs)
+    GiveItem(prefix)
+    for _, s in ipairs(subs) do GiveItem(prefix .. "_" .. s) end
+end
+
+-- Read Slot data and return local settings 
+function ParseSlotSettings(slot_data)
+    local st = {
+        trashsanity = SlotNum(slot_data, "trashsanity", 0),
+        trashsouls  = SlotNum(slot_data, "trashsouls", 0),
+        catapults   = math.max(0, math.min(2, SlotNum(slot_data, "catapults", 2))),
+        holeeffects = math.max(0, math.min(2, SlotNum(slot_data, "holeeffects", 2))),
+        achievement = SlotNum(slot_data, "achievement", 1) == 1,
+    }
+    st.layouts = {
+        catapults = st.catapults,
+        holeeffects = st.holeeffects,
+        achievement = st.achievement,
+        trash_category = (st.trashsanity == 1),
+        trashopedia = (st.trashsouls == 1),
+    }
+    return st
+end
+
+-- Give items depending on settings
+function ApplySlotSettings(slot_data, st)
+    st = st or ParseSlotSettings(slot_data)
+
+    -- toggles utilisés par les access/visibility rules (les items)
+    Tracker:FindObjectForCode("trashsanity1").Active = (st.trashsanity == 1)
+    Tracker:FindObjectForCode("trashsanity2").Active = (st.trashsanity == 2)
+    Tracker:FindObjectForCode("trashsouls").Active = (st.trashsouls == 1)
+    Tracker:FindObjectForCode("achievements").Active = st.achievement
+
+    if st.catapults == 0 then GiveGroup("catapults", CATAPULT_SUBS) end
+    if st.holeeffects == 0 then GiveGroup("holeeffects", HOLEEFFECT_SUBS) end
+
+    if SlotNum(slot_data, "texting", 1) == 0 then GiveItem("texting") end
+
+    if SlotNum(slot_data, "salt_and_pepper", 1) == 0 then
+        Tracker:FindObjectForCode("progressivesalt").AcquiredCount = 2
+        Tracker:FindObjectForCode("progressivepepper").AcquiredCount = 3
+    end
+    if SlotNum(slot_data, "snake_danger", 1) == 0 then
+        Tracker:FindObjectForCode("progressivesnakedanger").AcquiredCount = 4
+    end
+    print("ApplySlotSettings ok")
+end
+-------------------
 
 ---Run every time an Item gets sent to the connected slot
 ---@param index integer running index for the items the connected slot has received so far
@@ -394,7 +499,10 @@ function OnLocation(location_id, location_name)
                     ---@type LocationSection
                     local location_obj = Tracker:FindObjectForCode(location) --[[@as LocationSection]]
                     if location_obj then
-                        LocationUpdate(location_obj, custom_storage_item, location_id, false)
+                        local okl, errl = pcall(LocationUpdate, location_obj, custom_storage_item, location_id, false)
+                        if not okl then
+                            print(string.format("CHEMIN INVALIDE (id %s) : '%s' -> %s", tostring(location_id), location, tostring(errl)))
+                        end
                     else
                         print(string.format("OnLocation: could not find location_object for code %s", location))
                     end
@@ -625,3 +733,20 @@ end
 --        print(err)
 --    end
 --end
+
+function DumpItems(codes)
+    print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    print("Display all settings items:")
+    for _, code in ipairs(codes) do
+        local o = Tracker:FindObjectForCode(code)
+        if not o then
+            print(code .. " : INTROUVABLE")
+        elseif o.Type == "toggle" then
+            print(code .. " = " .. tostring(o.Active))
+        elseif o.Type == "consumable" then
+            print(code .. " = " .. tostring(o.AcquiredCount))
+        else
+            print(code .. " [" .. tostring(o.Type) .. "] stage=" .. tostring(o.CurrentStage))
+        end
+    end
+end
