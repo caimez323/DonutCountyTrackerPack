@@ -18,212 +18,21 @@
                     {
                         "name": "Arson",
                         "access_rules": [
-                            "holeeffects,trash_bowl,trash_cactus,trash_campfire,trash_hotthings,trash_instrument,trash_joshualeaf,trash_laptop,trash_lawnchair,trash_mug,trash_rock,trash_table,trash_trailer",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_bowl,trash_cactus,trash_campfire,trash_hotthings,trash_instrument,trash_joshualeaf,trash_laptop,trash_lawnchair,trash_mug,trash_rock,trash_table,trash_trailer",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_hotthings,trash_joshualeaf,trash_rock,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_hotthings,trash_joshualeaf,trash_rock,trash_tree"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Back-left leaf 1",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left leaf 2",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left leaf 3",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left leaf 4",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right leaf 1",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right leaf 2",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right leaf 3",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right leaf 4",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Campfire",
-                        "access_rules": [
-                            "trash_campfire",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Coal",
-                        "access_rules": [
-                            "trash_hotthings",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left leaf 1",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left leaf 2",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left leaf 3",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left leaf 4",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right leaf 1",
-                        "access_rules": [
-                            "holeeffects,trash_joshualeaf",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Front-right leaf 2",
                         "access_rules": [
-                            "holeeffects,trash_joshualeaf",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -233,10 +42,23 @@
                     {
                         "name": "Front-right leaf 3",
                         "access_rules": [
-                            "holeeffects,trash_joshualeaf",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right leaf 1",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -246,32 +68,10 @@
                     {
                         "name": "Front-right leaf 4",
                         "access_rules": [
-                            "holeeffects,trash_joshualeaf",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_joshualeaf",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Guitar piece 1",
-                        "access_rules": [
-                            "trash_instrument",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Guitar piece 2",
-                        "access_rules": [
-                            "trash_instrument",
-                            "$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -281,45 +81,10 @@
                     {
                         "name": "Laptop",
                         "access_rules": [
-                            "holeeffects,trash_laptop",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_laptop",
-                            "holeeffects_fire,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lawn chair",
-                        "access_rules": [
-                            "trash_lawnchair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left cactus",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mug",
-                        "access_rules": [
-                            "holeeffects,trash_mug",
-                            "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_mug",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_laptop,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_laptop,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -329,10 +94,10 @@
                     {
                         "name": "Picnic bench",
                         "access_rules": [
-                            "holeeffects,trash_table",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_table",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_table,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_table,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -340,10 +105,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Right cactus",
+                        "name": "Left cactus",
                         "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cactus"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -353,8 +118,8 @@
                     {
                         "name": "Rock 1",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -364,8 +129,8 @@
                     {
                         "name": "Rock 3",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -375,8 +140,8 @@
                     {
                         "name": "Rock 4",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -386,8 +151,8 @@
                     {
                         "name": "Rock 5",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -397,8 +162,8 @@
                     {
                         "name": "Rock 6",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -408,8 +173,8 @@
                     {
                         "name": "Rock 7",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -419,8 +184,8 @@
                     {
                         "name": "Rock 8",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -430,8 +195,19 @@
                     {
                         "name": "Rock 9",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right cactus",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -441,10 +217,223 @@
                     {
                         "name": "Saucepan",
                         "access_rules": [
-                            "holeeffects,trash_bowl",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_bowl",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_bowl,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_bowl,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Campfire",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_campfire,trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left leaf 4",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left leaf 1",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left leaf 3",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left leaf 2",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawn chair",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_lawnchair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right leaf 2",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right leaf 3",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right leaf 4",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right leaf 1",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mug",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_mug,trash_table,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_mug,trash_table,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guitar piece 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_instrument"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Guitar piece 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_instrument"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left leaf 1",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left leaf 4",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left leaf 2",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left leaf 3",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -454,10 +443,21 @@
                     {
                         "name": "Trailer",
                         "access_rules": [
-                            "holeeffects,trash_trailer",
                             "holeeffects,$trashsouls",
-                            "holeeffects_fire,trash_trailer",
-                            "holeeffects_fire,$trashsouls"
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_joshualeaf,trash_trailer,trash_tree",
+                            "holeeffects_fire,trash_campfire,trash_joshualeaf,trash_trailer,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Coal",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hotthings"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -468,8 +468,8 @@
                 "map_locations": [
                     {
                         "map": "Joshua Tree",
-                        "x": 982,
-                        "y": 619,
+                        "x": 776,
+                        "y": 610,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -481,257 +481,309 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "holeeffects,trash_bowl,trash_cactus,trash_campfire,trash_hotthings,trash_instrument,trash_joshualeaf,trash_laptop,trash_lawnchair,trash_mug,trash_rock,trash_table,trash_trailer",
                     "holeeffects,$trashsouls",
-                    "holeeffects_fire,trash_bowl,trash_cactus,trash_campfire,trash_hotthings,trash_instrument,trash_joshualeaf,trash_laptop,trash_lawnchair,trash_mug,trash_rock,trash_table,trash_trailer",
-                    "holeeffects_fire,$trashsouls"
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_campfire,trash_hotthings,trash_joshualeaf,trash_rock,trash_tree",
+                    "holeeffects_fire,trash_campfire,trash_hotthings,trash_joshualeaf,trash_rock,trash_tree"
                 ],
                 "visibility_rules": [
                     "trashsanity2"
                 ],
                 "sections": [
                     {
-                        "name": "Back left bush",
+                        "name": "Pickup truck",
                         "access_rules": [
-                            "trash_bush",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_car"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left boulder 1",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                        "visibility_rules": [
+                            "trashsanity2"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left boulder 2",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left tree",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right boulder 1",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right boulder 2",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right tree",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Barbecue",
-                        "access_rules": [
-                            "trash_hotthings",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left boulder 1",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left boulder 2",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left boulder 3",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left bush 1",
-                        "access_rules": [
-                            "trash_bush",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left bush 2",
-                        "access_rules": [
-                            "trash_bush",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left tree",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right boulder",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right bush",
-                        "access_rules": [
-                            "trash_bush",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Front-right tree",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_boulder,trash_bush,trash_car,trash_rock,trash_tree"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Pickup truck",
+                        "name": "Back left bush",
                         "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_bush"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Rock 10",
+                        "name": "Front-right boulder",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_boulder"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 11",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                        "visibility_rules": [
+                            "trashsanity2"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 12",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 13",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 14",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 15",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock 16",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rock 2",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock 16",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barbecue",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_bush,trash_car,trash_hotthings,trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left boulder 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right boulder 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left tree",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_bush,trash_car,trash_rock,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left boulder 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left boulder 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right bush",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bush"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left bush 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bush"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left bush 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bush"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right tree",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_bush,trash_car,trash_rock,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left boulder 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right boulder 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left tree",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_bush,trash_car,trash_rock,trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left boulder 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Joshua Tree",
-                        "x": 1681,
-                        "y": 938,
+                        "x": 1727,
+                        "y": 946,
                         "size": 40,
-                        "shape": "rect"
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -740,8 +792,10 @@
             {
                 "name": "Joshua Tree",
                 "access_rules": [
-                    "joshuatree,holeeffects",
-                    "joshuatree,holeeffects_fire"
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_boulder,trash_bowl,trash_bush,trash_cactus,trash_campfire,trash_car,trash_hotthings,trash_instrument,trash_joshualeaf,trash_lawnchair,trash_rock,trash_table,trash_trailer,trash_tree",
+                    "holeeffects_fire,trash_boulder,trash_bowl,trash_bush,trash_cactus,trash_campfire,trash_car,trash_hotthings,trash_instrument,trash_joshualeaf,trash_lawnchair,trash_rock,trash_table,trash_trailer,trash_tree"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -750,8 +804,8 @@
         "map_locations": [
             {
                 "map": "Joshua Tree",
-                "x": 1548,
-                "y": 936,
+                "x": 1570,
+                "y": 946,
                 "size": 40,
                 "shape": "rect"
             }

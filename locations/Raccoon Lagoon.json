@@ -9,537 +9,407 @@
         ],
         "children": [
             {
-                "name": "Collect",
+                "name": "Water wheel",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults,trash_brick,trash_building,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_sign,trash_trafficcone,trash_trashcan,trash_waterballoon,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_water-balloons-andfish,trash_brick,trash_building,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_sign,trash_trafficcone,trash_trashcan,trash_waterballoon,trash_woodplank",
-                    "catapults_water-balloons-andfish,$trashsouls"
-                ],
-                "visibility_rules": [
-                    "trashsanity2"
-                ],
+                "access_rules": [],
                 "sections": [
-                    {
-                        "name": "Ferris wheel",
-                        "access_rules": [
-                            "trash_wheel",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ferris wheel logo 1",
-                        "access_rules": [
-                            "trash_wheel",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ferris wheel logo 2",
-                        "access_rules": [
-                            "trash_wheel",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ferris wheel supports",
-                        "access_rules": [
-                            "trash_wheel",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Log flume",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Police chief",
-                        "access_rules": [
-                            "trash_character",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower bottom 1",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower bottom 2",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 1",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 2",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 3",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 4",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 5",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 6",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 7",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower left 8",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 1",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 2",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 3",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 4",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 5",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 6",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 7",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower middle 8",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 1",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 2",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 3",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 4",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 5",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower right 6",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower top 1",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower top 2",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower top 3",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower top 4",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
                     {
                         "name": "Water wheel",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "catapults,holeeffects,$trashsouls",
+                            "catapults,holeeffects_water,$trashsouls",
+                            "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                            "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                            "catapults,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                            "catapults,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                            "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                            "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank"
                         ],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mug 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_mug,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plank 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plank 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plank 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plank 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Small dirt pile 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Traffic cone 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_trafficcone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big dirt pile 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Small dirt pile 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Small dirt pile 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Traffic cone 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_trafficcone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mug 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_mug,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Small dirt pile 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big dirt pile 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stool",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water balloon on stool",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_waterballoon,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hard hat",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_hardhat"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shovel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_shovel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soda can 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_otherdrinks"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soda can 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_otherdrinks"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 1726,
-                        "y": 965,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Dispenser",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults,trash_brick,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_water-balloons-andfish,trash_brick,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults_water-balloons-andfish,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Dispenser",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Balloon dispenser",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Raccoon Lagoon",
-                        "x": 1364,
-                        "y": 798,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Ferris wheel",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults,trash_brick,trash_building,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_water-balloons-andfish,trash_brick,trash_building,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults_water-balloons-andfish,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Ferris wheel",
-                        "access_rules": [
-                            "trash_building,trash_fence,trash_raccoon,trash_sign,trash_trashcan",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 2",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 3",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 4",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 5",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Folding sign",
-                        "access_rules": [
-                            "trash_sign",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon 1",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon 2",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon 3",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon 4",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ticket tent",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Trash can",
-                        "access_rules": [
-                            "trash_trashcan",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Raccoon Lagoon",
-                        "x": 705,
-                        "y": 608,
+                        "x": 1186,
+                        "y": 825,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -551,37 +421,27 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults,trash_brick,trash_chair,trash_dirtpile,trash_hardhat,trash_mug,trash_otherdrinks,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_water-balloons-andfish,trash_brick,trash_chair,trash_dirtpile,trash_hardhat,trash_mug,trash_otherdrinks,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                    "catapults_water-balloons-andfish,$trashsouls"
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank"
                 ],
                 "sections": [
                     {
                         "name": "Log flume",
-                        "access_rules": [
-                            "trash_fence,trash_raccoon,trash_trafficcone",
-                            "$trashsouls"
-                        ],
+                        "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fence 1",
                         "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Log flume car",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick,trash_dirtpile,trash_fence,trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -591,8 +451,8 @@
                     {
                         "name": "Traffic cone 2",
                         "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_trafficcone"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -602,8 +462,8 @@
                     {
                         "name": "Traffic cone 3",
                         "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_trafficcone"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -613,8 +473,19 @@
                     {
                         "name": "Traffic cone 4",
                         "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_trafficcone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Log flume car",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick,trash_chair,trash_dirtpile,trash_fence,trash_hardhat,trash_mug,trash_otherdrinks,trash_raccoon,trash_shovel,trash_trafficcone,trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -625,399 +496,43 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 1005,
-                        "y": 608,
+                        "x": 1013,
+                        "y": 605,
                         "size": 40,
                         "shape": "rect"
                     }
                 ]
             },
             {
-                "name": "Water wheel",
+                "name": "Dispenser",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_waterballoon,trash_wheel,trash_woodplank"
+                ],
                 "sections": [
                     {
-                        "name": "Water wheel",
+                        "name": "Dispenser",
                         "access_rules": [
-                            "catapults,trash_brick,trash_chair,trash_dirtpile,trash_hardhat,trash_mug,trash_otherdrinks,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                            "catapults,$trashsouls",
-                            "catapults_water-balloons-andfish,trash_brick,trash_chair,trash_dirtpile,trash_hardhat,trash_mug,trash_otherdrinks,trash_shovel,trash_trafficcone,trash_waterballoon,trash_woodplank",
-                            "catapults_water-balloons-andfish,$trashsouls"
+                            "$trashsouls",
+                            "trash_building"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Big dirt pile 1",
+                        "name": "Balloon dispenser",
                         "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Big dirt pile 2",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 1",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 10",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 11",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 12",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 13",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 14",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 2",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 3",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 4",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 5",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 6",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 7",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 8",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 9",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hard hat",
-                        "access_rules": [
-                            "trash_hardhat",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mug 1",
-                        "access_rules": [
-                            "trash_mug",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mug 2",
-                        "access_rules": [
-                            "trash_mug",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plank 1",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plank 2",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plank 3",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plank 4",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shovel",
-                        "access_rules": [
-                            "trash_shovel",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small dirt pile 1",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small dirt pile 2",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small dirt pile 3",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small dirt pile 4",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Soda can 1",
-                        "access_rules": [
-                            "trash_otherdrinks",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Soda can 2",
-                        "access_rules": [
-                            "trash_otherdrinks",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stool",
-                        "access_rules": [
-                            "trash_chair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Traffic cone 1",
-                        "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Traffic cone 5",
-                        "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Water balloon on stool",
-                        "access_rules": [
-                            "trash_waterballoon",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_building"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1028,10 +543,579 @@
                 "map_locations": [
                     {
                         "map": "Raccoon Lagoon",
-                        "x": 1192,
-                        "y": 810,
+                        "x": 1374,
+                        "y": 827,
                         "size": 40,
                         "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Ferris wheel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank"
+                ],
+                "sections": [
+                    {
+                        "name": "Ferris wheel",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Folding sign",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_sign"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ticket tent",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building,trash_fence,trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raccoon 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raccoon 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raccoon 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raccoon 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trash can",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_trashcan"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Raccoon Lagoon",
+                        "x": 715,
+                        "y": 621,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Collect",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Police chief",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_character"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower middle 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower left 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower right 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower top 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower top 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower top 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower top 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower bottom 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tower bottom 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ferris wheel logo 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wheel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ferris wheel logo 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wheel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ferris wheel supports",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wheel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ferris wheel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wheel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Log flume",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water wheel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Raccoon Lagoon",
+                        "x": 1731,
+                        "y": 980,
+                        "size": 40,
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -1039,13 +1123,31 @@
         "sections": [
             {
                 "name": "Raccoon Lagoon",
-                "access_rules": [],
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects,trash_brick,trash_building,trash_character,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,trash_brick,trash_building,trash_character,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,trash_brick,trash_building,trash_character,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_brick,trash_building,trash_character,trash_waterballoon,trash_wheel,trash_woodplank"
+                ],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Fish",
-                "access_rules": [],
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects,trash_waterballoon",
+                    "catapults,holeeffects_water,$trashsouls",
+                    "catapults,holeeffects_water,trash_waterballoon",
+                    "catapults_water-balloons-andfish,holeeffects,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,trash_waterballoon",
+                    "catapults_water-balloons-andfish,holeeffects_water,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,trash_waterballoon"
+                ],
                 "visibility_rules": [
                     "trashsanity2"
                 ],
@@ -1053,7 +1155,12 @@
             },
             {
                 "name": "Water balloons",
-                "access_rules": [],
+                "access_rules": [
+                    "catapults,$trashsouls",
+                    "catapults,trash_waterballoon",
+                    "catapults_water-balloons-andfish,$trashsouls",
+                    "catapults_water-balloons-andfish,trash_waterballoon"
+                ],
                 "visibility_rules": [
                     "trashsanity2"
                 ],
@@ -1063,8 +1170,8 @@
         "map_locations": [
             {
                 "map": "Raccoon Lagoon",
-                "x": 1568,
-                "y": 967,
+                "x": 1610,
+                "y": 977,
                 "size": 40,
                 "shape": "rect"
             }

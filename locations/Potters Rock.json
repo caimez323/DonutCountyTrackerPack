@@ -9,188 +9,170 @@
         ],
         "children": [
             {
-                "name": "Collect",
+                "name": "Pile",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "holeeffects,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
-                    "holeeffects,$trashsouls",
-                    "holeeffects_fire,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_scooter,trash_sign,trash_suitcase,trash_woodplank,trash_woodshelf",
-                    "holeeffects_fire,$trashsouls"
-                ],
-                "visibility_rules": [
-                    "trashsanity2"
-                ],
+                "access_rules": [],
                 "sections": [
                     {
-                        "name": "Back-center boulder",
+                        "name": "Pile",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Back-left boulder",
+                        "name": "Front rock",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Back-right boulder",
+                        "name": "Back rock",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Back-right boulder piece",
+                        "name": "Mug",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_mug,trash_paper,trash_pot,trash_rock,trash_suitcase"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Donut shard big",
+                        "name": "Medium box",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Donut shard small",
+                        "name": "Big box",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox,trash_paper,trash_pot,trash_rock,trash_suitcase"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Fence door",
+                        "name": "Small box",
                         "access_rules": [
-                            "trash_door",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Front-right boulder",
+                        "name": "Cow skull",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cowskull"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Left hook panel",
+                        "name": "Left paper ball",
                         "access_rules": [
-                            "trash_hookpanel",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Pool",
+                        "name": "Back paper ball",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Potters house",
+                        "name": "Right paper ball",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Potters house wall chunk",
+                        "name": "Suitcase",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_suitcase"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Right hool panel",
+                        "name": "Spyglass",
                         "access_rules": [
-                            "trash_hookpanel",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_othertools"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Right small boulder",
+                        "name": "Pot",
                         "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper,trash_pot,trash_rock"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wall 1",
-                        "access_rules": [
-                            "trash_wall",
-                            "$trashsouls"
+                        "visibility_rules": [
+                            "trashsanity2"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wall 2",
-                        "access_rules": [
-                            "trash_wall",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wall 3",
-                        "access_rules": [
-                            "trash_wall",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wall 4",
-                        "access_rules": [
-                            "trash_wall",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1683,
-                        "y": 1010,
+                        "x": 746,
+                        "y": 796,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -202,123 +184,24 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
-                    "$trashsouls"
+                    "$trashsouls",
+                    "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase"
                 ],
                 "sections": [
                     {
                         "name": "Front",
                         "access_rules": [
-                            "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_pot,trash_pottedplant,trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_pot,trash_pottedplant,trash_rock"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Back succulent",
-                        "access_rules": [
-                            "trash_pottedplant",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bone",
-                        "access_rules": [
-                            "trash_bone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front succulent",
-                        "access_rules": [
-                            "trash_pottedplant",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left cactus",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left succulent",
-                        "access_rules": [
-                            "trash_pottedplant",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pot",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right cactus",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right succulent",
-                        "access_rules": [
-                            "trash_pottedplant",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Rock under succulent",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -328,51 +211,8 @@
                     {
                         "name": "Waterbowl",
                         "access_rules": [
-                            "trash_bowl",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Potters Rock",
-                        "x": 722,
-                        "y": 795,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Launch",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
-                    "$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Launch",
-                        "access_rules": [
-                            "holeeffects_fire,trash_brick,trash_hotthings,trash_scooter,trash_sign",
-                            "holeeffects_fire,$trashsouls",
-                            "holeeffects,trash_brick,trash_hotthings,trash_scooter,trash_sign",
-                            "holeeffects,$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sold sign",
-                        "access_rules": [
-                            "trash_sign",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_bowl"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -380,10 +220,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Brick 1",
+                        "name": "Right cactus",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cactus"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -391,10 +231,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Brick 2",
+                        "name": "Left cactus",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cactus"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -402,10 +242,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Brick 3",
+                        "name": "Front succulent",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pottedplant"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -413,136 +253,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kiln",
+                        "name": "Back succulent",
                         "access_rules": [
-                            "trash_hotthings",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scooter",
-                        "access_rules": [
-                            "trash_scooter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Potters Rock",
-                        "x": 617,
-                        "y": 621,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Pile",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Pile",
-                        "access_rules": [
-                            "trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_rock,trash_suitcase",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back paper ball",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back rock",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Big box",
-                        "access_rules": [
-                            "trash_cardboardbox",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cow skull",
-                        "access_rules": [
-                            "trash_cowskull",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front rock",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left paper ball",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Medium box",
-                        "access_rules": [
-                            "trash_cardboardbox",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mug",
-                        "access_rules": [
-                            "trash_mug",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pottedplant"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -552,8 +266,8 @@
                     {
                         "name": "Pot",
                         "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pot"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -561,10 +275,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Right paper ball",
+                        "name": "Left succulent",
                         "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pottedplant"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -572,10 +286,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Small box",
+                        "name": "Right succulent",
                         "access_rules": [
-                            "trash_cardboardbox",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pottedplant"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -583,10 +297,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spyglass",
+                        "name": "Brick",
                         "access_rules": [
-                            "trash_othertools",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -594,10 +308,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Suitcase",
+                        "name": "Bone",
                         "access_rules": [
-                            "trash_suitcase",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_bone"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -608,467 +322,8 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 870,
-                        "y": 950,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Pots",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
-                    "$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Pots",
-                        "access_rules": [
-                            "trash_crate,trash_hotthings,trash_lawnchair,trash_nightstand,trash_pot,trash_rock,trash_woodplank,trash_woodshelf",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left milkcrate",
-                        "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left nightstand",
-                        "access_rules": [
-                            "trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left plank 1",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left plank 2",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 1",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 2",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 3",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 4",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 5",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left pot 6",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-left wood shelf",
-                        "access_rules": [
-                            "trash_woodshelf",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right nightstand",
-                        "access_rules": [
-                            "trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right pot",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left nightstand",
-                        "access_rules": [
-                            "trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left plank",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left pot 1",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left pot 2",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left pot 3",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left pot 4",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right milkcrate",
-                        "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right nightstand",
-                        "access_rules": [
-                            "trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right plank 1",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right plank 2",
-                        "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 1",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 2",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 3",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 4",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 5",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right pot 6",
-                        "access_rules": [
-                            "trash_pot",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right wood shelf",
-                        "access_rules": [
-                            "trash_woodshelf",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lawn chair",
-                        "access_rules": [
-                            "trash_lawnchair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 1",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 2",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 3",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 4",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 5",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 6",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock near stove 7",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stove",
-                        "access_rules": [
-                            "trash_hotthings",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Potters Rock",
-                        "x": 894,
-                        "y": 532,
+                        "x": 832,
+                        "y": 948,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1080,68 +335,18 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase",
-                    "$trashsouls"
+                    "$trashsouls",
+                    "trash_bone,trash_bowl,trash_brick,trash_cactus,trash_cardboardbox,trash_cowskull,trash_mug,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
                 ],
                 "sections": [
                     {
                         "name": "Potter",
                         "access_rules": [
-                            "trash_brick,trash_bucket,trash_cardboardbox,trash_character,trash_crate,trash_flour_icingbag,trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Flour bag",
-                        "access_rules": [
-                            "trash_flour_icingbag",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right bucket",
-                        "access_rules": [
-                            "trash_bucket",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left bucket",
-                        "access_rules": [
-                            "trash_bucket",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left cardboard box",
-                        "access_rules": [
-                            "trash_cardboardbox",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_character"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1151,8 +356,8 @@
                     {
                         "name": "Left milkcrate",
                         "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1160,32 +365,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Nightstand",
+                        "name": "Left cardboard box",
                         "access_rules": [
-                            "trash_nightstand",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pottery Wheel",
-                        "access_rules": [
-                            "trash_character",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right bucket",
-                        "access_rules": [
-                            "trash_bucket",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1195,8 +378,8 @@
                     {
                         "name": "Right cardboard box",
                         "access_rules": [
-                            "trash_cardboardbox",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_cardboardbox"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1206,8 +389,85 @@
                     {
                         "name": "Right milkcrate",
                         "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right bucket",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bucket"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left bucket",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bucket"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right bucket",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bucket"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pottery Wheel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_character"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nightstand",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_nightstand"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flour bag",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_flour_icingbag"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1218,10 +478,791 @@
                 "map_locations": [
                     {
                         "map": "Potters Rock",
-                        "x": 1227,
-                        "y": 639,
+                        "x": 1258,
+                        "y": 677,
                         "size": 40,
                         "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Pots",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$trashsouls",
+                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase"
+                ],
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_crate,trash_hotthings,trash_lawnchair,trash_nightstand,trash_pot,trash_rock,trash_woodplank,trash_woodshelf"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right milkcrate",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_crate"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left milkcrate",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_crate"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right plank 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right plank 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left plank",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left plank 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left plank 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stove",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hotthings"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock near stove 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left pot 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right nightstand",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_nightstand"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right nightstand",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_nightstand"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left nightstand",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_nightstand"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left nightstand",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_nightstand"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawn chair",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_lawnchair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left pot 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left pot 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left pot 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right wood shelf",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodshelf"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left pot 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left wood shelf",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_woodshelf"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right pot 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right pot",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_pot"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potters Rock",
+                        "x": 1078,
+                        "y": 558,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Launch",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$trashsouls",
+                    "trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf"
+                ],
+                "sections": [
+                    {
+                        "name": "Launch",
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects,trash_hotthings",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects_fire,trash_hotthings"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sold sign",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_sign"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scooter",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_scooter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kiln",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hotthings"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potters Rock",
+                        "x": 621,
+                        "y": 612,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Collect",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                    "holeeffects_fire,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Back-right boulder piece",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pool",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Potters house",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_building,trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Potters house wall chunk",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence door",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_door"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-center boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right small boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left hook panel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hookpanel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right hool panel",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hookpanel"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Donut shard big",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Donut shard small",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_building"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-left boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder,trash_wall"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Potters Rock",
+                        "x": 1673,
+                        "y": 982,
+                        "size": 40,
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -1230,8 +1271,10 @@
             {
                 "name": "Potters Rock",
                 "access_rules": [
-                    "holeeffects",
-                    "holeeffects_fire"
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_bone,trash_boulder,trash_bowl,trash_brick,trash_bucket,trash_building,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_wall,trash_woodplank,trash_woodshelf",
+                    "holeeffects_fire,trash_bone,trash_boulder,trash_bowl,trash_brick,trash_bucket,trash_building,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_wall,trash_woodplank,trash_woodshelf"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -1240,8 +1283,8 @@
         "map_locations": [
             {
                 "map": "Potters Rock",
-                "x": 1565,
-                "y": 1010,
+                "x": 1489,
+                "y": 984,
                 "size": 40,
                 "shape": "rect"
             }

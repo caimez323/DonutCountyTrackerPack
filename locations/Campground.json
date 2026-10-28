@@ -9,212 +9,6 @@
         ],
         "children": [
             {
-                "name": "Collect",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "holeeffects_fire,trash_bird,trash_campfire,trash_cart,trash_corn,trash_crate,trash_grass,trash_rock,trash_tent,trash_tincan",
-                    "holeeffects_fire,$trashsouls",
-                    "holeeffects,trash_bird,trash_campfire,trash_cart,trash_corn,trash_crate,trash_grass,trash_rock,trash_tent,trash_tincan",
-                    "holeeffects,$trashsouls"
-                ],
-                "visibility_rules": [
-                    "trashsanity2"
-                ],
-                "sections": [
-                    {
-                        "name": "Back boulder",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back-right rock",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cactus behind rock",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Far-right rock 1",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Far-right rock 2",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 1",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 2",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 3",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 4",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fence 5",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front boulder",
-                        "access_rules": [
-                            "trash_boulder",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left grass",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-left rock",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left cactus",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left tent",
-                        "access_rules": [
-                            "trash_tent",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right cactus",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Soup bowl",
-                        "access_rules": [
-                            "trash_bowl",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Soup bowl rock 1",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Soup bowl rock 2",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tin can",
-                        "access_rules": [
-                            "trash_tincan",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Campground",
-                        "x": 1681,
-                        "y": 943,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Popcorn",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -224,83 +18,17 @@
                     {
                         "name": "Popcorn",
                         "access_rules": [
-                            "trash_campfire,trash_corn,trash_crate,trash_grass,trash_rock,trash_tincan",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_campfire,trash_corn,trash_rock"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Back rock 1",
+                        "name": "Milk crate 1",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Back rock behind tent",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Campfire",
-                        "access_rules": [
-                            "trash_campfire",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Campfire rock 1",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Campfire rock 2",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Campfire rock 3",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Corn 1",
-                        "access_rules": [
-                            "trash_corn",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -310,8 +38,8 @@
                     {
                         "name": "Corn 2",
                         "access_rules": [
-                            "trash_corn",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_corn"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -319,65 +47,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Corn 3",
+                        "name": "Corn 1",
                         "access_rules": [
-                            "trash_corn",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Corn 4",
-                        "access_rules": [
-                            "trash_corn",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front rock",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Front-right grass",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grass behind tent",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Milk crate 1",
-                        "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_corn"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -387,8 +60,96 @@
                     {
                         "name": "Milk crate 2",
                         "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corn 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_corn"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corn 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_corn"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Campfire",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_campfire,trash_corn,trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-right grass",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Campfire rock 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Campfire rock 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back rock 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back rock behind tent",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -398,8 +159,8 @@
                     {
                         "name": "Tin can 1",
                         "access_rules": [
-                            "trash_tincan",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tincan"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -409,8 +170,41 @@
                     {
                         "name": "Tin can 2",
                         "access_rules": [
-                            "trash_tincan",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tincan"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Campfire rock 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grass behind tent",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front rock",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -421,8 +215,8 @@
                 "map_locations": [
                     {
                         "map": "Campground",
-                        "x": 1239,
-                        "y": 501,
+                        "x": 1249,
+                        "y": 459,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -434,48 +228,22 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_campfire,trash_corn,trash_crate,trash_grass,trash_rock,trash_tincan",
-                    "$trashsouls"
+                    "$trashsouls",
+                    "trash_campfire,trash_corn,trash_rock"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
                 ],
                 "sections": [
                     {
                         "name": "Right tent",
                         "access_rules": [
-                            "holeeffects_fire,trash_bird,trash_cart,trash_grass,trash_rock,trash_tent",
+                            "holeeffects,$trashsouls",
                             "holeeffects_fire,$trashsouls",
-                            "holeeffects,trash_bird,trash_cart,trash_grass,trash_rock,trash_tent",
-                            "holeeffects,$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bottom grass",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bottom rock 1",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bottom rock 2",
-                        "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "holeeffects,trash_bird,trash_campfire,trash_tent",
+                            "holeeffects,trash_campfire,trash_cart,trash_tent",
+                            "holeeffects_fire,trash_bird,trash_campfire,trash_tent",
+                            "holeeffects_fire,trash_campfire,trash_cart,trash_tent"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -485,10 +253,10 @@
                     {
                         "name": "Corn cart",
                         "access_rules": [
-                            "holeeffects_fire,trash_cart",
+                            "holeeffects,$trashsouls",
                             "holeeffects_fire,$trashsouls",
-                            "holeeffects,trash_cart",
-                            "holeeffects,$trashsouls"
+                            "holeeffects,trash_campfire,trash_cart",
+                            "holeeffects_fire,trash_campfire,trash_cart"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -498,10 +266,43 @@
                     {
                         "name": "Left crow",
                         "access_rules": [
-                            "holeeffects_fire,trash_bird",
+                            "holeeffects,$trashsouls",
                             "holeeffects_fire,$trashsouls",
-                            "holeeffects,trash_bird",
-                            "holeeffects,$trashsouls"
+                            "holeeffects,trash_bird,trash_campfire",
+                            "holeeffects_fire,trash_bird,trash_campfire"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom grass",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom rock 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom rock 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -511,10 +312,10 @@
                     {
                         "name": "Right crow",
                         "access_rules": [
-                            "holeeffects_fire,trash_bird",
+                            "holeeffects,$trashsouls",
                             "holeeffects_fire,$trashsouls",
-                            "holeeffects,trash_bird",
-                            "holeeffects,$trashsouls"
+                            "holeeffects,trash_bird,trash_campfire",
+                            "holeeffects_fire,trash_bird,trash_campfire"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -525,10 +326,258 @@
                 "map_locations": [
                     {
                         "map": "Campground",
-                        "x": 912,
-                        "y": 433,
+                        "x": 959,
+                        "y": 417,
                         "size": 40,
                         "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Collect",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_bird,trash_campfire,trash_corn,trash_rock,trash_tent",
+                    "holeeffects,trash_campfire,trash_cart,trash_corn,trash_rock,trash_tent",
+                    "holeeffects_fire,trash_bird,trash_campfire,trash_corn,trash_rock,trash_tent",
+                    "holeeffects_fire,trash_campfire,trash_cart,trash_corn,trash_rock,trash_tent"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Back boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left cactus",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Far-right rock 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left tent",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tent"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left grass",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soup bowl rock 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soup bowl rock 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tin can",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tincan"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Far-right rock 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front-left rock",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back-right rock",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_rock"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Front boulder",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_boulder"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fence 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right cactus",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus behind rock",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Soup bowl",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bowl"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Campground",
+                        "x": 1760,
+                        "y": 951,
+                        "size": 40,
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -537,8 +586,10 @@
             {
                 "name": "Campground",
                 "access_rules": [
-                    "holeeffects_fire",
-                    "holeeffects"
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_bird,trash_boulder,trash_campfire,trash_corn,trash_rock,trash_tent",
+                    "holeeffects_fire,trash_bird,trash_boulder,trash_campfire,trash_corn,trash_rock,trash_tent"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -546,10 +597,13 @@
             {
                 "name": "Popped corn",
                 "access_rules": [
-                    "holeeffects_fire",
-                    "holeeffects"
+                    "holeeffects,$trashsouls",
+                    "holeeffects_fire,$trashsouls",
+                    "holeeffects,trash_campfire,trash_corn,trash_rock",
+                    "holeeffects_fire,trash_campfire,trash_corn,trash_rock"
                 ],
                 "visibility_rules": [
+                    "trashsanity2"
                 ],
                 "item_count": 1
             }
@@ -557,8 +611,8 @@
         "map_locations": [
             {
                 "map": "Campground",
-                "x": 1529,
-                "y": 945,
+                "x": 1626,
+                "y": 951,
                 "size": 40,
                 "shape": "rect"
             }

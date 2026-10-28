@@ -9,859 +9,6 @@
         ],
         "children": [
             {
-                "name": "Big boy",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults,trash_bowlingball,trash_brick,trash_camera,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_fence,trash_lawnchair,trash_megaphone,trash_otherdrinks,trash_paper,trash_quadcopter,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_donutsandcameras,trash_bowlingball,trash_brick,trash_camera,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_fence,trash_lawnchair,trash_megaphone,trash_otherdrinks,trash_paper,trash_quadcopter,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults_donutsandcameras,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Big boy",
-                        "access_rules": [
-                            "trash_character,trash_hookgun,trash_megaphone,trash_quadcopter,trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Big boy quadcopter",
-                        "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hook gun",
-                        "access_rules": [
-                            "trash_hookgun",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hot air balloon",
-                        "access_rules": [
-                            "trash_character",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Megaphone",
-                        "access_rules": [
-                            "trash_megaphone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The 405",
-                        "x": 1888,
-                        "y": 770,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Collect",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults_donutsandcameras,trash_bowlingball,trash_brick,trash_camera,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_fence,trash_hookgun,trash_lawnchair,trash_megaphone,trash_otherdrinks,trash_paper,trash_quadcopter,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults_donutsandcameras,$trashsouls",
-                    "catapults,trash_bowlingball,trash_brick,trash_camera,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_fence,trash_hookgun,trash_lawnchair,trash_megaphone,trash_otherdrinks,trash_paper,trash_quadcopter,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults,$trashsouls"
-                ],
-                "visibility_rules": [
-                    "trashsanity2"
-                ],
-                "sections": [
-                    {
-                        "name": "Car 1",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 10",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 11",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 12",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 13",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 14",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 15",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 2",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 3",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 4",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 5",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 6",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 7",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 8",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Car 9",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 1",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 10",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 11",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 12",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 13",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 14",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 15",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 16",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 2",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 3",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 4",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 5",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 6",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 7",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 8",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celica car 9",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 1",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 10",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 11",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 12",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 13",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 14",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 15",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 16",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 17",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 2",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 3",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 4",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 5",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 6",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 7",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 8",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Classic car 9",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 1",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 10",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 11",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 12",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 13",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 14",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 15",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 16",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 2",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 3",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 4",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 5",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 6",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 7",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 8",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pickup truck 9",
-                        "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The 405",
-                        "x": 1773,
-                        "y": 1002,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Cop raccoons",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "catapults,trash_bowlingball,trash_brick,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_lawnchair,trash_otherdrinks,trash_paper,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults,$trashsouls",
-                    "catapults_donutsandcameras,trash_bowlingball,trash_brick,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_lawnchair,trash_otherdrinks,trash_paper,trash_raccoon,trash_radio,trash_rock,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                    "catapults_donutsandcameras,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Cop raccoons",
-                        "access_rules": [
-                            "trash_camera,trash_fence,trash_megaphone,trash_quadcopter,trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Barricade 1",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Barricade 2",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Barricade 3",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Barricade 4",
-                        "access_rules": [
-                            "trash_fence",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Camera",
-                        "access_rules": [
-                            "trash_camera",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop megaphone 1",
-                        "access_rules": [
-                            "trash_megaphone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop megaphone 2",
-                        "access_rules": [
-                            "trash_megaphone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop quadcopter 1",
-                        "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop quadcopter 2",
-                        "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop quadcopter 3",
-                        "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop raccoon 1",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop raccoon 2",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cop raccoon 3",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The 405",
-                        "x": 1888,
-                        "y": 641,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Small car",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -871,17 +18,17 @@
                     {
                         "name": "Small car",
                         "access_rules": [
-                            "trash_car,trash_otherdrinks,trash_paper,trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_car,trash_otherdrinks,trash_paper,trash_rock"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Coffee",
+                        "name": "Mouse car",
                         "access_rules": [
-                            "trash_otherdrinks",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_car,trash_otherdrinks,trash_paper,trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -889,10 +36,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mouse car",
+                        "name": "Coffee",
                         "access_rules": [
-                            "trash_car",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_otherdrinks"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -902,8 +49,8 @@
                     {
                         "name": "Paper ball 1",
                         "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -913,8 +60,8 @@
                     {
                         "name": "Paper ball 2",
                         "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -924,8 +71,8 @@
                     {
                         "name": "Rock 1",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -935,8 +82,8 @@
                     {
                         "name": "Rock 2",
                         "access_rules": [
-                            "trash_rock",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_rock"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -947,8 +94,8 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 563,
-                        "y": 394,
+                        "x": 595,
+                        "y": 540,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -960,46 +107,24 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_car,trash_otherdrinks,trash_paper,trash_rock",
-                    "$trashsouls"
+                    "$trashsouls",
+                    "trash_car,trash_otherdrinks,trash_paper,trash_rock"
                 ],
                 "sections": [
                     {
                         "name": "Truck repair",
                         "access_rules": [
-                            "trash_bowlingball,trash_brick,trash_chair,trash_dirtpile,trash_donut,trash_lawnchair,trash_raccoon,trash_radio,trash_suitcase,trash_table,trash_takeout,trash_television,trash_tire,trash_trafficcone,trash_woodplank",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_donut,trash_raccoon,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Big dirt pile",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bowling ball",
-                        "access_rules": [
-                            "trash_bowlingball",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Brick 1",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1009,19 +134,8 @@
                     {
                         "name": "Brick 2",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 3",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1031,184 +145,8 @@
                     {
                         "name": "Chair raccoon 1",
                         "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chair raccoon 2",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chair raccoon 3",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Donut",
-                        "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hero donut",
-                        "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jack platform",
-                        "access_rules": [
-                            "trash_chair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lawn chair 1",
-                        "access_rules": [
-                            "trash_lawnchair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lawn chair 2",
-                        "access_rules": [
-                            "trash_lawnchair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lawn chair 3",
-                        "access_rules": [
-                            "trash_lawnchair",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Picnic bench",
-                        "access_rules": [
-                            "trash_table",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Radio",
-                        "access_rules": [
-                            "trash_radio",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small dirt pile",
-                        "access_rules": [
-                            "trash_dirtpile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Suitcase",
-                        "access_rules": [
-                            "trash_suitcase",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Takeout box",
-                        "access_rules": [
-                            "trash_takeout",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Takeout cup",
-                        "access_rules": [
-                            "trash_takeout",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Takeout tray 1",
-                        "access_rules": [
-                            "trash_takeout",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Takeout tray 2",
-                        "access_rules": [
-                            "trash_takeout",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_raccoon"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1218,8 +156,8 @@
                     {
                         "name": "Television 1",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1229,8 +167,8 @@
                     {
                         "name": "Television 2",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1240,8 +178,8 @@
                     {
                         "name": "Television 3",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1251,8 +189,8 @@
                     {
                         "name": "Television 4",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1262,8 +200,8 @@
                     {
                         "name": "Television 5",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1273,8 +211,8 @@
                     {
                         "name": "Television 6",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1284,8 +222,8 @@
                     {
                         "name": "Television 7",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1295,8 +233,8 @@
                     {
                         "name": "Television 8",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1306,8 +244,8 @@
                     {
                         "name": "Television 9",
                         "access_rules": [
-                            "trash_television",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_television"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1315,10 +253,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tire 1",
+                        "name": "Brick 3",
                         "access_rules": [
-                            "trash_tire",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1326,10 +264,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tire 2",
+                        "name": "Takeout tray 1",
                         "access_rules": [
-                            "trash_tire",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_takeout"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1337,10 +275,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tire 3",
+                        "name": "Takeout cup",
                         "access_rules": [
-                            "trash_tire",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_takeout"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1348,10 +286,32 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tire 4",
+                        "name": "Takeout box",
                         "access_rules": [
-                            "trash_tire",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_takeout"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Takeout tray 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_takeout"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Picnic bench",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_raccoon,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1361,8 +321,30 @@
                     {
                         "name": "Traffic cone",
                         "access_rules": [
-                            "trash_trafficcone",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_trafficcone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jack platform",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_raccoon,trash_takeout,trash_television,trash_tire,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hero donut",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_donut,trash_raccoon,trash_takeout,trash_television,trash_tire,trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1372,8 +354,8 @@
                     {
                         "name": "Wood plank 1",
                         "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1383,8 +365,8 @@
                     {
                         "name": "Wood plank 2",
                         "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1394,8 +376,173 @@
                     {
                         "name": "Wood plank 3",
                         "access_rules": [
-                            "trash_woodplank",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big dirt pile",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tire 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tire"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tire 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tire"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tire 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tire"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tire 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tire"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Radio",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_raccoon,trash_radio,trash_takeout,trash_television,trash_tire,trash_woodplank"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Small dirt pile",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_dirtpile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bowling ball",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bowlingball"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawn chair 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_lawnchair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suitcase",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_suitcase"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chair raccoon 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawn chair 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_lawnchair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lawn chair 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_lawnchair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chair raccoon 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Donut",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair,trash_dirtpile,trash_donut,trash_raccoon,trash_takeout,trash_television,trash_tire,trash_woodplank"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -1406,10 +553,1013 @@
                 "map_locations": [
                     {
                         "map": "The 405",
-                        "x": 890,
-                        "y": 803,
+                        "x": 933,
+                        "y": 783,
                         "size": 40,
                         "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Cop raccoons",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$trashsouls",
+                    "trash_car,trash_chair,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
+                ],
+                "sections": [
+                    {
+                        "name": "Cop raccoons",
+                        "access_rules": [
+                            "catapults",
+                            "catapults_donutsandcameras,catapults_raccoons"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop quadcopter 1",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_quadcopter",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_quadcopter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop megaphone 1",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_megaphone",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_megaphone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop raccoon 1",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_raccoon",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop raccoon 2",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_raccoon",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop quadcopter 2",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_quadcopter",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_quadcopter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Camera",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_camera",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_camera"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop quadcopter 3",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_quadcopter",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_quadcopter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop megaphone 2",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_megaphone",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_megaphone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cop raccoon 3",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_raccoon",
+                            "catapults_donutsandcameras,$trashsouls",
+                            "catapults_donutsandcameras,trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barricade 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barricade 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barricade 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barricade 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_fence"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The 405",
+                        "x": 1595,
+                        "y": 452,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Big boy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,$trashsouls",
+                    "catapults_donutsandcameras,catapults_raccoons,$trashsouls",
+                    "catapults,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank",
+                    "catapults_donutsandcameras,catapults_raccoons,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Big boy",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_character",
+                            "trash_raccoon"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hot air balloon",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_character"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big boy quadcopter",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_quadcopter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hook gun",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hookgun"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Megaphone",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_megaphone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The 405",
+                        "x": 1595,
+                        "y": 342,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Collect",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,$trashsouls",
+                    "catapults_donutsandcameras,catapults_raccoons,$trashsouls",
+                    "catapults,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank",
+                    "catapults_donutsandcameras,catapults_raccoons,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Pickup truck 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 16",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celica car 16",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Classic car 17",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pickup truck 16",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Car 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_car"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The 405",
+                        "x": 1690,
+                        "y": 971,
+                        "size": 40,
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -1418,8 +1568,10 @@
             {
                 "name": "The 405",
                 "access_rules": [
-                    "catapults",
-                    "catapults_donutsandcameras"
+                    "catapults,$trashsouls",
+                    "catapults_donutsandcameras,catapults_raccoons,$trashsouls",
+                    "catapults,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank",
+                    "catapults_donutsandcameras,catapults_raccoons,trash_car,trash_chair,trash_character,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -1427,8 +1579,8 @@
             {
                 "name": "Photo",
                 "access_rules": [
-                    "catapults",
-                    "catapults_donutsandcameras"
+                    "$trashsouls",
+                    "trash_camera,trash_car,trash_chair,trash_dirtpile,trash_donut,trash_otherdrinks,trash_paper,trash_raccoon,trash_rock,trash_table,trash_takeout,trash_television,trash_tire,trash_woodplank"
                 ],
                 "visibility_rules": [
                     "trashsanity2"
@@ -1439,8 +1591,8 @@
         "map_locations": [
             {
                 "map": "The 405",
-                "x": 1636,
-                "y": 1002,
+                "x": 1567,
+                "y": 969,
                 "size": 40,
                 "shape": "rect"
             }

@@ -6,14 +6,24 @@
                 "name": "Bandit",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "biologylab,holeeffects",
-                    "biologylab,holeeffects_snake"
+                "access_rules": [
+                    "biologylab,catapults,holeeffects,$trashsouls",
+                    "biologylab,catapults_frogs,holeeffects,$trashsouls",
+                    "biologylab,catapults,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "biologylab,catapults_frogs,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "biologylab,catapults,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "biologylab,catapults_frogs,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "biologylab,catapults,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "biologylab,catapults_frogs,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack"
                 ],
                 "sections": [
                     {
                         "name": "Bandit",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -24,20 +34,29 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Boss Fight",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "bossfight,catapults",
-                    "bossfight,catapults_bombs"
+                "access_rules": [
+                    "bossfight,catapults,$trashsouls",
+                    "bossfight,catapults_bombs,catapults_hackingdevice,$trashsouls",
+                    "bossfight,catapults,trash_bomb,trash_hackingdevice,trash_quadcopter",
+                    "bossfight,catapults_bombs,catapults_hackingdevice,trash_bomb,trash_hackingdevice,trash_quadcopter"
                 ],
                 "sections": [
                     {
                         "name": "Boss Fight",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -48,20 +67,29 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Dethroner",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "bossfight,catapults",
-                    "bossfight,catapults_bombs"
+                "access_rules": [
+                    "bossfight,catapults,$trashsouls",
+                    "bossfight,catapults_bombs,catapults_hackingdevice,$trashsouls",
+                    "bossfight,catapults,trash_bomb,trash_hackingdevice,trash_quadcopter",
+                    "bossfight,catapults_bombs,catapults_hackingdevice,trash_bomb,trash_hackingdevice,trash_quadcopter"
                 ],
                 "sections": [
                     {
                         "name": "Dethroner",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -72,20 +100,30 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Disrespecter",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "anthropologylab,holeeffects",
-                    "anthropologylab,holeeffects_water,holeeffects_fire"
+                "access_rules": [
+                    "anthropologylab,$trashsouls",
+                    "anthropologylab,trash_beaker,trash_chair,trash_clipboard,trash_crate,trash_donut,trash_donutbox,trash_hardhat,trash_microscope,trash_mug,trash_raccoon,trash_table,trash_testtuberack,trash_trashcan"
                 ],
                 "sections": [
                     {
                         "name": "Disrespecter",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "holeeffects",
+                            "holeeffects_fire"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -96,17 +134,27 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Donut County",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : ["donutshop"],
+                "access_rules": [
+                    "donutshop,$trashsouls",
+                    "donutshop,trash_brick,trash_building,trash_cactus,trash_car,trash_dumpster,trash_grass,trash_quadcopter,trash_raccoon,trash_tile,trash_tree"
+                ],
                 "sections": [
                     {
                         "name": "Donut County",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -117,20 +165,29 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Egg Breaker",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "chickenbarn,texting,catapults",
-                    "chickenbarn,texting,catapults_boxes,catapults_chickens"
+                "access_rules": [
+                    "catapults,chickenbarn,texting,$trashsouls",
+                    "catapults_boxes,catapults_chickens,chickenbarn,texting,$trashsouls",
+                    "catapults,chickenbarn,texting,trash_brick,trash_building,trash_cage,trash_chicken,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon",
+                    "catapults_boxes,catapults_chickens,chickenbarn,texting,trash_brick,trash_building,trash_cage,trash_chicken,trash_crate,trash_flour_icingbag,trash_grass,trash_otherfood,trash_raccoon"
                 ],
                 "sections": [
                     {
                         "name": "Egg Breaker",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -141,17 +198,32 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Flawless",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : ["bossfight"],
+                "access_rules": [
+                    "bossfight,catapults,$trashsouls",
+                    "bossfight,catapults,trash_bomb",
+                    "bossfight,catapults_bombs,$trashsouls",
+                    "bossfight,catapults_bombs,trash_bomb"
+                ],
                 "sections": [
                     {
                         "name": "Flawless",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "catapults",
+                            "catapults_hackingdevice"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -162,17 +234,26 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Game Over",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : ["bossfight"],
+                "access_rules": [
+                    "bossfight"
+                ],
                 "sections": [
                     {
                         "name": "Game Over",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -183,19 +264,29 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Gamer",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "texting,chickenbarn"
+                "access_rules": [
+                    "chickenbarn,$trashsouls",
+                    "chickenbarn,trash_brick,trash_cage,trash_flour_icingbag,trash_grass,trash_raccoon"
                 ],
                 "sections": [
                     {
                         "name": "Gamer",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "texting"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -206,20 +297,30 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Hacker",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "raccoonhq,catapults",
-                    "raccoonhq,catapults_hackingdevice"
+                "access_rules": [
+                    "raccoonhq,$trashsouls",
+                    "raccoonhq,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase"
                 ],
                 "sections": [
                     {
                         "name": "Hacker",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "catapults",
+                            "catapults_hackingdevice"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -230,17 +331,27 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Music Lover",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : "geckopark",
+                "access_rules": [
+                    "geckopark,$trashsouls",
+                    "geckopark,trash_building,trash_cardboardbox,trash_character,trash_dryingrack,trash_fan,trash_fridge,trash_gardening,trash_gecko,trash_grass,trash_instrument,trash_mug,trash_radio,trash_table,trash_tire,trash_trashcan,trash_tree"
+                ],
                 "sections": [
                     {
                         "name": "Music Lover",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -251,20 +362,29 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Pups Odyssey",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "pottersrock,holeeffects",
-                    "pottersrock,holeeffects_fire"
+                "access_rules": [
+                    "holeeffects,pottersrock,$trashsouls",
+                    "holeeffects_fire,pottersrock,$trashsouls",
+                    "holeeffects,pottersrock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf",
+                    "holeeffects_fire,pottersrock,trash_bone,trash_bowl,trash_brick,trash_bucket,trash_cactus,trash_cardboardbox,trash_character,trash_cowskull,trash_crate,trash_flour_icingbag,trash_hotthings,trash_lawnchair,trash_mug,trash_nightstand,trash_othertools,trash_paper,trash_pot,trash_pottedplant,trash_rock,trash_suitcase,trash_woodplank,trash_woodshelf"
                 ],
                 "sections": [
                     {
                         "name": "Pups Odyssey",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -275,20 +395,31 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Pyro",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "joshuatree,holeeffects",
-                    "joshuatree,holeeffects_fire"
+                "access_rules": [
+                    "joshuatree"
                 ],
                 "sections": [
                     {
                         "name": "Pyro",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "holeeffects,$trashsouls",
+                            "holeeffects_fire,$trashsouls",
+                            "holeeffects,trash_campfire,trash_trailer",
+                            "holeeffects_fire,trash_campfire,trash_trailer"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -299,21 +430,32 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Quack Enthusiast",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "chickenbarn,texting",
-                    "mirashouse,texting",
-                    "rarccoonshq,texting"
+                "access_rules": [
+                    "geckopark",
+                    "mirashouse",
+                    "raccoonhq",
+                    "chickenbarn,$trashsouls",
+                    "chickenbarn,trash_brick,trash_cage,trash_flour_icingbag,trash_grass,trash_raccoon"
                 ],
                 "sections": [
                     {
                         "name": "Quack Enthusiast",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "texting"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -324,20 +466,30 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "Secret Soup",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "catsoupe,holeeffects,progressivesalt:2,progressivepepper:3",
-                    "catsoup,holeeffects_water,progressivesalt:2,progressivepepper:3"
+                "access_rules": [
+                    "catsoup,$trashsouls",
+                    "catsoup,trash_beaker,trash_brick,trash_character,trash_cockroach,trash_crate,trash_grass,trash_tincan"
                 ],
                 "sections": [
                     {
                         "name": "Secret Soup",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "holeeffects,progressivepepper:3,progressivesalt:2",
+                            "holeeffects_water,progressivepepper:3,progressivesalt:2"
+                        ],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -348,22 +500,33 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             },
             {
                 "name": "The Flume Is Doomed",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
-                "access_rules" : [
-                    "raccoonlagoon,catapults,holeeffects",
-                    "raccoonlagoon,catapults,holeeffects_water",
-                    "raccoonlagoon,catapults_water-balloons-andfish,holeeffects",
-                    "raccoonlagoon,catapults_water-balloons-andfish,holeeffects_water"
+                "access_rules": [
+                    "catapults,holeeffects,raccoonlagoon,$trashsouls",
+                    "catapults,holeeffects_water,raccoonlagoon,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects,raccoonlagoon,$trashsouls",
+                    "catapults_water-balloons-andfish,holeeffects_water,raccoonlagoon,$trashsouls",
+                    "catapults,holeeffects,raccoonlagoon,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults,holeeffects_water,raccoonlagoon,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects,raccoonlagoon,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank",
+                    "catapults_water-balloons-andfish,holeeffects_water,raccoonlagoon,trash_brick,trash_building,trash_waterballoon,trash_wheel,trash_woodplank"
                 ],
                 "sections": [
                     {
                         "name": "The Flume Is Doomed",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "achievements"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -374,6 +537,9 @@
                         "size": 14,
                         "shape": "rect"
                     }
+                ],
+                "visibility_rules": [
+                    "achievements"
                 ]
             }
         ],

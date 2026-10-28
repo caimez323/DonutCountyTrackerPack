@@ -14,274 +14,15 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
                 "sections": [
                     {
                         "name": "Car",
                         "access_rules": [
-                            "trash_brick,trash_cactus,trash_car,trash_dumpster,trash_grass,trash_quadcopter,trash_raccoon,trash_tile,trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "BK",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 1",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 2",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 3",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 4",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 5",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 6",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cactus 1",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cactus 2",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cactus 3",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cactus 4",
-                        "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dumpster",
-                        "access_rules": [
-                            "trash_dumpster",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grass 2",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grass 6",
-                        "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 1",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 2",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 3",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 4",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 5",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 6",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 7",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 8",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree part 9",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Left palm tree top",
-                        "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_car"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -291,8 +32,8 @@
                     {
                         "name": "Quadcopter arm 1",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -302,8 +43,8 @@
                     {
                         "name": "Quadcopter arm 2",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -313,8 +54,8 @@
                     {
                         "name": "Quadcopter arm 3",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -324,8 +65,8 @@
                     {
                         "name": "Quadcopter arm 4",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -335,8 +76,8 @@
                     {
                         "name": "Quadcopter body back",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -346,8 +87,8 @@
                     {
                         "name": "Quadcopter body mid",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -357,8 +98,8 @@
                     {
                         "name": "Quadcopter head",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -368,8 +109,8 @@
                     {
                         "name": "Quadcopter tail",
                         "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_quadcopter"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -377,10 +118,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Right palm tree part 1",
+                        "name": "BK",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_raccoon"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -388,10 +129,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Right palm tree part 2",
+                        "name": "Dumpster",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_dumpster"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -401,8 +142,8 @@
                     {
                         "name": "Right palm tree part 3",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -410,10 +151,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Right palm tree part 4",
+                        "name": "Right palm tree part 2",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -423,8 +164,19 @@
                     {
                         "name": "Right palm tree part 5",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right palm tree part 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -434,8 +186,129 @@
                     {
                         "name": "Right palm tree top",
                         "access_rules": [
-                            "trash_tree",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right palm tree part 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree top",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left palm tree part 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tree"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -445,85 +318,8 @@
                     {
                         "name": "Sidewalk tile 1",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 10",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 11",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 12",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 13",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 14",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 15",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sidewalk tile 16",
-                        "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -533,8 +329,8 @@
                     {
                         "name": "Sidewalk tile 2",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -544,8 +340,8 @@
                     {
                         "name": "Sidewalk tile 3",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -555,8 +351,8 @@
                     {
                         "name": "Sidewalk tile 4",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -566,8 +362,8 @@
                     {
                         "name": "Sidewalk tile 5",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -577,8 +373,8 @@
                     {
                         "name": "Sidewalk tile 6",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -588,8 +384,8 @@
                     {
                         "name": "Sidewalk tile 7",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -599,8 +395,8 @@
                     {
                         "name": "Sidewalk tile 8",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -610,8 +406,217 @@
                     {
                         "name": "Sidewalk tile 9",
                         "access_rules": [
-                            "trash_tile",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk tile 16",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_tile"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grass 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grass 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_grass"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -622,8 +627,8 @@
                 "map_locations": [
                     {
                         "map": "Donut Shop",
-                        "x": 1067,
-                        "y": 790,
+                        "x": 1074,
+                        "y": 791,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -635,84 +640,98 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trash_brick,trash_cactus,trash_car,trash_dumpster,trash_grass,trash_quadcopter,trash_raccoon,trash_tile,trash_tree",
-                    "$trashsouls"
+                    "$trashsouls",
+                    "trash_car,trash_dumpster"
                 ],
                 "visibility_rules": [
                     "trashsanity2"
                 ],
                 "sections": [
                     {
-                        "name": "Cactus 5",
+                        "name": "Donut sign",
                         "access_rules": [
-                            "trash_cactus",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick,trash_building,trash_cactus,trash_grass,trash_quadcopter,trash_tile,trash_tree"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Donut shop back",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick,trash_building,trash_cactus,trash_grass,trash_quadcopter,trash_tile,trash_tree"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Donut shop front",
                         "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick,trash_building,trash_cactus,trash_grass,trash_quadcopter,trash_tile,trash_tree"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Donut sign",
-                        "access_rules": [
-                            "trash_building",
-                            "$trashsouls"
+                        "visibility_rules": [
+                            "trashsanity2"
                         ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 3",
                         "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_grass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 4",
                         "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_grass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grass 5",
                         "access_rules": [
-                            "trash_grass",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_grass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cactus 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cactus"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Donut Shop",
-                        "x": 1728,
-                        "y": 902,
+                        "x": 1758,
+                        "y": 991,
                         "size": 40,
-                        "shape": "rect"
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -721,7 +740,8 @@
             {
                 "name": "Donut Shop",
                 "access_rules": [
-                    "donutshop"
+                    "$trashsouls",
+                    "trash_brick,trash_building,trash_cactus,trash_car,trash_dumpster,trash_grass,trash_quadcopter,trash_raccoon,trash_tile,trash_tree"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -730,8 +750,8 @@
         "map_locations": [
             {
                 "map": "Donut Shop",
-                "x": 1588,
-                "y": 900,
+                "x": 1574,
+                "y": 989,
                 "size": 40,
                 "shape": "rect"
             }

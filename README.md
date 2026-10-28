@@ -25,9 +25,7 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 - Add "glitch" OoL
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
-- Remove Achievements from overworld if not needed (items already exists, bugged somewhere else)
 - Add texting glitch logic e.g. miras house
-- Refaire les sections, y a des doublons même sur l'overworld (peut etre les retirer des maps)
 
 ## Know Issues
 
@@ -35,8 +33,7 @@ As of last release :
 - Salt & Pepper don't increment correctly on the tracker
 - Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
 - I have some doubt with bio lab frog logic
-- Ending a zone ignores the trashsouls logic
-- Trash Category doesn't check/(Logic is more complicated and maybe need to rewrite the trashsouls/trashsanity logic due to "hole size" or item that might not be reachable)
+
 
 
 

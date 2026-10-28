@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "raccoonhq,texting"
+            "raccoonhq"
         ],
         "children": [
             {
@@ -18,83 +18,17 @@
                     {
                         "name": "Exterior",
                         "access_rules": [
-                            "trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Bandits note",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Brick 1",
                         "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 2",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brick 3",
-                        "access_rules": [
-                            "trash_brick",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Flashlight",
-                        "access_rules": [
-                            "trash_flashlight",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hammer",
-                        "access_rules": [
-                            "trash_othertools",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hook gun",
-                        "access_rules": [
-                            "trash_hookgun",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -104,8 +38,8 @@
                     {
                         "name": "Laptop",
                         "access_rules": [
-                            "trash_laptop",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_laptop"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -115,8 +49,63 @@
                     {
                         "name": "Padlock",
                         "access_rules": [
-                            "trash_othertools",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_othertools"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bandits note",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hook gun",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_hookgun"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hammer",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_othertools"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brick 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_brick"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -126,8 +115,19 @@
                     {
                         "name": "Suitcase",
                         "access_rules": [
-                            "trash_suitcase",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_suitcase"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flashlight",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_flashlight"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -138,8 +138,8 @@
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 1012,
-                        "y": 751,
+                        "x": 1157,
+                        "y": 728,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -151,27 +151,30 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults,trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
-                    "catapults,$trashsouls",
-                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
-                    "catapults_hackingdevice,$trashsouls"
+                    "$trashsouls",
+                    "trash_brick,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
                 ],
                 "sections": [
                     {
                         "name": "Hacking device",
                         "access_rules": [
-                            "trash_hackingdevice",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_hackingdevice"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 387,
-                        "y": 547,
+                        "x": 995,
+                        "y": 621,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -183,83 +186,22 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "catapults,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
                     "catapults,$trashsouls",
-                    "catapults_hackingdevice,trash_brick,trash_flashlight,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
-                    "catapults_hackingdevice,$trashsouls"
+                    "catapults_hackingdevice,$trashsouls",
+                    "glitches,$trashsouls",
+                    "catapults,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "glitches,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
                 ],
                 "sections": [
                     {
-                        "name": "Battery 1",
+                        "name": "Sleeping raccoon",
                         "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battery 2",
-                        "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battery 3",
-                        "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battery 4",
-                        "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battery 5",
-                        "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Battery 6",
-                        "access_rules": [
-                            "trash_battery",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Beaker",
-                        "access_rules": [
-                            "trash_beaker",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_raccoon"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -269,8 +211,10 @@
                     {
                         "name": "Biology Lab keycard",
                         "access_rules": [
-                            "trash_keycard",
-                            "$trashsouls"
+                            "catapults,$trashsouls",
+                            "catapults,trash_keycard",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_keycard"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -278,10 +222,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Coffee cup",
+                        "name": "Battery 1",
                         "access_rules": [
-                            "trash_otherdrinks",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_battery"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -289,54 +233,10 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Microscope",
+                        "name": "Battery 2",
                         "access_rules": [
-                            "trash_microscope",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Paper ball 1",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Paper ball 2",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Paper ball 3",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Paper ball 4",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_battery"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -346,30 +246,8 @@
                     {
                         "name": "Phone",
                         "access_rules": [
-                            "trash_camera",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sleeping raccoon",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stool",
-                        "access_rules": [
-                            "trash_chair",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_camera"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -379,8 +257,52 @@
                     {
                         "name": "Succulent",
                         "access_rules": [
-                            "trash_pottedplant",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_pottedplant"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Paper ball 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Paper ball 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Paper ball 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Paper ball 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -390,8 +312,106 @@
                     {
                         "name": "Test tube rack",
                         "access_rules": [
-                            "trash_testtuberack",
-                            "$trashsouls"
+                            "catapults,$trashsouls",
+                            "catapults,trash_testtuberack",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_testtuberack"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beaker",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_beaker"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Microscope",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_microscope"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stool",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_chair"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battery 3",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_battery",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_battery"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battery 4",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_battery",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_battery"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battery 5",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_battery",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_battery"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battery 6",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_battery",
+                            "catapults_raccoons,$trashsouls",
+                            "catapults_raccoons,trash_battery"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Coffee cup",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_otherdrinks"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -401,8 +421,8 @@
                     {
                         "name": "Toilet paper",
                         "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_paper"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -413,8 +433,8 @@
                 "map_locations": [
                     {
                         "map": "Raccoon HQ",
-                        "x": 897,
-                        "y": 549,
+                        "x": 874,
+                        "y": 453,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -425,8 +445,12 @@
             {
                 "name": "Raccoon HQ",
                 "access_rules": [
-                    "catapults",
-                    "catapults_hackingdevice,catapults_raccoons,catapults_keycards"
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,catapults_keycards,catapults_raccoons,$trashsouls",
+                    "catapults_keycards,catapults_raccoons,glitches,$trashsouls",
+                    "catapults,trash_brick,trash_hackingdevice,trash_hookgun,trash_keycard,trash_laptop,trash_othertools,trash_paper,trash_raccoon,trash_suitcase",
+                    "catapults_hackingdevice,catapults_keycards,catapults_raccoons,trash_brick,trash_hackingdevice,trash_hookgun,trash_keycard,trash_laptop,trash_othertools,trash_paper,trash_raccoon,trash_suitcase",
+                    "catapults_keycards,catapults_raccoons,glitches,trash_brick,trash_hackingdevice,trash_hookgun,trash_keycard,trash_laptop,trash_othertools,trash_paper,trash_raccoon,trash_suitcase"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -434,20 +458,22 @@
             {
                 "name": "Hacking complete",
                 "access_rules": [
-                    "catapults",
-                    "catapults_hackingdevice"
+                    "catapults,$trashsouls",
+                    "catapults_hackingdevice,$trashsouls",
+                    "glitches,$trashsouls",
+                    "catapults,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "catapults_hackingdevice,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase",
+                    "glitches,trash_brick,trash_hackingdevice,trash_hookgun,trash_laptop,trash_othertools,trash_paper,trash_suitcase"
                 ],
-                "visibility_rules": [
-                    "trashsanity2"
-                ],
+                "visibility_rules": [],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
                 "map": "Raccoon HQ",
-                "x": 1745,
-                "y": 970,
+                "x": 1697,
+                "y": 984,
                 "size": 40,
                 "shape": "rect"
             }

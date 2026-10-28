@@ -9,636 +9,6 @@
         ],
         "children": [
             {
-                "name": "Frog",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "holeeffects,$trashsouls",
-                    "holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "holeeffects_snake,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Frog",
-                        "access_rules": [
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bunny 1",
-                        "access_rules": [
-                            "catapults,trash_bunny",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_bunny",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bunny 2",
-                        "access_rules": [
-                            "catapults,trash_bunny",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_bunny",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bunny 3",
-                        "access_rules": [
-                            "catapults,trash_bunny",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_bunny",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bunny 4",
-                        "access_rules": [
-                            "catapults,trash_bunny",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_bunny",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cockroach cage",
-                        "access_rules": [
-                            "trash_cage",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fly 1",
-                        "access_rules": [
-                            "catapults,trash_fly",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_fly",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fly 2",
-                        "access_rules": [
-                            "catapults,trash_fly",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_fly",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fly 3",
-                        "access_rules": [
-                            "catapults,trash_fly",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_fly",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fly 4",
-                        "access_rules": [
-                            "catapults,trash_fly",
-                            "catapults,$trashsouls",
-                            "catapults_frogs,trash_fly",
-                            "catapults_frogs,$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunnies",
-                        "access_rules": [
-                            "catapults,holeeffects_bunnies,trash_bunny,trash_fly",
-                            "catapults_frogs,holeeffects_bunnies,trash_bunny,trash_fly",
-                            "catapults,holeeffects_bunnies,$trashsouls",
-                            "catapults_frogs,holeeffects_bunnies,$trashsouls",
-                            "catapults_frogs,holeeffects,$trashsouls",
-                            "catapults,holeeffects,$trashsouls",
-                            "catapults_frogs,holeeffects,trash_bunny,trash_fly",
-                            "catapults,holeeffects,trash_bunny,trash_fly"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Seagull cage",
-                        "access_rules": [
-                            "trash_cage",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Biology Lab",
-                        "x": 1263,
-                        "y": 446,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Hallway",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "trash_beaker,trash_bunny,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_fly,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "catapults,holeeffects,trash_beaker,trash_bunny,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_fly,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "catapults,holeeffects,$trashsouls",
-                    "catapults,holeeffects_bunnies,trash_beaker,trash_bunny,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_fly,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "catapults,holeeffects_bunnies,$trashsouls",
-                    "catapults_frogs,holeeffects,trash_beaker,trash_bunny,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_fly,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "catapults_frogs,holeeffects,$trashsouls",
-                    "catapults_frogs,holeeffects_bunnies,trash_beaker,trash_bunny,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_fly,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "catapults_frogs,holeeffects_bunnies,$trashsouls"
-                ],
-                "sections": [
-                    {
-                        "name": "Anthropology Lab keycard",
-                        "access_rules": [
-                            "trash_keycard",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 1",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 10",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 11",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 12",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 13",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 14",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 15",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 2",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 3",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 4",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 5",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 6",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 7",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 8",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny 9",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kid bunny hero",
-                        "access_rules": [
-                            "trash_bunny",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault bone",
-                        "access_rules": [
-                            "trash_bone",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin 1",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin 2",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin 3",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin 4",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin 5",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin stack 1",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin stack 2",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin stack 3",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault coin stack 4",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault money stack 1",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault money stack 2",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault money stack 3",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault money stack 4",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault money stack 5",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault paper ball 1",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault paper ball 2",
-                        "access_rules": [
-                            "trash_paper",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault quadcopter",
-                        "access_rules": [
-                            "trash_quadcopter",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault small coin stack 1",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault small coin stack 2",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault small coin stack 3",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vault small coin stack 4",
-                        "access_rules": [
-                            "trash_money",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Biology Lab",
-                        "x": 312,
-                        "y": 977,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Raccoons",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -648,50 +18,17 @@
                     {
                         "name": "Raccoons",
                         "access_rules": [
-                            "trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_microscope,trash_raccoon,trash_testtuberack",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_microscope,trash_raccoon,trash_testtuberack"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Beaker 1",
+                        "name": "Raccoon scientist 1",
                         "access_rules": [
-                            "trash_beaker",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Beaker 2",
-                        "access_rules": [
-                            "trash_beaker",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Clipboard",
-                        "access_rules": [
-                            "trash_clipboard",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Donut",
-                        "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate,trash_microscope,trash_raccoon"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -701,19 +38,8 @@
                     {
                         "name": "Donut crumb 1",
                         "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Donut crumb 2",
-                        "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_donut"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -723,8 +49,19 @@
                     {
                         "name": "Donut piece",
                         "access_rules": [
-                            "trash_donut",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_donut"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beaker 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_beaker"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -734,8 +71,8 @@
                     {
                         "name": "Microscope",
                         "access_rules": [
-                            "trash_microscope",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_microscope"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -745,41 +82,8 @@
                     {
                         "name": "Milkcrate",
                         "access_rules": [
-                            "trash_crate",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon scientist 1",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raccoon scientist 2",
-                        "access_rules": [
-                            "trash_raccoon",
-                            "$trashsouls"
-                        ],
-                        "visibility_rules": [
-                            "trashsanity2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snake cage",
-                        "access_rules": [
-                            "trash_cage",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_crate"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -789,8 +93,74 @@
                     {
                         "name": "Test tube rack",
                         "access_rules": [
-                            "trash_testtuberack",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_testtuberack"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Clipboard",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_clipboard"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Donut crumb 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_donut"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Donut",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_donut"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beaker 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_beaker"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snake cage",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cage,trash_crate,trash_microscope"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raccoon scientist 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_crate,trash_microscope,trash_raccoon"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -801,8 +171,8 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 965,
-                        "y": 925,
+                        "x": 957,
+                        "y": 892,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -814,17 +184,17 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "holeeffects,$trashsouls",
-                    "holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_microscope,trash_raccoon,trash_testtuberack",
-                    "holeeffects_snake,$trashsouls"
+                    "$trashsouls",
+                    "trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_microscope,trash_raccoon,trash_testtuberack"
                 ],
                 "sections": [
                     {
                         "name": "Snake",
                         "access_rules": [
-                            "trash_cage,trash_frog",
-                            "$trashsouls"
+                            "holeeffects,$trashsouls",
+                            "holeeffects_snake,$trashsouls",
+                            "holeeffects,trash_cage,trash_frog",
+                            "holeeffects_snake,trash_cage,trash_frog"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -832,8 +202,8 @@
                     {
                         "name": "Frog",
                         "access_rules": [
-                            "trash_frog",
-                            "$trashsouls"
+                            "$trashsouls",
+                            "trash_frog"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -843,8 +213,10 @@
                     {
                         "name": "Frog cage",
                         "access_rules": [
-                            "trash_cage",
-                            "$trashsouls"
+                            "holeeffects,$trashsouls",
+                            "holeeffects,trash_cage",
+                            "holeeffects_snake,$trashsouls",
+                            "holeeffects_snake,trash_cage"
                         ],
                         "visibility_rules": [
                             "trashsanity2"
@@ -855,8 +227,644 @@
                 "map_locations": [
                     {
                         "map": "Biology Lab",
-                        "x": 1115,
-                        "y": 904,
+                        "x": 1332,
+                        "y": 497,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Frog",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "holeeffects,$trashsouls",
+                    "holeeffects_snake,$trashsouls",
+                    "holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack"
+                ],
+                "sections": [
+                    {
+                        "name": "Frog",
+                        "access_rules": [
+                            "catapults,holeeffects",
+                            "catapults,holeeffects_bunnies",
+                            "catapults_frogs,holeeffects",
+                            "catapults_frogs,holeeffects_bunnies"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunnies",
+                        "access_rules": [
+                            "catapults,holeeffects,$trashsouls",
+                            "catapults,holeeffects_bunnies,$trashsouls",
+                            "catapults_frogs,holeeffects,$trashsouls",
+                            "catapults_frogs,holeeffects_bunnies,$trashsouls",
+                            "catapults,holeeffects,trash_bunny,trash_fly",
+                            "catapults,holeeffects_bunnies,trash_bunny,trash_fly",
+                            "catapults_frogs,holeeffects,trash_bunny,trash_fly",
+                            "catapults_frogs,holeeffects_bunnies,trash_bunny,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fly 1",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_fly",
+                            "catapults_frogs,$trashsouls",
+                            "catapults_frogs,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fly 2",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_fly",
+                            "catapults_frogs,$trashsouls",
+                            "catapults_frogs,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fly 3",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_fly",
+                            "catapults_frogs,$trashsouls",
+                            "catapults_frogs,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fly 4",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults,trash_fly",
+                            "catapults_frogs,$trashsouls",
+                            "catapults_frogs,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seagull cage",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cage"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cockroach cage",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_cage"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bunny 1",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults_frogs,$trashsouls",
+                            "catapults,trash_bunny,trash_fly",
+                            "catapults_frogs,trash_bunny,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bunny 2",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults_frogs,$trashsouls",
+                            "catapults,trash_bunny,trash_fly",
+                            "catapults_frogs,trash_bunny,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bunny 3",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults_frogs,$trashsouls",
+                            "catapults,trash_bunny,trash_fly",
+                            "catapults_frogs,trash_bunny,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bunny 4",
+                        "access_rules": [
+                            "catapults,$trashsouls",
+                            "catapults_frogs,$trashsouls",
+                            "catapults,trash_bunny,trash_fly",
+                            "catapults_frogs,trash_bunny,trash_fly"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Biology Lab",
+                        "x": 601,
+                        "y": 473,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hallway",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults_frogs,holeeffects,$trashsouls",
+                    "catapults,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "catapults_frogs,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "catapults,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults_frogs,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults_frogs,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_microscope,trash_raccoon,trash_testtuberack"
+                ],
+                "visibility_rules": [
+                    "trashsanity2"
+                ],
+                "sections": [
+                    {
+                        "name": "Anthropology Lab keycard",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_keycard"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny hero",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 6",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 7",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 8",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 9",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 10",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 11",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 12",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 13",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 14",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid bunny 15",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault paper ball 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault money stack 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault small coin stack 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin stack 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny,trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin 1",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault quadcopter",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny,trash_quadcopter"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin stack 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny,trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin stack 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny,trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin stack 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bunny,trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault small coin stack 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault small coin stack 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault small coin stack 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault coin 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault money stack 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault money stack 3",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault money stack 4",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault money stack 5",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_money"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault paper ball 2",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_paper"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vault bone",
+                        "access_rules": [
+                            "$trashsouls",
+                            "trash_bone"
+                        ],
+                        "visibility_rules": [
+                            "trashsanity2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Biology Lab",
+                        "x": 130,
+                        "y": 1002,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -867,8 +875,14 @@
             {
                 "name": "Biology Lab",
                 "access_rules": [
-                    "catapults",
-                    "catapults_keycards"
+                    "catapults,holeeffects,$trashsouls",
+                    "catapults,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "catapults_frogs,catapults_keycards,holeeffects,$trashsouls",
+                    "catapults_frogs,catapults_keycards,holeeffects_bunnies,holeeffects_snake,$trashsouls",
+                    "catapults,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_keycard,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_keycard,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults_frogs,catapults_keycards,holeeffects,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_keycard,trash_microscope,trash_raccoon,trash_testtuberack",
+                    "catapults_frogs,catapults_keycards,holeeffects_bunnies,holeeffects_snake,trash_beaker,trash_cage,trash_clipboard,trash_crate,trash_donut,trash_frog,trash_keycard,trash_microscope,trash_raccoon,trash_testtuberack"
                 ],
                 "visibility_rules": [],
                 "item_count": 1
@@ -877,8 +891,8 @@
         "map_locations": [
             {
                 "map": "Biology Lab",
-                "x": 1691,
-                "y": 991,
+                "x": 1767,
+                "y": 1004,
                 "size": 40,
                 "shape": "rect"
             }
