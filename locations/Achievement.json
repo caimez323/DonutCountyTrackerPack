@@ -44,10 +44,10 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "access_rules": [
-                    "bossfight,catapults,$trashsouls",
-                    "bossfight,catapults_bombs,catapults_hackingdevice,$trashsouls",
-                    "bossfight,catapults,trash_bomb,trash_hackingdevice,trash_quadcopter",
-                    "bossfight,catapults_bombs,catapults_hackingdevice,trash_bomb,trash_hackingdevice,trash_quadcopter"
+                    "bossfight,$requiredpieces,catapults,$trashsouls",
+                    "bossfight,$requiredpieces,catapults_bombs,catapults_hackingdevice,$trashsouls",
+                    "bossfight,$requiredpieces,catapults,trash_bomb,trash_hackingdevice,trash_quadcopter",
+                    "bossfight,$requiredpieces,catapults_bombs,catapults_hackingdevice,trash_bomb,trash_hackingdevice,trash_quadcopter"
                 ],
                 "sections": [
                     {
@@ -244,7 +244,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "access_rules": [
-                    "bossfight"
+                    "bossfight,$requiredpieces,"
                 ],
                 "sections": [
                     {

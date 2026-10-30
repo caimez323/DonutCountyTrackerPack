@@ -19,3 +19,5 @@ print("")
 require("scripts.settings")
 -- loads the AP autotracking code
 require("scripts.autotracking.archipelago")
+
+require("scripts.autotracking.donut_zone")

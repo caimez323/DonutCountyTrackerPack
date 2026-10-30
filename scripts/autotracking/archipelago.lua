@@ -244,6 +244,11 @@ function OnClearInner(slot_data)
     print("------------")
     for key, value in pairs(slot_data) do
         print(key, value)
+        if key=="required_pieces" then
+            for k, v in pairs(value) do
+                print(k,v)
+            end
+        end
     end
     print("------------")
     slot_data = slot_data or {}
@@ -339,15 +344,17 @@ end
 
 -- Wrapper : affiche l'erreur (et la ligne) si OnClearInner plante
 function OnClear(slot_data)
-    print("+++++++++++++++++++++")
-    for key, value in pairs(slot_data) do
-        print(key, value)
-    end
-    print("+++++++++++++++++++++")
     local ok, err = xpcall(OnClearInner, function(e) return debug and debug.traceback and debug.traceback(tostring(e)) or tostring(e) end, slot_data)
     if not ok then
         print("ERREUR during OnClear :")
         print(err)
+    end
+    local notify_keys = {}
+    RegisterDonutZoneKeys(notify_keys)
+
+    if #notify_keys > 0 then
+        Archipelago:SetNotify(notify_keys) -- prévenir quand la valeur change
+        Archipelago:Get(notify_keys) -- lire la valeur actuelle mtn
     end
 end
 
@@ -361,6 +368,7 @@ SLOT_KEYS = {
     holeeffects = "hole",              -- 0 / 1 / 2
     achievement = "achievements",      -- 0 / 1
     texting     = "texting",           -- bool / 0 / 1  (0 = pas randomisé -> donné d'office)
+    required_pieces = "required_pieces",
     salt_and_pepper = "salt_and_pepper",
     snake_danger    = "snake_danger",
 }
@@ -368,6 +376,7 @@ SLOT_KEYS = {
 CATAPULT_SUBS = {"bombs", "boxes", "chickens", "donutsandcameras", "eggs", "frogs",
     "hackingdevice", "honeycomb", "keycards", "raccoons", "water-balloons-andfish"}
 HOLEEFFECT_SUBS = {"bunnies", "fire", "light", "snake", "water"}
+REQUIRED_PIECES = -1
 
 -- read value from slot_data
 local function SlotNum(slot_data, key, default)
@@ -410,6 +419,7 @@ function ParseSlotSettings(slot_data)
         catapults   = math.max(0, math.min(2, SlotNum(slot_data, "catapults", 2))),
         holeeffects = math.max(0, math.min(2, SlotNum(slot_data, "holeeffects", 2))),
         achievement = SlotNum(slot_data, "achievement", 1) == 1,
+        required_pieces = slot_data["required_pieces"]
     }
     st.layouts = {
         catapults = st.catapults,
@@ -417,6 +427,7 @@ function ParseSlotSettings(slot_data)
         achievement = st.achievement,
         trash_category = (st.trashsanity == 1),
         trashopedia = (st.trashsouls == 1),
+        required_pieces = st.required_pieces,
     }
     return st
 end
@@ -424,7 +435,7 @@ end
 -- Give items depending on settings
 function ApplySlotSettings(slot_data, st)
     st = st or ParseSlotSettings(slot_data)
-
+    REQUIRED_PIECES = st.required_pieces[21]
     -- toggles utilisés par les access/visibility rules (les items)
     Tracker:FindObjectForCode("trashsanity1").Active = (st.trashsanity == 1)
     Tracker:FindObjectForCode("trashsanity2").Active = (st.trashsanity == 2)
@@ -687,6 +698,11 @@ end
 -- To ignore certains checks when trashsouls is not active
 function trashsouls()
     return not(Tracker:FindObjectForCode("trashsouls").Active)
+end
+-- Required pieces
+function requiredpieces()
+    local have = Tracker:ProviderCountForCode("quadcopterpiece")
+    return have >= REQUIRED_PIECES
 end
 
 --doc

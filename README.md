@@ -8,7 +8,7 @@ This pack auto adjust to your configuration if you connect to the autotracking v
 It will add/remove tabs and simplify the layout if it detects things not relevant via the configuration.
 **This does mean that** if the screen is pitch black, it may be an issue with your archipelago connection. (Although it should be default case implemented)
 
-See **Issues** below if you have any trouble, or check the archipelago Donut County channel if you find any logic issues.
+See **Issues** below if you have any trouble, or check the archipelago Donut County discord channel if you find any logic issues.
 
 # Usage
 Download the latest release of the pack : [Pack release](https://github.com/caimez323/DonutCountyTrackerPack/releases).
@@ -31,7 +31,7 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 As of last release :
 - Salt & Pepper don't increment correctly on the tracker
-- Quadcopter pieces don't increment (nor unlock the boss fight location) in the tracker
+- Quadcopter pieces don't increment in the tracker
 - I have some doubt with bio lab frog logic
 
 
