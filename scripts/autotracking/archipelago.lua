@@ -349,6 +349,8 @@ function OnClear(slot_data)
         print("ERREUR during OnClear :")
         print(err)
     end
+
+    -- Autotabbing
     local notify_keys = {}
     RegisterDonutZoneKeys(notify_keys)
 
@@ -605,7 +607,8 @@ end
 ---@param value table<integer, APHintMessage>
 ---@param old_value table<integer, APHintMessage>
 function OnNotify(key, value, old_value)
-    print("OnNotify", key, value, old_value)
+    -- debug for autotabbing
+    -- print("OnNotify", key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do

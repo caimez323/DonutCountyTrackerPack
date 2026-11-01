@@ -21,11 +21,9 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 ## Todo
 
-- Add auto tabbing
-- Add "glitch" OoL
 - Add definitive .png for items/levels/settings
 - Compress .png and reduce overall repo size
-- Add texting glitch logic e.g. miras house
+- Fix Texting when logic if fixed in apworld
 
 ## Know Issues
 
