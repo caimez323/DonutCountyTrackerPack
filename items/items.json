@@ -297,10 +297,14 @@
     },
     {
         "name": "Quadcopter Piece",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/quadcopterpiece.png",
         "initial_active_state": false,
         "overlay_align": "right",
+        "min_quantity": 0,
+        "initial_quantity": 0,
+        "max_quantity": 40,
+        "overlay_font_size": 15,
         "codes": "quadcopterpiece"
     },
     {

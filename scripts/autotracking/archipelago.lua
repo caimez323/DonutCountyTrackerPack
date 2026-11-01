@@ -429,7 +429,7 @@ function ParseSlotSettings(slot_data)
         achievement = st.achievement,
         trash_category = (st.trashsanity == 1),
         trashopedia = (st.trashsouls == 1),
-        required_pieces = st.required_pieces,
+        required_pieces = st.required_pieces
     }
     return st
 end
@@ -438,6 +438,9 @@ end
 function ApplySlotSettings(slot_data, st)
     st = st or ParseSlotSettings(slot_data)
     REQUIRED_PIECES = st.required_pieces[21]
+    -- Auto max value 
+    local quadobj = Tracker:FindObjectForCode("quadcopterpiece")
+    quadobj.MaxCount = slot_data["total_pieces"]
     -- toggles utilisés par les access/visibility rules (les items)
     Tracker:FindObjectForCode("trashsanity1").Active = (st.trashsanity == 1)
     Tracker:FindObjectForCode("trashsanity2").Active = (st.trashsanity == 2)

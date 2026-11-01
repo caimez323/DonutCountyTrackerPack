@@ -28,8 +28,6 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 ## Know Issues
 
 As of last release :
-- Salt & Pepper don't increment correctly on the tracker
-- Quadcopter pieces don't increment in the tracker
 - I have some doubt with bio lab frog logic
 
 
