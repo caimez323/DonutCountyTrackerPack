@@ -56,7 +56,7 @@
         "codes": "trash_radio"
     },
     {
-        "name": "Trash : Testtuberack",
+        "name": "Trash : Test Tube Rack",
         "type": "toggle",
         "img": "images/items/trash/trash_testtuberack.png",
         "initial_active_state": false,
@@ -168,7 +168,7 @@
         "codes": "trash_dumpster"
     },
     {
-        "name": "Trash : Hotthings",
+        "name": "Trash : Hot Things",
         "type": "toggle",
         "img": "images/items/trash/trash_hotthings.png",
         "initial_active_state": false,
@@ -436,7 +436,7 @@
         "codes": "trash_shovel"
     },
     {
-        "name": "Trash : Donutcountylogoletters",
+        "name": "Trash : Donut County Logo Letters",
         "type": "toggle",
         "img": "images/items/trash/trash_donutcountylogoletters.png",
         "initial_active_state": false,
