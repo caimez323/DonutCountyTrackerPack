@@ -21,14 +21,12 @@ You can also find the Donut County .apworld [here](https://github.com/1e1001/Don
 
 ## Todo
 
-- Add definitive .png for items/levels/settings
-- Compress .png and reduce overall repo size
-- Fix Texting when logic if fixed in apworld
+- Fix Texting when logic when fixed in apworld
 
 ## Know Issues
 
 As of last release :
-- I have some doubt with bio lab frog logic
+
 
 
 
